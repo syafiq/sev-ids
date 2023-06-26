@@ -39,7 +39,7 @@ do
     pgset "$PKT_SIZE"
     pgset "$DELAY"
     pgset "ratep $RATEP"
-    pgset "dst 1.1.1.1"
+    pgset "dst 192.168.56.10"
     pgset "dst_mac 52:55:00:d1:55:01"
     pgset "udp_dst_min 10000"
     pgset "udp_dst_max 50000"
