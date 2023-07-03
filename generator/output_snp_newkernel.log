@@ -23811,8 +23811,6 @@ Starting simulation with cpusnort 3 psize 512 tcpflows 4000 ratep 3000
 Running... ctrl^C to stop
 =====================================================================
 Ending simulation with cpusnort 3 psize 512 tcpflows 4000 ratep 3000
-Starting simulation with cpusnort 3 psize 512 tcpflows 8000 ratep 500
-=====================================================================
 --------------------------------------------------
 o")~   Snort++ 3.1.64.0
 --------------------------------------------------
@@ -23859,6 +23857,8 @@ timing
                  pkts/sec: 250717
                 Mbits/sec: 979
 o")~   Snort exiting
+Starting simulation with cpusnort 3 psize 512 tcpflows 8000 ratep 500
+=====================================================================
 Running... ctrl^C to stop
 =====================================================================
 Ending simulation with cpusnort 3 psize 512 tcpflows 8000 ratep 500
