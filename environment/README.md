@@ -1,5 +1,19 @@
 Basic
 
+Kernel Setup 
+Host
+sysctl net.ipv4.ip_local_port_range="10000 61000"
+sysctl net.ipv4.tcp_fin_timeout=10
+sysctl net.ipv4.tcp_tw_reuse=1 
+ulimit -n 100000
+
+VM
+sysctl net.core.somaxconn=65536
+ifconfig enp0s3 txqueuelen 5000
+sysctl net.core.netdev_max_backlog=4000
+sysctl net.ipv4.tcp_max_syn_backlog=4096
+ulimit -n 100000
+
 To have a SEV environment, we follow procedure from the https://github.com/AMDESE/AMDSEV/tree/snp-latest
 
 Running Guest VM
