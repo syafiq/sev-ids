@@ -43,7 +43,7 @@ do
 		 			/usr/bin/taskset --cpu-list 32 /usr/bin/ssh -p 2222 root@127.0.0.1 '/usr/bin/killall snort' 
 					echo "====================================================================="
 					echo "Ending simulation with cpusnort $cpusnort psize $psize tcpflows $tcpflows rules $rules"
-					/usr/bin/sleep 10
+					/usr/bin/sleep 5
 				done
 			done
 		done
