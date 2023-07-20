@@ -18,7 +18,7 @@ do
 					echo "Starting simulation with cpusnort $cpusnort psize $psize tcpflows $tcpflows rules $rules"
 					echo "====================================================================="
 					ulimit -n 100000
-					/usr/bin/taskset --cpu-list 0-31 /usr/local/bin/iperf -c 192.168.56.10 -t 140 -l $psize -M $((psize+12)) -P $tcpflows -p 5001 >> /home/syafiq/sev-ids/generator/outiperf.log &
+					/usr/bin/taskset --cpu-list 0-31 /usr/local/bin/iperf -c 192.168.56.10 -t 140 -l $psize -M $((psize+12)) -P $tcpflows -p 5001 >> $outfile &
 					/usr/bin/sleep 10
 					/usr/bin/taskset --cpu-list 32 /usr/bin/ssh -p 2222 root@127.0.0.1 "ulimit -n 100000"
 					if [ $cpusnort -eq 1 ]
