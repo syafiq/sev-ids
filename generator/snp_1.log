@@ -51294,3 +51294,3531 @@ timing
 o")~   Snort exiting
 Starting simulation with cpusnort 2 psize 1024 tcpflows 4000 rules 1000
 =====================================================================
+=====================================================================
+Ending simulation with cpusnort 2 psize 1024 tcpflows 4000 rules 1000
+--------------------------------------------------
+o")~   Snort++ 3.1.64.0
+--------------------------------------------------
+Loading /home/syafiq/snort3-3.1.64.0/lua/snort.lua:
+Loading /home/syafiq/snort3-3.1.64.0/lua/snort_defaults.lua:
+Finished /home/syafiq/snort3-3.1.64.0/lua/snort_defaults.lua:
+	ssh
+	host_cache
+	pop
+	so_proxy
+	stream_tcp
+	mms
+	gtp_inspect
+	packets
+	dce_http_proxy
+	ips
+	stream_icmp
+	binder
+	normalizer
+	wizard
+	appid
+	js_norm
+	file_id
+	http2_inspect
+	http_inspect
+	ftp_data
+	stream_udp
+	daq
+	ftp_server
+	smtp
+	search_engine
+	port_scan
+	dce_http_server
+	dce_tcp
+	dce_smb
+	iec104
+	cip
+	telnet
+	ssl
+	sip
+	rpc_decode
+	netflow
+	modbus
+	host_tracker
+	stream_user
+	stream_ip
+	process
+	back_orifice
+	classifications
+	dnp3
+	active
+	ftp_client
+	decode
+	alerts
+	trace
+	stream
+	network
+	references
+	arp_spoof
+	output
+	hosts
+	dns
+	dce_udp
+	imap
+	file_policy
+	s7commplus
+	stream_file
+Finished /home/syafiq/snort3-3.1.64.0/lua/snort.lua:
+Loading file_id.rules_file:
+Loading file_magic.rules:
+Finished file_magic.rules:
+Finished file_id.rules_file:
+Loading rule args:
+Loading /home/syafiq/rules/community_1000.rules:
+Finished /home/syafiq/rules/community_1000.rules:
+Finished rule args:
+--------------------------------------------------
+ips policies rule stats
+              id  loaded  shared enabled    file
+               0    1208       0    1208    /home/syafiq/snort3-3.1.64.0/lua/snort.lua
+--------------------------------------------------
+rule counts
+       total rules loaded: 1208
+               text rules: 1208
+            option chains: 1208
+            chain headers: 120
+                 flowbits: 1
+         flowbits not set: 1
+--------------------------------------------------
+port rule counts
+             tcp     udp    icmp      ip
+     any      35      21     133      18
+     src      34       3       0       0
+     dst     274      67       0       0
+    both       3       3       0       0
+   total     346      94     133      18
+--------------------------------------------------
+service rule counts          to-srv  to-cli
+                   dcerpc:        1       0
+                      dns:       15       2
+                  file_id:      208     208
+                      ftp:       30       2
+                 ftp-data:        0       1
+                     http:      519      11
+                    http2:      519      11
+                    http3:      519      11
+                     imap:        0       1
+              netbios-ssn:        1       0
+                     pop3:        5       1
+                     smtp:       26       1
+                     snmp:       16       5
+                   sunrpc:       38       2
+                   telnet:        7       6
+                    total:     1904     262
+--------------------------------------------------
+fast pattern groups
+                      src: 48
+                      dst: 134
+                      any: 8
+                to_server: 25
+                to_client: 25
+--------------------------------------------------
+search engine (ac_bnfa)
+                instances: 145
+                 patterns: 2837
+            pattern chars: 35889
+               num states: 26376
+         num match states: 2751
+             memory scale: KB
+             total memory: 915.285
+           pattern memory: 145.727
+        match list memory: 300.906
+        transition memory: 450.527
+        fast pattern only: 1774
+appid: MaxRss diff: 3228
+appid: patterns loaded: 300
+--------------------------------------------------
+afpacket DAQ configured to passive.
+Commencing packet processing
+++ [0] enp0s3
+++ [1] enp0s3
+** caught term signal
+== stopping
+-- [0] enp0s3
+-- [1] enp0s3
+--------------------------------------------------
+Packet Statistics
+--------------------------------------------------
+daq
+                 received: 27781839
+                 analyzed: 27781839
+                    allow: 27781839
+                     idle: 2
+                 rx_bytes: 24891524222
+--------------------------------------------------
+codec
+                    total: 27781839    	(100.000%)
+                 discards: 27780137    	( 99.994%)
+                      arp: 16          	(  0.000%)
+                      eth: 27781839    	(100.000%)
+                     ipv4: 27781823    	(100.000%)
+                      tcp: 12040492    	( 43.339%)
+--------------------------------------------------
+Module Statistics
+--------------------------------------------------
+appid
+                  packets: 1686
+          ignored_packets: 1686
+--------------------------------------------------
+arp_spoof
+                  packets: 16
+--------------------------------------------------
+binder
+              raw_packets: 15743033
+                 inspects: 15743033
+--------------------------------------------------
+detection
+                 analyzed: 27781839
+               hard_evals: 1686
+--------------------------------------------------
+pcre
+               pcre_rules: 39
+              pcre_native: 39
+--------------------------------------------------
+port_scan
+                  packets: 12040492
+                 trackers: 16
+--------------------------------------------------
+search_engine
+     non_qualified_events: 1686
+--------------------------------------------------
+tcp
+        bad_tcp4_checksum: 12038806
+--------------------------------------------------
+Summary Statistics
+--------------------------------------------------
+process
+                  signals: 1
+--------------------------------------------------
+timing
+                  runtime: 00:02:00
+                  seconds: 120.712050
+                 pkts/sec: 230150
+                Mbits/sec: 1573
+o")~   Snort exiting
+Starting simulation with cpusnort 2 psize 1024 tcpflows 4000 rules 3462
+=====================================================================
+--------------------------------------------------
+o")~   Snort++ 3.1.64.0
+--------------------------------------------------
+Loading /home/syafiq/snort3-3.1.64.0/lua/snort.lua:
+Loading /home/syafiq/snort3-3.1.64.0/lua/snort_defaults.lua:
+Finished /home/syafiq/snort3-3.1.64.0/lua/snort_defaults.lua:
+	ssh
+	host_cache
+	pop
+	so_proxy
+	stream_tcp
+	mms
+	gtp_inspect
+	packets
+	dce_http_proxy
+	ips
+	stream_icmp
+	binder
+	normalizer
+	wizard
+	appid
+	js_norm
+	file_id
+	http2_inspect
+	http_inspect
+	ftp_data
+	stream_udp
+	daq
+	ftp_server
+	smtp
+	search_engine
+	port_scan
+	dce_http_server
+	dce_tcp
+	dce_smb
+	iec104
+	cip
+	telnet
+	ssl
+	sip
+	rpc_decode
+	netflow
+	modbus
+	host_tracker
+	stream_user
+	stream_ip
+	process
+	back_orifice
+	classifications
+	dnp3
+	active
+	ftp_client
+	decode
+	alerts
+	trace
+	stream
+	network
+	references
+	arp_spoof
+	output
+	hosts
+	dns
+	dce_udp
+	imap
+	file_policy
+	s7commplus
+	stream_file
+Finished /home/syafiq/snort3-3.1.64.0/lua/snort.lua:
+Loading file_id.rules_file:
+Loading file_magic.rules:
+Finished file_magic.rules:
+Finished file_id.rules_file:
+Loading rule args:
+Loading /home/syafiq/rules/community_3462.rules:
+Finished /home/syafiq/rules/community_3462.rules:
+Finished rule args:
+--------------------------------------------------
+ips policies rule stats
+              id  loaded  shared enabled    file
+               0    3670       0    3670    /home/syafiq/snort3-3.1.64.0/lua/snort.lua
+--------------------------------------------------
+rule counts
+       total rules loaded: 3670
+               text rules: 3670
+            option chains: 3670
+            chain headers: 263
+                 flowbits: 32
+     flowbits not checked: 7
+         flowbits not set: 10
+--------------------------------------------------
+port rule counts
+             tcp     udp    icmp      ip
+     any     451      58     147      22
+     src     118      16       0       0
+     dst     688     244       0       0
+    both       6       9       0       0
+   total    1263     327     147      22
+--------------------------------------------------
+service rule counts          to-srv  to-cli
+                   dcerpc:        9       4
+                      dns:      123       7
+                  file_id:      208     208
+                      ftp:       87       4
+                 ftp-data:        3      53
+                     http:     1680     194
+                    http2:     1680     194
+                    http3:     1680     194
+                     imap:       37      53
+                      irc:        4       1
+                 kerberos:        2       0
+                    mysql:        3       0
+              netbios-dgm:        1       1
+               netbios-ns:        4       3
+              netbios-ssn:       63      15
+                     nntp:        2       0
+                     pop3:       25      53
+                      rdp:        1       0
+                      sip:        5       5
+                     smtp:       71       2
+                     snmp:       18       7
+                      ssl:       18      30
+                   sunrpc:       68       4
+                   telnet:       12       6
+                     tftp:        1       0
+                     wins:        1       0
+                    total:     5806    1038
+--------------------------------------------------
+fast pattern groups
+                      src: 108
+                      dst: 290
+                      any: 8
+                to_server: 65
+                to_client: 43
+--------------------------------------------------
+search engine (ac_bnfa)
+                instances: 311
+                 patterns: 8966
+            pattern chars: 145676
+               num states: 102483
+         num match states: 8750
+             memory scale: MB
+             total memory: 3.08147
+           pattern memory: 0.480657
+        match list memory: 1.0949
+        transition memory: 1.46795
+        fast pattern only: 5932
+appid: MaxRss diff: 3084
+appid: patterns loaded: 300
+--------------------------------------------------
+afpacket DAQ configured to passive.
+Commencing p=====================================================================
+Ending simulation with cpusnort 2 psize 1024 tcpflows 4000 rules 3462
+acket processing
+++ [0] enp0s3
+++ [1] enp0s3
+** caught term signal
+== stopping
+-- [0] enp0s3
+-- [1] enp0s3
+--------------------------------------------------
+Packet Statistics
+--------------------------------------------------
+daq
+                 received: 27903330
+                 analyzed: 27903330
+                    allow: 27903330
+                     idle: 2
+                 rx_bytes: 25215364412
+--------------------------------------------------
+codec
+                    total: 27903330    	(100.000%)
+                 discards: 27901688    	( 99.994%)
+                      arp: 12          	(  0.000%)
+                      eth: 27903330    	(100.000%)
+                     ipv4: 27903318    	(100.000%)
+                      tcp: 11954809    	( 42.844%)
+--------------------------------------------------
+Module Statistics
+--------------------------------------------------
+appid
+                  packets: 1630
+          ignored_packets: 1630
+--------------------------------------------------
+arp_spoof
+                  packets: 12
+--------------------------------------------------
+binder
+              raw_packets: 15950151
+                 inspects: 15950151
+--------------------------------------------------
+detection
+                 analyzed: 27903330
+               hard_evals: 1630
+--------------------------------------------------
+pcre
+               pcre_rules: 870
+              pcre_native: 870
+--------------------------------------------------
+port_scan
+                  packets: 11954809
+                 trackers: 16
+--------------------------------------------------
+search_engine
+     non_qualified_events: 1630
+--------------------------------------------------
+tcp
+        bad_tcp4_checksum: 11953179
+--------------------------------------------------
+Summary Statistics
+--------------------------------------------------
+process
+                  signals: 1
+--------------------------------------------------
+timing
+                  runtime: 00:02:00
+                  seconds: 120.518972
+                 pkts/sec: 231526
+                Mbits/sec: 1596
+o")~   Snort exiting
+Starting simulation with cpusnort 2 psize 1024 tcpflows 8000 rules 1
+=====================================================================
+=====================================================================
+Ending simulation with cpusnort 2 psize 1024 tcpflows 8000 rules 1
+--------------------------------------------------
+o")~   Snort++ 3.1.64.0
+--------------------------------------------------
+Loading /home/syafiq/snort3-3.1.64.0/lua/snort.lua:
+Loading /home/syafiq/snort3-3.1.64.0/lua/snort_defaults.lua:
+Finished /home/syafiq/snort3-3.1.64.0/lua/snort_defaults.lua:
+	ssh
+	host_cache
+	pop
+	so_proxy
+	stream_tcp
+	mms
+	gtp_inspect
+	packets
+	dce_http_proxy
+	ips
+	stream_icmp
+	binder
+	normalizer
+	wizard
+	appid
+	js_norm
+	file_id
+	http2_inspect
+	http_inspect
+	ftp_data
+	stream_udp
+	daq
+	ftp_server
+	smtp
+	search_engine
+	port_scan
+	dce_http_server
+	dce_tcp
+	dce_smb
+	iec104
+	cip
+	telnet
+	ssl
+	sip
+	rpc_decode
+	netflow
+	modbus
+	host_tracker
+	stream_user
+	stream_ip
+	process
+	back_orifice
+	classifications
+	dnp3
+	active
+	ftp_client
+	decode
+	alerts
+	trace
+	stream
+	network
+	references
+	arp_spoof
+	output
+	hosts
+	dns
+	dce_udp
+	imap
+	file_policy
+	s7commplus
+	stream_file
+Finished /home/syafiq/snort3-3.1.64.0/lua/snort.lua:
+Loading file_id.rules_file:
+Loading file_magic.rules:
+Finished file_magic.rules:
+Finished file_id.rules_file:
+Loading rule args:
+Loading /home/syafiq/rules/community_1.rules:
+Finished /home/syafiq/rules/community_1.rules:
+Finished rule args:
+--------------------------------------------------
+ips policies rule stats
+              id  loaded  shared enabled    file
+               0     209       0     209    /home/syafiq/snort3-3.1.64.0/lua/snort.lua
+--------------------------------------------------
+rule counts
+       total rules loaded: 209
+               text rules: 209
+            option chains: 209
+            chain headers: 2
+--------------------------------------------------
+port rule counts
+             tcp     udp    icmp      ip
+     src       1       0       0       0
+   total       1       0       0       0
+--------------------------------------------------
+service rule counts          to-srv  to-cli
+                  file_id:      208     208
+                    total:      208     208
+--------------------------------------------------
+fast pattern groups
+                      src: 2
+                to_server: 1
+                to_client: 1
+--------------------------------------------------
+search engine (ac_bnfa)
+                instances: 3
+                 patterns: 417
+            pattern chars: 2525
+               num states: 1795
+         num match states: 371
+             memory scale: KB
+             total memory: 70.123
+           pattern memory: 18.752
+        match list memory: 27.4922
+        transition memory: 23.5039
+appid: MaxRss diff: 3024
+appid: patterns loaded: 300
+--------------------------------------------------
+afpacket DAQ configured to passive.
+Commencing packet processing
+++ [0] enp0s3
+++ [1] enp0s3
+** caught term signal
+== stopping
+-- [0] enp0s3
+-- [1] enp0s3
+--------------------------------------------------
+Packet Statistics
+--------------------------------------------------
+daq
+                 received: 24962992
+                 analyzed: 24962992
+                    allow: 24962992
+                     idle: 2
+                 rx_bytes: 22391652200
+--------------------------------------------------
+codec
+                    total: 24962992    	(100.000%)
+                 discards: 24961332    	( 99.993%)
+                      arp: 8           	(  0.000%)
+                      eth: 24962992    	(100.000%)
+                     ipv4: 24962984    	(100.000%)
+                      tcp: 10812790    	( 43.315%)
+--------------------------------------------------
+Module Statistics
+--------------------------------------------------
+appid
+                  packets: 1652
+          ignored_packets: 1652
+--------------------------------------------------
+arp_spoof
+                  packets: 8
+--------------------------------------------------
+binder
+              raw_packets: 14151854
+                 inspects: 14151854
+--------------------------------------------------
+detection
+                 analyzed: 24962992
+--------------------------------------------------
+port_scan
+                  packets: 10812790
+                 trackers: 16
+--------------------------------------------------
+tcp
+        bad_tcp4_checksum: 10811138
+--------------------------------------------------
+Summary Statistics
+--------------------------------------------------
+process
+                  signals: 1
+--------------------------------------------------
+timing
+                  runtime: 00:02:00
+                  seconds: 120.843692
+                 pkts/sec: 206573
+                Mbits/sec: 1414
+o")~   Snort exiting
+Starting simulation with cpusnort 2 psize 1024 tcpflows 8000 rules 10
+=====================================================================
+=====================================================================
+Ending simulation with cpusnort 2 psize 1024 tcpflows 8000 rules 10
+--------------------------------------------------
+o")~   Snort++ 3.1.64.0
+--------------------------------------------------
+Loading /home/syafiq/snort3-3.1.64.0/lua/snort.lua:
+Loading /home/syafiq/snort3-3.1.64.0/lua/snort_defaults.lua:
+Finished /home/syafiq/snort3-3.1.64.0/lua/snort_defaults.lua:
+	ssh
+	host_cache
+	pop
+	so_proxy
+	stream_tcp
+	mms
+	gtp_inspect
+	packets
+	dce_http_proxy
+	ips
+	stream_icmp
+	binder
+	normalizer
+	wizard
+	appid
+	js_norm
+	file_id
+	http2_inspect
+	http_inspect
+	ftp_data
+	stream_udp
+	daq
+	ftp_server
+	smtp
+	search_engine
+	port_scan
+	dce_http_server
+	dce_tcp
+	dce_smb
+	iec104
+	cip
+	telnet
+	ssl
+	sip
+	rpc_decode
+	netflow
+	modbus
+	host_tracker
+	stream_user
+	stream_ip
+	process
+	back_orifice
+	classifications
+	dnp3
+	active
+	ftp_client
+	decode
+	alerts
+	trace
+	stream
+	network
+	references
+	arp_spoof
+	output
+	hosts
+	dns
+	dce_udp
+	imap
+	file_policy
+	s7commplus
+	stream_file
+Finished /home/syafiq/snort3-3.1.64.0/lua/snort.lua:
+Loading file_id.rules_file:
+Loading file_magic.rules:
+Finished file_magic.rules:
+Finished file_id.rules_file:
+Loading rule args:
+Loading /home/syafiq/rules/community_10.rules:
+Finished /home/syafiq/rules/community_10.rules:
+Finished rule args:
+--------------------------------------------------
+ips policies rule stats
+              id  loaded  shared enabled    file
+               0     218       0     218    /home/syafiq/snort3-3.1.64.0/lua/snort.lua
+--------------------------------------------------
+rule counts
+       total rules loaded: 218
+               text rules: 218
+            option chains: 218
+            chain headers: 11
+                 flowbits: 1
+         flowbits not set: 1
+--------------------------------------------------
+port rule counts
+             tcp     udp    icmp      ip
+     any       1       0       0       0
+     src       5       0       0       0
+     dst       4       0       0       0
+    both       1       0       0       0
+   total      11       0       0       0
+--------------------------------------------------
+service rule counts          to-srv  to-cli
+                  file_id:      208     208
+                      ftp:        1       0
+                    total:      209     208
+--------------------------------------------------
+fast pattern groups
+                      src: 10
+                      dst: 8
+                      any: 2
+                to_server: 2
+                to_client: 1
+--------------------------------------------------
+search engine (ac_bnfa)
+                instances: 13
+                 patterns: 427
+            pattern chars: 2643
+               num states: 1913
+         num match states: 381
+             memory scale: KB
+             total memory: 84.4082
+           pattern memory: 19.248
+        match list memory: 28.7266
+        transition memory: 34.8086
+appid: MaxRss diff: 3084
+appid: patterns loaded: 300
+--------------------------------------------------
+afpacket DAQ configured to passive.
+Commencing packet processing
+++ [0] enp0s3
+++ [1] enp0s3
+** caught term signal
+== stopping
+-- [1] enp0s3
+-- [0] enp0s3
+--------------------------------------------------
+Packet Statistics
+--------------------------------------------------
+daq
+                 received: 27789748
+                 analyzed: 27789749
+                    allow: 27789749
+                     idle: 2
+                 rx_bytes: 25338344154
+--------------------------------------------------
+codec
+                    total: 27789749    	(100.000%)
+                 discards: 27788207    	( 99.994%)
+                      arp: 8           	(  0.000%)
+                      eth: 27789749    	(100.000%)
+                     ipv4: 27789741    	(100.000%)
+                      tcp: 11756202    	( 42.304%)
+--------------------------------------------------
+Module Statistics
+--------------------------------------------------
+appid
+                  packets: 1534
+        processed_packets: 46
+          ignored_packets: 1488
+           total_sessions: 2
+--------------------------------------------------
+arp_spoof
+                  packets: 8
+--------------------------------------------------
+binder
+              raw_packets: 16035035
+                new_flows: 2
+                 inspects: 16035037
+--------------------------------------------------
+detection
+                 analyzed: 27789749
+             raw_searches: 2
+             pkt_searches: 2
+--------------------------------------------------
+pcre
+               pcre_rules: 1
+              pcre_native: 1
+--------------------------------------------------
+port_scan
+                  packets: 11756202
+                 trackers: 16
+--------------------------------------------------
+search_engine
+           searched_bytes: 2048
+--------------------------------------------------
+stream
+                    flows: 2
+--------------------------------------------------
+stream_tcp
+                 sessions: 2
+                      max: 1
+                  created: 2
+                 released: 2
+             instantiated: 2
+                   setups: 2
+            data_trackers: 2
+              segs_queued: 2
+            segs_released: 2
+                   resets: 44
+                 max_segs: 1
+                max_bytes: 1024
+--------------------------------------------------
+tcp
+        bad_tcp4_checksum: 11754668
+--------------------------------------------------
+Appid Statistics
+--------------------------------------------------
+detected apps and services
+              Application: Services   Clients    Users      Payloads   Misc       Referred  
+                  unknown: 2          0          0          0          0          0         
+--------------------------------------------------
+Summary Statistics
+--------------------------------------------------
+process
+                  signals: 1
+--------------------------------------------------
+timing
+                  runtime: 00:02:00
+                  seconds: 120.799766
+                 pkts/sec: 230048
+                Mbits/sec: 1600
+o")~   Snort exiting
+Starting simulation with cpusnort 2 psize 1024 tcpflows 8000 rules 100
+=====================================================================
+=====================================================================
+Ending simulation with cpusnort 2 psize 1024 tcpflows 8000 rules 100
+--------------------------------------------------
+o")~   Snort++ 3.1.64.0
+--------------------------------------------------
+Loading /home/syafiq/snort3-3.1.64.0/lua/snort.lua:
+Loading /home/syafiq/snort3-3.1.64.0/lua/snort_defaults.lua:
+Finished /home/syafiq/snort3-3.1.64.0/lua/snort_defaults.lua:
+	ssh
+	host_cache
+	pop
+	so_proxy
+	stream_tcp
+	mms
+	gtp_inspect
+	packets
+	dce_http_proxy
+	ips
+	stream_icmp
+	binder
+	normalizer
+	wizard
+	appid
+	js_norm
+	file_id
+	http2_inspect
+	http_inspect
+	ftp_data
+	stream_udp
+	daq
+	ftp_server
+	smtp
+	search_engine
+	port_scan
+	dce_http_server
+	dce_tcp
+	dce_smb
+	iec104
+	cip
+	telnet
+	ssl
+	sip
+	rpc_decode
+	netflow
+	modbus
+	host_tracker
+	stream_user
+	stream_ip
+	process
+	back_orifice
+	classifications
+	dnp3
+	active
+	ftp_client
+	decode
+	alerts
+	trace
+	stream
+	network
+	references
+	arp_spoof
+	output
+	hosts
+	dns
+	dce_udp
+	imap
+	file_policy
+	s7commplus
+	stream_file
+Finished /home/syafiq/snort3-3.1.64.0/lua/snort.lua:
+Loading file_id.rules_file:
+Loading file_magic.rules:
+Finished file_magic.rules:
+Finished file_id.rules_file:
+Loading rule args:
+Loading /home/syafiq/rules/community_100.rules:
+Finished /home/syafiq/rules/community_100.rules:
+Finished rule args:
+--------------------------------------------------
+ips policies rule stats
+              id  loaded  shared enabled    file
+               0     308       0     308    /home/syafiq/snort3-3.1.64.0/lua/snort.lua
+--------------------------------------------------
+rule counts
+       total rules loaded: 308
+               text rules: 308
+            option chains: 308
+            chain headers: 55
+                 flowbits: 1
+         flowbits not set: 1
+--------------------------------------------------
+port rule counts
+             tcp     udp    icmp      ip
+     any       2       1      13       1
+     src      16       3       0       0
+     dst      51      16       0       0
+    both       1       3       0       0
+   total      70      23      13       1
+--------------------------------------------------
+service rule counts          to-srv  to-cli
+                      dns:       13       2
+                  file_id:      208     208
+                      ftp:        1       1
+                     pop3:        5       0
+                     smtp:        1       0
+                    total:      228     211
+--------------------------------------------------
+fast pattern groups
+                      src: 34
+                      dst: 60
+                      any: 4
+                to_server: 5
+                to_client: 3
+--------------------------------------------------
+search engine (ac_bnfa)
+                instances: 57
+                 patterns: 533
+            pattern chars: 3963
+               num states: 3218
+         num match states: 487
+             memory scale: KB
+             total memory: 167.615
+           pattern memory: 24.6348
+        match list memory: 42.2969
+        transition memory: 93.5586
+        fast pattern only: 43
+appid: MaxRss diff: 3228
+appid: patterns loaded: 300
+--------------------------------------------------
+afpacket DAQ configured to passive.
+Commencing packet processing
+++ [0] enp0s3
+++ [1] enp0s3
+** caught term signal
+== stopping
+-- [1] enp0s3
+-- [0] enp0s3
+--------------------------------------------------
+Packet Statistics
+--------------------------------------------------
+daq
+                 received: 27456475
+                 analyzed: 27456475
+                    allow: 27456475
+                     idle: 2
+                 rx_bytes: 24593306238
+--------------------------------------------------
+codec
+                    total: 27456475    	(100.000%)
+                 discards: 27454759    	( 99.994%)
+                      arp: 12          	(  0.000%)
+                      eth: 27456475    	(100.000%)
+                     ipv4: 27456463    	(100.000%)
+                      tcp: 11905224    	( 43.360%)
+--------------------------------------------------
+Module Statistics
+--------------------------------------------------
+appid
+                  packets: 1704
+          ignored_packets: 1704
+--------------------------------------------------
+arp_spoof
+                  packets: 12
+--------------------------------------------------
+binder
+              raw_packets: 15552955
+                 inspects: 15552955
+--------------------------------------------------
+detection
+                 analyzed: 27456475
+               hard_evals: 1704
+--------------------------------------------------
+pcre
+               pcre_rules: 4
+              pcre_native: 4
+--------------------------------------------------
+port_scan
+                  packets: 11905224
+                 trackers: 16
+--------------------------------------------------
+search_engine
+     non_qualified_events: 1704
+--------------------------------------------------
+tcp
+        bad_tcp4_checksum: 11903520
+--------------------------------------------------
+Summary Statistics
+--------------------------------------------------
+process
+                  signals: 1
+--------------------------------------------------
+timing
+                  runtime: 00:02:00
+                  seconds: 120.807039
+                 pkts/sec: 227275
+                Mbits/sec: 1553
+o")~   Snort exiting
+Starting simulation with cpusnort 2 psize 1024 tcpflows 8000 rules 1000
+=====================================================================
+=====================================================================
+Ending simulation with cpusnort 2 psize 1024 tcpflows 8000 rules 1000
+--------------------------------------------------
+o")~   Snort++ 3.1.64.0
+--------------------------------------------------
+Loading /home/syafiq/snort3-3.1.64.0/lua/snort.lua:
+Loading /home/syafiq/snort3-3.1.64.0/lua/snort_defaults.lua:
+Finished /home/syafiq/snort3-3.1.64.0/lua/snort_defaults.lua:
+	ssh
+	host_cache
+	pop
+	so_proxy
+	stream_tcp
+	mms
+	gtp_inspect
+	packets
+	dce_http_proxy
+	ips
+	stream_icmp
+	binder
+	normalizer
+	wizard
+	appid
+	js_norm
+	file_id
+	http2_inspect
+	http_inspect
+	ftp_data
+	stream_udp
+	daq
+	ftp_server
+	smtp
+	search_engine
+	port_scan
+	dce_http_server
+	dce_tcp
+	dce_smb
+	iec104
+	cip
+	telnet
+	ssl
+	sip
+	rpc_decode
+	netflow
+	modbus
+	host_tracker
+	stream_user
+	stream_ip
+	process
+	back_orifice
+	classifications
+	dnp3
+	active
+	ftp_client
+	decode
+	alerts
+	trace
+	stream
+	network
+	references
+	arp_spoof
+	output
+	hosts
+	dns
+	dce_udp
+	imap
+	file_policy
+	s7commplus
+	stream_file
+Finished /home/syafiq/snort3-3.1.64.0/lua/snort.lua:
+Loading file_id.rules_file:
+Loading file_magic.rules:
+Finished file_magic.rules:
+Finished file_id.rules_file:
+Loading rule args:
+Loading /home/syafiq/rules/community_1000.rules:
+Finished /home/syafiq/rules/community_1000.rules:
+Finished rule args:
+--------------------------------------------------
+ips policies rule stats
+              id  loaded  shared enabled    file
+               0    1208       0    1208    /home/syafiq/snort3-3.1.64.0/lua/snort.lua
+--------------------------------------------------
+rule counts
+       total rules loaded: 1208
+               text rules: 1208
+            option chains: 1208
+            chain headers: 120
+                 flowbits: 1
+         flowbits not set: 1
+--------------------------------------------------
+port rule counts
+             tcp     udp    icmp      ip
+     any      35      21     133      18
+     src      34       3       0       0
+     dst     274      67       0       0
+    both       3       3       0       0
+   total     346      94     133      18
+--------------------------------------------------
+service rule counts          to-srv  to-cli
+                   dcerpc:        1       0
+                      dns:       15       2
+                  file_id:      208     208
+                      ftp:       30       2
+                 ftp-data:        0       1
+                     http:      519      11
+                    http2:      519      11
+                    http3:      519      11
+                     imap:        0       1
+              netbios-ssn:        1       0
+                     pop3:        5       1
+                     smtp:       26       1
+                     snmp:       16       5
+                   sunrpc:       38       2
+                   telnet:        7       6
+                    total:     1904     262
+--------------------------------------------------
+fast pattern groups
+                      src: 48
+                      dst: 134
+                      any: 8
+                to_server: 25
+                to_client: 25
+--------------------------------------------------
+search engine (ac_bnfa)
+                instances: 145
+                 patterns: 2837
+            pattern chars: 35889
+               num states: 26376
+         num match states: 2751
+             memory scale: KB
+             total memory: 915.285
+           pattern memory: 145.727
+        match list memory: 300.906
+        transition memory: 450.527
+        fast pattern only: 1774
+appid: MaxRss diff: 3024
+appid: patterns loaded: 300
+--------------------------------------------------
+afpacket DAQ configured to passive.
+Commencing packet processing
+++ [0] enp0s3
+++ [1] enp0s3
+** caught term signal
+== stopping
+-- [0] enp0s3
+-- [1] enp0s3
+--------------------------------------------------
+Packet Statistics
+--------------------------------------------------
+daq
+                 received: 21457774
+                 analyzed: 21457775
+                    allow: 21457775
+                     idle: 2
+                 rx_bytes: 18656736670
+--------------------------------------------------
+codec
+                    total: 21457775    	(100.000%)
+                 discards: 21456015    	( 99.992%)
+                      arp: 12          	(  0.000%)
+                      eth: 21457775    	(100.000%)
+                     ipv4: 21457763    	(100.000%)
+                      tcp: 9693383     	( 45.174%)
+--------------------------------------------------
+Module Statistics
+--------------------------------------------------
+appid
+                  packets: 1748
+        processed_packets: 56
+          ignored_packets: 1692
+           total_sessions: 2
+--------------------------------------------------
+arp_spoof
+                  packets: 12
+--------------------------------------------------
+binder
+              raw_packets: 11766084
+                new_flows: 2
+                 inspects: 11766086
+--------------------------------------------------
+detection
+                 analyzed: 21457775
+               hard_evals: 1748
+             raw_searches: 2
+             pkt_searches: 2
+--------------------------------------------------
+normalizer
+           test_tcp_block: 54
+--------------------------------------------------
+pcre
+               pcre_rules: 39
+              pcre_native: 39
+--------------------------------------------------
+port_scan
+                  packets: 9693383
+                 trackers: 16
+--------------------------------------------------
+search_engine
+     non_qualified_events: 1748
+           searched_bytes: 2048
+--------------------------------------------------
+stream
+                    flows: 2
+--------------------------------------------------
+stream_tcp
+                 sessions: 2
+                      max: 1
+                  created: 2
+                 released: 2
+             instantiated: 2
+                   setups: 2
+         discards_skipped: 54
+                   events: 54
+            data_trackers: 2
+              segs_queued: 2
+            segs_released: 2
+                   resets: 54
+                 max_segs: 1
+                max_bytes: 1024
+--------------------------------------------------
+tcp
+        bad_tcp4_checksum: 9691635
+--------------------------------------------------
+Appid Statistics
+--------------------------------------------------
+detected apps and services
+              Application: Services   Clients    Users      Payloads   Misc       Referred  
+                  unknown: 2          0          0          0          0          0         
+--------------------------------------------------
+Summary Statistics
+--------------------------------------------------
+process
+                  signals: 1
+--------------------------------------------------
+timing
+                  runtime: 00:02:00
+                  seconds: 120.760425
+                 pkts/sec: 177689
+                Mbits/sec: 1179
+o")~   Snort exiting
+Starting simulation with cpusnort 2 psize 1024 tcpflows 8000 rules 3462
+=====================================================================
+--------------------------------------------------
+o")~   Snort++ 3.1.64.0
+--------------------------------------------------
+Loading /home/syafiq/snort3-3.1.64.0/lua/snort.lua:
+Loading /home/syafiq/snort3-3.1.64.0/lua/snort_defaults.lua:
+Finished /home/syafiq/snort3-3.1.64.0/lua/snort_defaults.lua:
+	ssh
+	host_cache
+	pop
+	so_proxy
+	stream_tcp
+	mms
+	gtp_inspect
+	packets
+	dce_http_proxy
+	ips
+	stream_icmp
+	binder
+	normalizer
+	wizard
+	appid
+	js_norm
+	file_id
+	http2_inspect
+	http_inspect
+	ftp_data
+	stream_udp
+	daq
+	ftp_server
+	smtp
+	search_engine
+	port_scan
+	dce_http_server
+	dce_tcp
+	dce_smb
+	iec104
+	cip
+	telnet
+	ssl
+	sip
+	rpc_decode
+	netflow
+	modbus
+	host_tracker
+	stream_user
+	stream_ip
+	process
+	back_orifice
+	classifications
+	dnp3
+	active
+	ftp_client
+	decode
+	alerts
+	trace
+	stream
+	network
+	references
+	arp_spoof
+	output
+	hosts
+	dns
+	dce_udp
+	imap
+	file_policy
+	s7commplus
+	stream_file
+Finished /home/syafiq/snort3-3.1.64.0/lua/snort.lua:
+Loading file_id.rules_file:
+Loading file_magic.rules:
+Finished file_magic.rules:
+Finished file_id.rules_file:
+Loading rule args:
+Loading /home/syafiq/rules/community_3462.rules:
+Finished /home/syafiq/rules/community_3462.rules:
+Finished rule args:
+--------------------------------------------------
+ips policies rule stats
+              id  loaded  shared enabled    file
+               0    3670       0    3670    /home/syafiq/snort3-3.1.64.0/lua/snort.lua
+--------------------------------------------------
+rule counts
+       total rules loaded: 3670
+               text rules: 3670
+            option chains: 3670
+            chain headers: 263
+                 flowbits: 32
+     flowbits not checked: 7
+         flowbits not set: 10
+--------------------------------------------------
+port rule counts
+             tcp     udp    icmp      ip
+     any     451      58     147      22
+     src     118      16       0       0
+     dst     688     244       0       0
+    both       6       9       0       0
+   total    1263     327     147      22
+--------------------------------------------------
+service rule counts          to-srv  to-cli
+                   dcerpc:        9       4
+                      dns:      123       7
+                  file_id:      208     208
+                      ftp:       87       4
+                 ftp-data:        3      53
+                     http:     1680     194
+                    http2:     1680     194
+                    http3:     1680     194
+                     imap:       37      53
+                      irc:        4       1
+                 kerberos:        2       0
+                    mysql:        3       0
+              netbios-dgm:        1       1
+               netbios-ns:        4       3
+              netbios-ssn:       63      15
+                     nntp:        2       0
+                     pop3:       25      53
+                      rdp:        1       0
+                      sip:        5       5
+                     smtp:       71       2
+                     snmp:       18       7
+                      ssl:       18      30
+                   sunrpc:       68       4
+                   telnet:       12       6
+                     tftp:        1       0
+                     wins:        1       0
+                    total:     5806    1038
+--------------------------------------------------
+fast pattern groups
+                      src: 108
+                      dst: 290
+                      any: 8
+                to_server: 65
+                to_client: 43
+--------------------------------------------------
+search engine (ac_bnfa)
+                instances: 311
+                 patterns: 8966
+            pattern chars: 145676
+               num states: 102483
+         num match states: 8750
+             memory scale: MB
+             total memory: 3.08147
+           pattern memory: 0.480657
+        match list memory: 1.0949
+        transition memory: 1.46795
+        fast pattern only: 5932
+appid: MaxRss diff: 3288
+appid: patterns loaded: 300
+--------------------------------------------------
+afpacket DAQ configured to passive.
+Commencing p=====================================================================
+Ending simulation with cpusnort 2 psize 1024 tcpflows 8000 rules 3462
+acket processing
+++ [0] enp0s3
+++ [1] enp0s3
+** caught term signal
+== stopping
+-- [0] enp0s3
+-- [1] enp0s3
+--------------------------------------------------
+Packet Statistics
+--------------------------------------------------
+daq
+                 received: 26136207
+                 analyzed: 26136208
+                    allow: 26136208
+                     idle: 2
+                 rx_bytes: 23361553032
+--------------------------------------------------
+codec
+                    total: 26136208    	(100.000%)
+                 discards: 26134438    	( 99.993%)
+                      arp: 20          	(  0.000%)
+                      eth: 26136208    	(100.000%)
+                     ipv4: 26136188    	(100.000%)
+                      tcp: 11371678    	( 43.509%)
+--------------------------------------------------
+Module Statistics
+--------------------------------------------------
+appid
+                  packets: 1750
+          ignored_packets: 1750
+--------------------------------------------------
+arp_spoof
+                  packets: 20
+--------------------------------------------------
+binder
+              raw_packets: 14766280
+                 inspects: 14766280
+--------------------------------------------------
+detection
+                 analyzed: 26136208
+               hard_evals: 1750
+--------------------------------------------------
+pcre
+               pcre_rules: 870
+              pcre_native: 870
+--------------------------------------------------
+port_scan
+                  packets: 11371678
+                 trackers: 16
+--------------------------------------------------
+search_engine
+     non_qualified_events: 1750
+--------------------------------------------------
+tcp
+        bad_tcp4_checksum: 11369928
+--------------------------------------------------
+Summary Statistics
+--------------------------------------------------
+process
+                  signals: 1
+--------------------------------------------------
+timing
+                  runtime: 00:02:00
+                  seconds: 120.567932
+                 pkts/sec: 216776
+                Mbits/sec: 1478
+o")~   Snort exiting
+Starting simulation with cpusnort 2 psize 1024 tcpflows 16000 rules 1
+=====================================================================
+=====================================================================
+Ending simulation with cpusnort 2 psize 1024 tcpflows 16000 rules 1
+--------------------------------------------------
+o")~   Snort++ 3.1.64.0
+--------------------------------------------------
+Loading /home/syafiq/snort3-3.1.64.0/lua/snort.lua:
+Loading /home/syafiq/snort3-3.1.64.0/lua/snort_defaults.lua:
+Finished /home/syafiq/snort3-3.1.64.0/lua/snort_defaults.lua:
+	ssh
+	host_cache
+	pop
+	so_proxy
+	stream_tcp
+	mms
+	gtp_inspect
+	packets
+	dce_http_proxy
+	ips
+	stream_icmp
+	binder
+	normalizer
+	wizard
+	appid
+	js_norm
+	file_id
+	http2_inspect
+	http_inspect
+	ftp_data
+	stream_udp
+	daq
+	ftp_server
+	smtp
+	search_engine
+	port_scan
+	dce_http_server
+	dce_tcp
+	dce_smb
+	iec104
+	cip
+	telnet
+	ssl
+	sip
+	rpc_decode
+	netflow
+	modbus
+	host_tracker
+	stream_user
+	stream_ip
+	process
+	back_orifice
+	classifications
+	dnp3
+	active
+	ftp_client
+	decode
+	alerts
+	trace
+	stream
+	network
+	references
+	arp_spoof
+	output
+	hosts
+	dns
+	dce_udp
+	imap
+	file_policy
+	s7commplus
+	stream_file
+Finished /home/syafiq/snort3-3.1.64.0/lua/snort.lua:
+Loading file_id.rules_file:
+Loading file_magic.rules:
+Finished file_magic.rules:
+Finished file_id.rules_file:
+Loading rule args:
+Loading /home/syafiq/rules/community_1.rules:
+Finished /home/syafiq/rules/community_1.rules:
+Finished rule args:
+--------------------------------------------------
+ips policies rule stats
+              id  loaded  shared enabled    file
+               0     209       0     209    /home/syafiq/snort3-3.1.64.0/lua/snort.lua
+--------------------------------------------------
+rule counts
+       total rules loaded: 209
+               text rules: 209
+            option chains: 209
+            chain headers: 2
+--------------------------------------------------
+port rule counts
+             tcp     udp    icmp      ip
+     src       1       0       0       0
+   total       1       0       0       0
+--------------------------------------------------
+service rule counts          to-srv  to-cli
+                  file_id:      208     208
+                    total:      208     208
+--------------------------------------------------
+fast pattern groups
+                      src: 2
+                to_server: 1
+                to_client: 1
+--------------------------------------------------
+search engine (ac_bnfa)
+                instances: 3
+                 patterns: 417
+            pattern chars: 2525
+               num states: 1795
+         num match states: 371
+             memory scale: KB
+             total memory: 70.123
+           pattern memory: 18.752
+        match list memory: 27.4922
+        transition memory: 23.5039
+appid: MaxRss diff: 3084
+appid: patterns loaded: 300
+--------------------------------------------------
+afpacket DAQ configured to passive.
+Commencing packet processing
+++ [0] enp0s3
+++ [1] enp0s3
+** caught term signal
+== stopping
+-- [1] enp0s3
+-- [0] enp0s3
+--------------------------------------------------
+Packet Statistics
+--------------------------------------------------
+daq
+                 received: 25581610
+                 analyzed: 25581610
+                    allow: 25581610
+                     idle: 2
+                 rx_bytes: 22685350788
+--------------------------------------------------
+codec
+                    total: 25581610    	(100.000%)
+                 discards: 25579974    	( 99.994%)
+                      arp: 20          	(  0.000%)
+                      eth: 25581610    	(100.000%)
+                     ipv4: 25581590    	(100.000%)
+                      tcp: 11248058    	( 43.969%)
+--------------------------------------------------
+Module Statistics
+--------------------------------------------------
+appid
+                  packets: 1616
+          ignored_packets: 1616
+--------------------------------------------------
+arp_spoof
+                  packets: 20
+--------------------------------------------------
+binder
+              raw_packets: 14335168
+                 inspects: 14335168
+--------------------------------------------------
+detection
+                 analyzed: 25581610
+--------------------------------------------------
+port_scan
+                  packets: 11248058
+                 trackers: 16
+--------------------------------------------------
+tcp
+        bad_tcp4_checksum: 11246442
+--------------------------------------------------
+Summary Statistics
+--------------------------------------------------
+process
+                  signals: 1
+--------------------------------------------------
+timing
+                  runtime: 00:02:00
+                  seconds: 120.833489
+                 pkts/sec: 211710
+                Mbits/sec: 1432
+o")~   Snort exiting
+Starting simulation with cpusnort 2 psize 1024 tcpflows 16000 rules 10
+=====================================================================
+=====================================================================
+Ending simulation with cpusnort 2 psize 1024 tcpflows 16000 rules 10
+--------------------------------------------------
+o")~   Snort++ 3.1.64.0
+--------------------------------------------------
+Loading /home/syafiq/snort3-3.1.64.0/lua/snort.lua:
+Loading /home/syafiq/snort3-3.1.64.0/lua/snort_defaults.lua:
+Finished /home/syafiq/snort3-3.1.64.0/lua/snort_defaults.lua:
+	ssh
+	host_cache
+	pop
+	so_proxy
+	stream_tcp
+	mms
+	gtp_inspect
+	packets
+	dce_http_proxy
+	ips
+	stream_icmp
+	binder
+	normalizer
+	wizard
+	appid
+	js_norm
+	file_id
+	http2_inspect
+	http_inspect
+	ftp_data
+	stream_udp
+	daq
+	ftp_server
+	smtp
+	search_engine
+	port_scan
+	dce_http_server
+	dce_tcp
+	dce_smb
+	iec104
+	cip
+	telnet
+	ssl
+	sip
+	rpc_decode
+	netflow
+	modbus
+	host_tracker
+	stream_user
+	stream_ip
+	process
+	back_orifice
+	classifications
+	dnp3
+	active
+	ftp_client
+	decode
+	alerts
+	trace
+	stream
+	network
+	references
+	arp_spoof
+	output
+	hosts
+	dns
+	dce_udp
+	imap
+	file_policy
+	s7commplus
+	stream_file
+Finished /home/syafiq/snort3-3.1.64.0/lua/snort.lua:
+Loading file_id.rules_file:
+Loading file_magic.rules:
+Finished file_magic.rules:
+Finished file_id.rules_file:
+Loading rule args:
+Loading /home/syafiq/rules/community_10.rules:
+Finished /home/syafiq/rules/community_10.rules:
+Finished rule args:
+--------------------------------------------------
+ips policies rule stats
+              id  loaded  shared enabled    file
+               0     218       0     218    /home/syafiq/snort3-3.1.64.0/lua/snort.lua
+--------------------------------------------------
+rule counts
+       total rules loaded: 218
+               text rules: 218
+            option chains: 218
+            chain headers: 11
+                 flowbits: 1
+         flowbits not set: 1
+--------------------------------------------------
+port rule counts
+             tcp     udp    icmp      ip
+     any       1       0       0       0
+     src       5       0       0       0
+     dst       4       0       0       0
+    both       1       0       0       0
+   total      11       0       0       0
+--------------------------------------------------
+service rule counts          to-srv  to-cli
+                  file_id:      208     208
+                      ftp:        1       0
+                    total:      209     208
+--------------------------------------------------
+fast pattern groups
+                      src: 10
+                      dst: 8
+                      any: 2
+                to_server: 2
+                to_client: 1
+--------------------------------------------------
+search engine (ac_bnfa)
+                instances: 13
+                 patterns: 427
+            pattern chars: 2643
+               num states: 1913
+         num match states: 381
+             memory scale: KB
+             total memory: 84.4082
+           pattern memory: 19.248
+        match list memory: 28.7266
+        transition memory: 34.8086
+appid: MaxRss diff: 3024
+appid: patterns loaded: 300
+--------------------------------------------------
+afpacket DAQ configured to passive.
+Commencing packet processing
+++ [0] enp0s3
+++ [1] enp0s3
+** caught term signal
+== stopping
+-- [1] enp0s3
+-- [0] enp0s3
+--------------------------------------------------
+Packet Statistics
+--------------------------------------------------
+daq
+                 received: 27009048
+                 analyzed: 27009048
+                    allow: 27009048
+                     idle: 2
+                 rx_bytes: 24321303072
+--------------------------------------------------
+codec
+                    total: 27009048    	(100.000%)
+                 discards: 27007394    	( 99.994%)
+                      arp: 20          	(  0.000%)
+                      eth: 27009048    	(100.000%)
+                     ipv4: 27009028    	(100.000%)
+                      tcp: 11625592    	( 43.043%)
+--------------------------------------------------
+Module Statistics
+--------------------------------------------------
+appid
+                  packets: 1634
+          ignored_packets: 1634
+--------------------------------------------------
+arp_spoof
+                  packets: 20
+--------------------------------------------------
+binder
+              raw_packets: 15385090
+                 inspects: 15385090
+--------------------------------------------------
+detection
+                 analyzed: 27009048
+--------------------------------------------------
+pcre
+               pcre_rules: 1
+              pcre_native: 1
+--------------------------------------------------
+port_scan
+                  packets: 11625592
+                 trackers: 16
+--------------------------------------------------
+tcp
+        bad_tcp4_checksum: 11623958
+--------------------------------------------------
+Summary Statistics
+--------------------------------------------------
+process
+                  signals: 1
+--------------------------------------------------
+timing
+                  runtime: 00:02:00
+                  seconds: 120.848997
+                 pkts/sec: 223494
+                Mbits/sec: 1535
+o")~   Snort exiting
+Starting simulation with cpusnort 2 psize 1024 tcpflows 16000 rules 100
+=====================================================================
+=====================================================================
+Ending simulation with cpusnort 2 psize 1024 tcpflows 16000 rules 100
+--------------------------------------------------
+o")~   Snort++ 3.1.64.0
+--------------------------------------------------
+Loading /home/syafiq/snort3-3.1.64.0/lua/snort.lua:
+Loading /home/syafiq/snort3-3.1.64.0/lua/snort_defaults.lua:
+Finished /home/syafiq/snort3-3.1.64.0/lua/snort_defaults.lua:
+	ssh
+	host_cache
+	pop
+	so_proxy
+	stream_tcp
+	mms
+	gtp_inspect
+	packets
+	dce_http_proxy
+	ips
+	stream_icmp
+	binder
+	normalizer
+	wizard
+	appid
+	js_norm
+	file_id
+	http2_inspect
+	http_inspect
+	ftp_data
+	stream_udp
+	daq
+	ftp_server
+	smtp
+	search_engine
+	port_scan
+	dce_http_server
+	dce_tcp
+	dce_smb
+	iec104
+	cip
+	telnet
+	ssl
+	sip
+	rpc_decode
+	netflow
+	modbus
+	host_tracker
+	stream_user
+	stream_ip
+	process
+	back_orifice
+	classifications
+	dnp3
+	active
+	ftp_client
+	decode
+	alerts
+	trace
+	stream
+	network
+	references
+	arp_spoof
+	output
+	hosts
+	dns
+	dce_udp
+	imap
+	file_policy
+	s7commplus
+	stream_file
+Finished /home/syafiq/snort3-3.1.64.0/lua/snort.lua:
+Loading file_id.rules_file:
+Loading file_magic.rules:
+Finished file_magic.rules:
+Finished file_id.rules_file:
+Loading rule args:
+Loading /home/syafiq/rules/community_100.rules:
+Finished /home/syafiq/rules/community_100.rules:
+Finished rule args:
+--------------------------------------------------
+ips policies rule stats
+              id  loaded  shared enabled    file
+               0     308       0     308    /home/syafiq/snort3-3.1.64.0/lua/snort.lua
+--------------------------------------------------
+rule counts
+       total rules loaded: 308
+               text rules: 308
+            option chains: 308
+            chain headers: 55
+                 flowbits: 1
+         flowbits not set: 1
+--------------------------------------------------
+port rule counts
+             tcp     udp    icmp      ip
+     any       2       1      13       1
+     src      16       3       0       0
+     dst      51      16       0       0
+    both       1       3       0       0
+   total      70      23      13       1
+--------------------------------------------------
+service rule counts          to-srv  to-cli
+                      dns:       13       2
+                  file_id:      208     208
+                      ftp:        1       1
+                     pop3:        5       0
+                     smtp:        1       0
+                    total:      228     211
+--------------------------------------------------
+fast pattern groups
+                      src: 34
+                      dst: 60
+                      any: 4
+                to_server: 5
+                to_client: 3
+--------------------------------------------------
+search engine (ac_bnfa)
+                instances: 57
+                 patterns: 533
+            pattern chars: 3963
+               num states: 3218
+         num match states: 487
+             memory scale: KB
+             total memory: 167.615
+           pattern memory: 24.6348
+        match list memory: 42.2969
+        transition memory: 93.5586
+        fast pattern only: 43
+appid: MaxRss diff: 3288
+appid: patterns loaded: 300
+--------------------------------------------------
+afpacket DAQ configured to passive.
+Commencing packet processing
+++ [0] enp0s3
+++ [1] enp0s3
+** caught term signal
+== stopping
+-- [1] enp0s3
+-- [0] enp0s3
+--------------------------------------------------
+Packet Statistics
+--------------------------------------------------
+daq
+                 received: 27647088
+                 analyzed: 27647088
+                    allow: 27647088
+                     idle: 2
+                 rx_bytes: 24847655152
+--------------------------------------------------
+codec
+                    total: 27647088    	(100.000%)
+                 discards: 27645442    	( 99.994%)
+                      arp: 24          	(  0.000%)
+                      eth: 27647088    	(100.000%)
+                     ipv4: 27647064    	(100.000%)
+                      tcp: 11933318    	( 43.163%)
+--------------------------------------------------
+Module Statistics
+--------------------------------------------------
+appid
+                  packets: 1622
+          ignored_packets: 1622
+--------------------------------------------------
+arp_spoof
+                  packets: 24
+--------------------------------------------------
+binder
+              raw_packets: 15715392
+                 inspects: 15715392
+--------------------------------------------------
+detection
+                 analyzed: 27647088
+               hard_evals: 1622
+--------------------------------------------------
+pcre
+               pcre_rules: 4
+              pcre_native: 4
+--------------------------------------------------
+port_scan
+                  packets: 11933318
+                 trackers: 16
+--------------------------------------------------
+search_engine
+     non_qualified_events: 1622
+--------------------------------------------------
+tcp
+        bad_tcp4_checksum: 11931696
+--------------------------------------------------
+Summary Statistics
+--------------------------------------------------
+process
+                  signals: 1
+--------------------------------------------------
+timing
+                  runtime: 00:02:00
+                  seconds: 120.787160
+                 pkts/sec: 228891
+                Mbits/sec: 1569
+o")~   Snort exiting
+Starting simulation with cpusnort 2 psize 1024 tcpflows 16000 rules 1000
+=====================================================================
+=====================================================================
+Ending simulation with cpusnort 2 psize 1024 tcpflows 16000 rules 1000
+--------------------------------------------------
+o")~   Snort++ 3.1.64.0
+--------------------------------------------------
+Loading /home/syafiq/snort3-3.1.64.0/lua/snort.lua:
+Loading /home/syafiq/snort3-3.1.64.0/lua/snort_defaults.lua:
+Finished /home/syafiq/snort3-3.1.64.0/lua/snort_defaults.lua:
+	ssh
+	host_cache
+	pop
+	so_proxy
+	stream_tcp
+	mms
+	gtp_inspect
+	packets
+	dce_http_proxy
+	ips
+	stream_icmp
+	binder
+	normalizer
+	wizard
+	appid
+	js_norm
+	file_id
+	http2_inspect
+	http_inspect
+	ftp_data
+	stream_udp
+	daq
+	ftp_server
+	smtp
+	search_engine
+	port_scan
+	dce_http_server
+	dce_tcp
+	dce_smb
+	iec104
+	cip
+	telnet
+	ssl
+	sip
+	rpc_decode
+	netflow
+	modbus
+	host_tracker
+	stream_user
+	stream_ip
+	process
+	back_orifice
+	classifications
+	dnp3
+	active
+	ftp_client
+	decode
+	alerts
+	trace
+	stream
+	network
+	references
+	arp_spoof
+	output
+	hosts
+	dns
+	dce_udp
+	imap
+	file_policy
+	s7commplus
+	stream_file
+Finished /home/syafiq/snort3-3.1.64.0/lua/snort.lua:
+Loading file_id.rules_file:
+Loading file_magic.rules:
+Finished file_magic.rules:
+Finished file_id.rules_file:
+Loading rule args:
+Loading /home/syafiq/rules/community_1000.rules:
+Finished /home/syafiq/rules/community_1000.rules:
+Finished rule args:
+--------------------------------------------------
+ips policies rule stats
+              id  loaded  shared enabled    file
+               0    1208       0    1208    /home/syafiq/snort3-3.1.64.0/lua/snort.lua
+--------------------------------------------------
+rule counts
+       total rules loaded: 1208
+               text rules: 1208
+            option chains: 1208
+            chain headers: 120
+                 flowbits: 1
+         flowbits not set: 1
+--------------------------------------------------
+port rule counts
+             tcp     udp    icmp      ip
+     any      35      21     133      18
+     src      34       3       0       0
+     dst     274      67       0       0
+    both       3       3       0       0
+   total     346      94     133      18
+--------------------------------------------------
+service rule counts          to-srv  to-cli
+                   dcerpc:        1       0
+                      dns:       15       2
+                  file_id:      208     208
+                      ftp:       30       2
+                 ftp-data:        0       1
+                     http:      519      11
+                    http2:      519      11
+                    http3:      519      11
+                     imap:        0       1
+              netbios-ssn:        1       0
+                     pop3:        5       1
+                     smtp:       26       1
+                     snmp:       16       5
+                   sunrpc:       38       2
+                   telnet:        7       6
+                    total:     1904     262
+--------------------------------------------------
+fast pattern groups
+                      src: 48
+                      dst: 134
+                      any: 8
+                to_server: 25
+                to_client: 25
+--------------------------------------------------
+search engine (ac_bnfa)
+                instances: 145
+                 patterns: 2837
+            pattern chars: 35889
+               num states: 26376
+         num match states: 2751
+             memory scale: KB
+             total memory: 915.285
+           pattern memory: 145.727
+        match list memory: 300.906
+        transition memory: 450.527
+        fast pattern only: 1774
+appid: MaxRss diff: 3024
+appid: patterns loaded: 300
+--------------------------------------------------
+afpacket DAQ configured to passive.
+Commencing packet processing
+++ [0] enp0s3
+++ [1] enp0s3
+** caught term signal
+== stopping
+-- [0] enp0s3
+-- [1] enp0s3
+--------------------------------------------------
+Packet Statistics
+--------------------------------------------------
+daq
+                 received: 27723963
+                 analyzed: 27723963
+                    allow: 27723963
+                     idle: 2
+                 rx_bytes: 24736951030
+--------------------------------------------------
+codec
+                    total: 27723963    	(100.000%)
+                 discards: 27722269    	( 99.994%)
+                      arp: 20          	(  0.000%)
+                      eth: 27723963    	(100.000%)
+                     ipv4: 27723943    	(100.000%)
+                      tcp: 12086255    	( 43.595%)
+--------------------------------------------------
+Module Statistics
+--------------------------------------------------
+appid
+                  packets: 1674
+          ignored_packets: 1674
+--------------------------------------------------
+arp_spoof
+                  packets: 20
+--------------------------------------------------
+binder
+              raw_packets: 15639382
+                 inspects: 15639382
+--------------------------------------------------
+detection
+                 analyzed: 27723963
+               hard_evals: 1674
+--------------------------------------------------
+pcre
+               pcre_rules: 39
+              pcre_native: 39
+--------------------------------------------------
+port_scan
+                  packets: 12086255
+                 trackers: 16
+--------------------------------------------------
+search_engine
+     non_qualified_events: 1674
+--------------------------------------------------
+tcp
+        bad_tcp4_checksum: 12084581
+--------------------------------------------------
+Summary Statistics
+--------------------------------------------------
+process
+                  signals: 1
+--------------------------------------------------
+timing
+                  runtime: 00:02:00
+                  seconds: 120.772133
+                 pkts/sec: 229556
+                Mbits/sec: 1563
+o")~   Snort exiting
+Starting simulation with cpusnort 2 psize 1024 tcpflows 16000 rules 3462
+=====================================================================
+--------------------------------------------------
+o")~   Snort++ 3.1.64.0
+--------------------------------------------------
+Loading /home/syafiq/snort3-3.1.64.0/lua/snort.lua:
+Loading /home/syafiq/snort3-3.1.64.0/lua/snort_defaults.lua:
+Finished /home/syafiq/snort3-3.1.64.0/lua/snort_defaults.lua:
+	ssh
+	host_cache
+	pop
+	so_proxy
+	stream_tcp
+	mms
+	gtp_inspect
+	packets
+	dce_http_proxy
+	ips
+	stream_icmp
+	binder
+	normalizer
+	wizard
+	appid
+	js_norm
+	file_id
+	http2_inspect
+	http_inspect
+	ftp_data
+	stream_udp
+	daq
+	ftp_server
+	smtp
+	search_engine
+	port_scan
+	dce_http_server
+	dce_tcp
+	dce_smb
+	iec104
+	cip
+	telnet
+	ssl
+	sip
+	rpc_decode
+	netflow
+	modbus
+	host_tracker
+	stream_user
+	stream_ip
+	process
+	back_orifice
+	classifications
+	dnp3
+	active
+	ftp_client
+	decode
+	alerts
+	trace
+	stream
+	network
+	references
+	arp_spoof
+	output
+	hosts
+	dns
+	dce_udp
+	imap
+	file_policy
+	s7commplus
+	stream_file
+Finished /home/syafiq/snort3-3.1.64.0/lua/snort.lua:
+Loading file_id.rules_file:
+Loading file_magic.rules:
+Finished file_magic.rules:
+Finished file_id.rules_file:
+Loading rule args:
+Loading /home/syafiq/rules/community_3462.rules:
+Finished /home/syafiq/rules/community_3462.rules:
+Finished rule args:
+--------------------------------------------------
+ips policies rule stats
+              id  loaded  shared enabled    file
+               0    3670       0    3670    /home/syafiq/snort3-3.1.64.0/lua/snort.lua
+--------------------------------------------------
+rule counts
+       total rules loaded: 3670
+               text rules: 3670
+            option chains: 3670
+            chain headers: 263
+                 flowbits: 32
+     flowbits not checked: 7
+         flowbits not set: 10
+--------------------------------------------------
+port rule counts
+             tcp     udp    icmp      ip
+     any     451      58     147      22
+     src     118      16       0       0
+     dst     688     244       0       0
+    both       6       9       0       0
+   total    1263     327     147      22
+--------------------------------------------------
+service rule counts          to-srv  to-cli
+                   dcerpc:        9       4
+                      dns:      123       7
+                  file_id:      208     208
+                      ftp:       87       4
+                 ftp-data:        3      53
+                     http:     1680     194
+                    http2:     1680     194
+                    http3:     1680     194
+                     imap:       37      53
+                      irc:        4       1
+                 kerberos:        2       0
+                    mysql:        3       0
+              netbios-dgm:        1       1
+               netbios-ns:        4       3
+              netbios-ssn:       63      15
+                     nntp:        2       0
+                     pop3:       25      53
+                      rdp:        1       0
+                      sip:        5       5
+                     smtp:       71       2
+                     snmp:       18       7
+                      ssl:       18      30
+                   sunrpc:       68       4
+                   telnet:       12       6
+                     tftp:        1       0
+                     wins:        1       0
+                    total:     5806    1038
+--------------------------------------------------
+fast pattern groups
+                      src: 108
+                      dst: 290
+                      any: 8
+                to_server: 65
+                to_client: 43
+--------------------------------------------------
+search engine (ac_bnfa)
+                instances: 311
+                 patterns: 8966
+            pattern chars: 145676
+               num states: 102483
+         num match states: 8750
+             memory scale: MB
+             total memory: 3.08147
+           pattern memory: 0.480657
+        match list memory: 1.0949
+        transition memory: 1.46795
+        fast pattern only: 5932
+appid: MaxRss diff: 3288
+appid: patterns loaded: 300
+--------------------------------------------------
+afpacket DAQ configured to passive.
+Commencing p=====================================================================
+Ending simulation with cpusnort 2 psize 1024 tcpflows 16000 rules 3462
+acket processing
+++ [0] enp0s3
+++ [1] enp0s3
+** caught term signal
+== stopping
+-- [1] enp0s3
+-- [0] enp0s3
+--------------------------------------------------
+Packet Statistics
+--------------------------------------------------
+daq
+                 received: 26086740
+                 analyzed: 26086740
+                    allow: 26086740
+                     idle: 2
+                 rx_bytes: 23210744096
+--------------------------------------------------
+codec
+                    total: 26086740    	(100.000%)
+                 discards: 26085086    	( 99.994%)
+                      arp: 16          	(  0.000%)
+                      eth: 26086740    	(100.000%)
+                     ipv4: 26086724    	(100.000%)
+                      tcp: 11416335    	( 43.763%)
+--------------------------------------------------
+Module Statistics
+--------------------------------------------------
+appid
+                  packets: 1638
+          ignored_packets: 1638
+--------------------------------------------------
+arp_spoof
+                  packets: 16
+--------------------------------------------------
+binder
+              raw_packets: 14672043
+                 inspects: 14672043
+--------------------------------------------------
+detection
+                 analyzed: 26086740
+               hard_evals: 1638
+--------------------------------------------------
+pcre
+               pcre_rules: 870
+              pcre_native: 870
+--------------------------------------------------
+port_scan
+                  packets: 11416335
+                 trackers: 16
+--------------------------------------------------
+search_engine
+     non_qualified_events: 1638
+--------------------------------------------------
+tcp
+        bad_tcp4_checksum: 11414697
+--------------------------------------------------
+Summary Statistics
+--------------------------------------------------
+process
+                  signals: 1
+--------------------------------------------------
+timing
+                  runtime: 00:02:00
+                  seconds: 120.551157
+                 pkts/sec: 216396
+                Mbits/sec: 1469
+o")~   Snort exiting
+Starting simulation with cpusnort 2 psize 1024 tcpflows 32000 rules 1
+=====================================================================
+=====================================================================
+Ending simulation with cpusnort 2 psize 1024 tcpflows 32000 rules 1
+--------------------------------------------------
+o")~   Snort++ 3.1.64.0
+--------------------------------------------------
+Loading /home/syafiq/snort3-3.1.64.0/lua/snort.lua:
+Loading /home/syafiq/snort3-3.1.64.0/lua/snort_defaults.lua:
+Finished /home/syafiq/snort3-3.1.64.0/lua/snort_defaults.lua:
+	ssh
+	host_cache
+	pop
+	so_proxy
+	stream_tcp
+	mms
+	gtp_inspect
+	packets
+	dce_http_proxy
+	ips
+	stream_icmp
+	binder
+	normalizer
+	wizard
+	appid
+	js_norm
+	file_id
+	http2_inspect
+	http_inspect
+	ftp_data
+	stream_udp
+	daq
+	ftp_server
+	smtp
+	search_engine
+	port_scan
+	dce_http_server
+	dce_tcp
+	dce_smb
+	iec104
+	cip
+	telnet
+	ssl
+	sip
+	rpc_decode
+	netflow
+	modbus
+	host_tracker
+	stream_user
+	stream_ip
+	process
+	back_orifice
+	classifications
+	dnp3
+	active
+	ftp_client
+	decode
+	alerts
+	trace
+	stream
+	network
+	references
+	arp_spoof
+	output
+	hosts
+	dns
+	dce_udp
+	imap
+	file_policy
+	s7commplus
+	stream_file
+Finished /home/syafiq/snort3-3.1.64.0/lua/snort.lua:
+Loading file_id.rules_file:
+Loading file_magic.rules:
+Finished file_magic.rules:
+Finished file_id.rules_file:
+Loading rule args:
+Loading /home/syafiq/rules/community_1.rules:
+Finished /home/syafiq/rules/community_1.rules:
+Finished rule args:
+--------------------------------------------------
+ips policies rule stats
+              id  loaded  shared enabled    file
+               0     209       0     209    /home/syafiq/snort3-3.1.64.0/lua/snort.lua
+--------------------------------------------------
+rule counts
+       total rules loaded: 209
+               text rules: 209
+            option chains: 209
+            chain headers: 2
+--------------------------------------------------
+port rule counts
+             tcp     udp    icmp      ip
+     src       1       0       0       0
+   total       1       0       0       0
+--------------------------------------------------
+service rule counts          to-srv  to-cli
+                  file_id:      208     208
+                    total:      208     208
+--------------------------------------------------
+fast pattern groups
+                      src: 2
+                to_server: 1
+                to_client: 1
+--------------------------------------------------
+search engine (ac_bnfa)
+                instances: 3
+                 patterns: 417
+            pattern chars: 2525
+               num states: 1795
+         num match states: 371
+             memory scale: KB
+             total memory: 70.123
+           pattern memory: 18.752
+        match list memory: 27.4922
+        transition memory: 23.5039
+appid: MaxRss diff: 3024
+appid: patterns loaded: 300
+--------------------------------------------------
+afpacket DAQ configured to passive.
+Commencing packet processing
+++ [0] enp0s3
+++ [1] enp0s3
+** caught term signal
+== stopping
+-- [0] enp0s3
+-- [1] enp0s3
+--------------------------------------------------
+Packet Statistics
+--------------------------------------------------
+daq
+                 received: 27872785
+                 analyzed: 27872785
+                    allow: 27872785
+                     idle: 2
+                 rx_bytes: 25148003890
+--------------------------------------------------
+codec
+                    total: 27872785    	(100.000%)
+                 discards: 27871211    	( 99.994%)
+                      arp: 16          	(  0.000%)
+                      eth: 27872785    	(100.000%)
+                     ipv4: 27872769    	(100.000%)
+                      tcp: 11967295    	( 42.935%)
+--------------------------------------------------
+Module Statistics
+--------------------------------------------------
+appid
+                  packets: 1558
+          ignored_packets: 1558
+--------------------------------------------------
+arp_spoof
+                  packets: 16
+--------------------------------------------------
+binder
+              raw_packets: 15907048
+                 inspects: 15907048
+--------------------------------------------------
+detection
+                 analyzed: 27872785
+--------------------------------------------------
+port_scan
+                  packets: 11967295
+                 trackers: 16
+--------------------------------------------------
+tcp
+        bad_tcp4_checksum: 11965737
+--------------------------------------------------
+Summary Statistics
+--------------------------------------------------
+process
+                  signals: 1
+--------------------------------------------------
+timing
+                  runtime: 00:02:00
+                  seconds: 120.849325
+                 pkts/sec: 230641
+                Mbits/sec: 1588
+o")~   Snort exiting
+Starting simulation with cpusnort 2 psize 1024 tcpflows 32000 rules 10
+=====================================================================
+=====================================================================
+Ending simulation with cpusnort 2 psize 1024 tcpflows 32000 rules 10
+--------------------------------------------------
+o")~   Snort++ 3.1.64.0
+--------------------------------------------------
+Loading /home/syafiq/snort3-3.1.64.0/lua/snort.lua:
+Loading /home/syafiq/snort3-3.1.64.0/lua/snort_defaults.lua:
+Finished /home/syafiq/snort3-3.1.64.0/lua/snort_defaults.lua:
+	ssh
+	host_cache
+	pop
+	so_proxy
+	stream_tcp
+	mms
+	gtp_inspect
+	packets
+	dce_http_proxy
+	ips
+	stream_icmp
+	binder
+	normalizer
+	wizard
+	appid
+	js_norm
+	file_id
+	http2_inspect
+	http_inspect
+	ftp_data
+	stream_udp
+	daq
+	ftp_server
+	smtp
+	search_engine
+	port_scan
+	dce_http_server
+	dce_tcp
+	dce_smb
+	iec104
+	cip
+	telnet
+	ssl
+	sip
+	rpc_decode
+	netflow
+	modbus
+	host_tracker
+	stream_user
+	stream_ip
+	process
+	back_orifice
+	classifications
+	dnp3
+	active
+	ftp_client
+	decode
+	alerts
+	trace
+	stream
+	network
+	references
+	arp_spoof
+	output
+	hosts
+	dns
+	dce_udp
+	imap
+	file_policy
+	s7commplus
+	stream_file
+Finished /home/syafiq/snort3-3.1.64.0/lua/snort.lua:
+Loading file_id.rules_file:
+Loading file_magic.rules:
+Finished file_magic.rules:
+Finished file_id.rules_file:
+Loading rule args:
+Loading /home/syafiq/rules/community_10.rules:
+Finished /home/syafiq/rules/community_10.rules:
+Finished rule args:
+--------------------------------------------------
+ips policies rule stats
+              id  loaded  shared enabled    file
+               0     218       0     218    /home/syafiq/snort3-3.1.64.0/lua/snort.lua
+--------------------------------------------------
+rule counts
+       total rules loaded: 218
+               text rules: 218
+            option chains: 218
+            chain headers: 11
+                 flowbits: 1
+         flowbits not set: 1
+--------------------------------------------------
+port rule counts
+             tcp     udp    icmp      ip
+     any       1       0       0       0
+     src       5       0       0       0
+     dst       4       0       0       0
+    both       1       0       0       0
+   total      11       0       0       0
+--------------------------------------------------
+service rule counts          to-srv  to-cli
+                  file_id:      208     208
+                      ftp:        1       0
+                    total:      209     208
+--------------------------------------------------
+fast pattern groups
+                      src: 10
+                      dst: 8
+                      any: 2
+                to_server: 2
+                to_client: 1
+--------------------------------------------------
+search engine (ac_bnfa)
+                instances: 13
+                 patterns: 427
+            pattern chars: 2643
+               num states: 1913
+         num match states: 381
+             memory scale: KB
+             total memory: 84.4082
+           pattern memory: 19.248
+        match list memory: 28.7266
+        transition memory: 34.8086
+appid: MaxRss diff: 3084
+appid: patterns loaded: 300
+--------------------------------------------------
+afpacket DAQ configured to passive.
+Commencing packet processing
+++ [0] enp0s3
+++ [1] enp0s3
+** caught term signal
+== stopping
+-- [1] enp0s3
+-- [0] enp0s3
+--------------------------------------------------
+Packet Statistics
+--------------------------------------------------
+daq
+                 received: 21628824
+                 analyzed: 21628824
+                    allow: 21628824
+                     idle: 2
+                 rx_bytes: 18624792168
+--------------------------------------------------
+codec
+                    total: 21628824    	(100.000%)
+                 discards: 21627002    	( 99.992%)
+                      arp: 12          	(  0.000%)
+                      eth: 21628824    	(100.000%)
+                     ipv4: 21628812    	(100.000%)
+                      tcp: 9890494     	( 45.728%)
+--------------------------------------------------
+Module Statistics
+--------------------------------------------------
+appid
+                  packets: 1810
+          ignored_packets: 1810
+--------------------------------------------------
+arp_spoof
+                  packets: 12
+--------------------------------------------------
+binder
+              raw_packets: 11740140
+                 inspects: 11740140
+--------------------------------------------------
+detection
+                 analyzed: 21628824
+--------------------------------------------------
+pcre
+               pcre_rules: 1
+              pcre_native: 1
+--------------------------------------------------
+port_scan
+                  packets: 9890494
+                 trackers: 16
+--------------------------------------------------
+tcp
+        bad_tcp4_checksum: 9888684
+--------------------------------------------------
+Summary Statistics
+--------------------------------------------------
+process
+                  signals: 1
+--------------------------------------------------
+timing
+                  runtime: 00:02:00
+                  seconds: 120.837985
+                 pkts/sec: 178990
+                Mbits/sec: 1176
+o")~   Snort exiting
+Starting simulation with cpusnort 2 psize 1024 tcpflows 32000 rules 100
+=====================================================================
+=====================================================================
+Ending simulation with cpusnort 2 psize 1024 tcpflows 32000 rules 100
+--------------------------------------------------
+o")~   Snort++ 3.1.64.0
+--------------------------------------------------
+Loading /home/syafiq/snort3-3.1.64.0/lua/snort.lua:
+Loading /home/syafiq/snort3-3.1.64.0/lua/snort_defaults.lua:
+Finished /home/syafiq/snort3-3.1.64.0/lua/snort_defaults.lua:
+	ssh
+	host_cache
+	pop
+	so_proxy
+	stream_tcp
+	mms
+	gtp_inspect
+	packets
+	dce_http_proxy
+	ips
+	stream_icmp
+	binder
+	normalizer
+	wizard
+	appid
+	js_norm
+	file_id
+	http2_inspect
+	http_inspect
+	ftp_data
+	stream_udp
+	daq
+	ftp_server
+	smtp
+	search_engine
+	port_scan
+	dce_http_server
+	dce_tcp
+	dce_smb
+	iec104
+	cip
+	telnet
+	ssl
+	sip
+	rpc_decode
+	netflow
+	modbus
+	host_tracker
+	stream_user
+	stream_ip
+	process
+	back_orifice
+	classifications
+	dnp3
+	active
+	ftp_client
+	decode
+	alerts
+	trace
+	stream
+	network
+	references
+	arp_spoof
+	output
+	hosts
+	dns
+	dce_udp
+	imap
+	file_policy
+	s7commplus
+	stream_file
+Finished /home/syafiq/snort3-3.1.64.0/lua/snort.lua:
+Loading file_id.rules_file:
+Loading file_magic.rules:
+Finished file_magic.rules:
+Finished file_id.rules_file:
+Loading rule args:
+Loading /home/syafiq/rules/community_100.rules:
+Finished /home/syafiq/rules/community_100.rules:
+Finished rule args:
+--------------------------------------------------
+ips policies rule stats
+              id  loaded  shared enabled    file
+               0     308       0     308    /home/syafiq/snort3-3.1.64.0/lua/snort.lua
+--------------------------------------------------
+rule counts
+       total rules loaded: 308
+               text rules: 308
+            option chains: 308
+            chain headers: 55
+                 flowbits: 1
+         flowbits not set: 1
+--------------------------------------------------
+port rule counts
+             tcp     udp    icmp      ip
+     any       2       1      13       1
+     src      16       3       0       0
+     dst      51      16       0       0
+    both       1       3       0       0
+   total      70      23      13       1
+--------------------------------------------------
+service rule counts          to-srv  to-cli
+                      dns:       13       2
+                  file_id:      208     208
+                      ftp:        1       1
+                     pop3:        5       0
+                     smtp:        1       0
+                    total:      228     211
+--------------------------------------------------
+fast pattern groups
+                      src: 34
+                      dst: 60
+                      any: 4
+                to_server: 5
+                to_client: 3
+--------------------------------------------------
+search engine (ac_bnfa)
+                instances: 57
+                 patterns: 533
+            pattern chars: 3963
+               num states: 3218
+         num match states: 487
+             memory scale: KB
+             total memory: 167.615
+           pattern memory: 24.6348
+        match list memory: 42.2969
+        transition memory: 93.5586
+        fast pattern only: 43
+appid: MaxRss diff: 3288
+appid: patterns loaded: 300
+--------------------------------------------------
+afpacket DAQ configured to passive.
+Commencing packet processing
+++ [0] enp0s3
+++ [1] enp0s3
+** caught term signal
+== stopping
+-- [0] enp0s3
+-- [1] enp0s3
+--------------------------------------------------
+Packet Statistics
+--------------------------------------------------
+daq
+                 received: 27035829
+                 analyzed: 27035829
+                    allow: 27035829
+                     idle: 2
+                 rx_bytes: 24632752370
+--------------------------------------------------
+codec
+                    total: 27035829    	(100.000%)
+                 discards: 27034321    	( 99.994%)
+                      arp: 12          	(  0.000%)
+                      eth: 27035829    	(100.000%)
+                     ipv4: 27035817    	(100.000%)
+                      tcp: 11451807    	( 42.358%)
+--------------------------------------------------
+Module Statistics
+--------------------------------------------------
+appid
+                  packets: 1496
+          ignored_packets: 1496
+--------------------------------------------------
+arp_spoof
+                  packets: 12
+--------------------------------------------------
+binder
+              raw_packets: 15585518
+                 inspects: 15585518
+--------------------------------------------------
+detection
+                 analyzed: 27035829
+               hard_evals: 1496
+--------------------------------------------------
+pcre
+               pcre_rules: 4
+              pcre_native: 4
+--------------------------------------------------
+port_scan
+                  packets: 11451807
+                 trackers: 16
+--------------------------------------------------
+search_engine
+     non_qualified_events: 1496
+--------------------------------------------------
+tcp
+        bad_tcp4_checksum: 11450311
+--------------------------------------------------
+Summary Statistics
+--------------------------------------------------
+process
+                  signals: 1
+--------------------------------------------------
+timing
+                  runtime: 00:02:00
+                  seconds: 120.804544
+                 pkts/sec: 223798
+                Mbits/sec: 1556
+o")~   Snort exiting
+Starting simulation with cpusnort 2 psize 1024 tcpflows 32000 rules 1000
+=====================================================================
+=====================================================================
+Ending simulation with cpusnort 2 psize 1024 tcpflows 32000 rules 1000
+--------------------------------------------------
+o")~   Snort++ 3.1.64.0
+--------------------------------------------------
+Loading /home/syafiq/snort3-3.1.64.0/lua/snort.lua:
+Loading /home/syafiq/snort3-3.1.64.0/lua/snort_defaults.lua:
+Finished /home/syafiq/snort3-3.1.64.0/lua/snort_defaults.lua:
+	ssh
+	host_cache
+	pop
+	so_proxy
+	stream_tcp
+	mms
+	gtp_inspect
+	packets
+	dce_http_proxy
+	ips
+	stream_icmp
+	binder
+	normalizer
+	wizard
+	appid
+	js_norm
+	file_id
+	http2_inspect
+	http_inspect
+	ftp_data
+	stream_udp
+	daq
+	ftp_server
+	smtp
+	search_engine
+	port_scan
+	dce_http_server
+	dce_tcp
+	dce_smb
+	iec104
+	cip
+	telnet
+	ssl
+	sip
+	rpc_decode
+	netflow
+	modbus
+	host_tracker
+	stream_user
+	stream_ip
+	process
+	back_orifice
+	classifications
+	dnp3
+	active
+	ftp_client
+	decode
+	alerts
+	trace
+	stream
+	network
+	references
+	arp_spoof
+	output
+	hosts
+	dns
+	dce_udp
+	imap
+	file_policy
+	s7commplus
+	stream_file
+Finished /home/syafiq/snort3-3.1.64.0/lua/snort.lua:
+Loading file_id.rules_file:
+Loading file_magic.rules:
+Finished file_magic.rules:
+Finished file_id.rules_file:
+Loading rule args:
+Loading /home/syafiq/rules/community_1000.rules:
+Finished /home/syafiq/rules/community_1000.rules:
+Finished rule args:
+--------------------------------------------------
+ips policies rule stats
+              id  loaded  shared enabled    file
+               0    1208       0    1208    /home/syafiq/snort3-3.1.64.0/lua/snort.lua
+--------------------------------------------------
+rule counts
+       total rules loaded: 1208
+               text rules: 1208
+            option chains: 1208
+            chain headers: 120
+                 flowbits: 1
+         flowbits not set: 1
+--------------------------------------------------
+port rule counts
+             tcp     udp    icmp      ip
+     any      35      21     133      18
+     src      34       3       0       0
+     dst     274      67       0       0
+    both       3       3       0       0
+   total     346      94     133      18
+--------------------------------------------------
+service rule counts          to-srv  to-cli
+                   dcerpc:        1       0
+                      dns:       15       2
+                  file_id:      208     208
+                      ftp:       30       2
+                 ftp-data:        0       1
+                     http:      519      11
+                    http2:      519      11
+                    http3:      519      11
+                     imap:        0       1
+              netbios-ssn:        1       0
+                     pop3:        5       1
+                     smtp:       26       1
+                     snmp:       16       5
+                   sunrpc:       38       2
+                   telnet:        7       6
+                    total:     1904     262
+--------------------------------------------------
+fast pattern groups
+                      src: 48
+                      dst: 134
+                      any: 8
+                to_server: 25
+                to_client: 25
+--------------------------------------------------
+search engine (ac_bnfa)
+                instances: 145
+                 patterns: 2837
+            pattern chars: 35889
+               num states: 26376
+         num match states: 2751
+             memory scale: KB
+             total memory: 915.285
+           pattern memory: 145.727
+        match list memory: 300.906
+        transition memory: 450.527
+        fast pattern only: 1774
+appid: MaxRss diff: 3024
+appid: patterns loaded: 300
+--------------------------------------------------
+afpacket DAQ configured to passive.
+Commencing packet processing
+++ [0] enp0s3
+++ [1] enp0s3
+** caught term signal
+== stopping
+-- [0] enp0s3
+-- [1] enp0s3
+--------------------------------------------------
+Packet Statistics
+--------------------------------------------------
+daq
+                 received: 27209014
+                 analyzed: 27209014
+                    allow: 27209014
+                     idle: 2
+                 rx_bytes: 24354284876
+--------------------------------------------------
+codec
+                    total: 27209014    	(100.000%)
+                 discards: 27207546    	( 99.995%)
+                      arp: 16          	(  0.000%)
+                      eth: 27209014    	(100.000%)
+                     ipv4: 27208998    	(100.000%)
+                      tcp: 11810150    	( 43.405%)
+--------------------------------------------------
+Module Statistics
+--------------------------------------------------
+appid
+                  packets: 1452
+          ignored_packets: 1452
+--------------------------------------------------
+arp_spoof
+                  packets: 16
+--------------------------------------------------
+binder
+              raw_packets: 15400316
+                 inspects: 15400316
+--------------------------------------------------
+detection
+                 analyzed: 27209014
+               hard_evals: 1452
+--------------------------------------------------
+pcre
+               pcre_rules: 39
+              pcre_native: 39
+--------------------------------------------------
+port_scan
+                  packets: 11810150
+                 trackers: 16
+--------------------------------------------------
+search_engine
+     non_qualified_events: 1452
+--------------------------------------------------
+tcp
+        bad_tcp4_checksum: 11808698
+--------------------------------------------------
+Summary Statistics
+--------------------------------------------------
+process
+                  signals: 1
+--------------------------------------------------
+timing
+                  runtime: 00:02:00
+                  seconds: 120.757528
+                 pkts/sec: 225319
+                Mbits/sec: 1539
+o")~   Snort exiting
+Starting simulation with cpusnort 2 psize 1024 tcpflows 32000 rules 3462
+=====================================================================
+--------------------------------------------------
+o")~   Snort++ 3.1.64.0
+--------------------------------------------------
+Loading /home/syafiq/snort3-3.1.64.0/lua/snort.lua:
+Loading /home/syafiq/snort3-3.1.64.0/lua/snort_defaults.lua:
+Finished /home/syafiq/snort3-3.1.64.0/lua/snort_defaults.lua:
+	ssh
+	host_cache
+	pop
+	so_proxy
+	stream_tcp
+	mms
+	gtp_inspect
+	packets
+	dce_http_proxy
+	ips
+	stream_icmp
+	binder
+	normalizer
+	wizard
+	appid
+	js_norm
+	file_id
+	http2_inspect
+	http_inspect
+	ftp_data
+	stream_udp
+	daq
+	ftp_server
+	smtp
+	search_engine
+	port_scan
+	dce_http_server
+	dce_tcp
+	dce_smb
+	iec104
+	cip
+	telnet
+	ssl
+	sip
+	rpc_decode
+	netflow
+	modbus
+	host_tracker
+	stream_user
+	stream_ip
+	process
+	back_orifice
+	classifications
+	dnp3
+	active
+	ftp_client
+	decode
+	alerts
+	trace
+	stream
+	network
+	references
+	arp_spoof
+	output
+	hosts
+	dns
+	dce_udp
+	imap
+	file_policy
+	s7commplus
+	stream_file
+Finished /home/syafiq/snort3-3.1.64.0/lua/snort.lua:
+Loading file_id.rules_file:
+Loading file_magic.rules:
+Finished file_magic.rules:
+Finished file_id.rules_file:
+Loading rule args:
+Loading /home/syafiq/rules/community_3462.rules:
+Finished /home/syafiq/rules/community_3462.rules:
+Finished rule args:
+--------------------------------------------------
+ips policies rule stats
+              id  loaded  shared enabled    file
+               0    3670       0    3670    /home/syafiq/snort3-3.1.64.0/lua/snort.lua
+--------------------------------------------------
+rule counts
+       total rules loaded: 3670
+               text rules: 3670
+            option chains: 3670
+            chain headers: 263
+                 flowbits: 32
+     flowbits not checked: 7
+         flowbits not set: 10
+--------------------------------------------------
+port rule counts
+             tcp     udp    icmp      ip
+     any     451      58     147      22
+     src     118      16       0       0
+     dst     688     244       0       0
+    both       6       9       0       0
+   total    1263     327     147      22
+--------------------------------------------------
+service rule counts          to-srv  to-cli
+                   dcerpc:        9       4
+                      dns:      123       7
+                  file_id:      208     208
+                      ftp:       87       4
+                 ftp-data:        3      53
+                     http:     1680     194
+                    http2:     1680     194
+                    http3:     1680     194
+                     imap:       37      53
+                      irc:        4       1
+                 kerberos:        2       0
+                    mysql:        3       0
+              netbios-dgm:        1       1
+               netbios-ns:        4       3
+              netbios-ssn:       63      15
+                     nntp:        2       0
+                     pop3:       25      53
+                      rdp:        1       0
+                      sip:        5       5
+                     smtp:       71       2
+                     snmp:       18       7
+                      ssl:       18      30
+                   sunrpc:       68       4
+                   telnet:       12       6
+                     tftp:        1       0
+                     wins:        1       0
+                    total:     5806    1038
+--------------------------------------------------
+fast pattern groups
+                      src: 108
+                      dst: 290
+                      any: 8
+                to_server: 65
+                to_client: 43
+--------------------------------------------------
+search engine (ac_bnfa)
+                instances: 311
+                 patterns: 8966
+            pattern chars: 145676
+               num states: 102483
+         num match states: 8750
+             memory scale: MB
+             total memory: 3.08147
+           pattern memory: 0.480657
+        match list memory: 1.0949
+        transition memory: 1.46795
+        fast pattern only: 5932
+appid: MaxRss diff: 3024
+appid: patterns loaded: 300
+--------------------------------------------------
+afpacket DAQ configured to passive.
+Commencing p=====================================================================
+Ending simulation with cpusnort 2 psize 1024 tcpflows 32000 rules 3462
+acket processing
+++ [0] enp0s3
+++ [1] enp0s3
+** caught term signal
+== stopping
+-- [0] enp0s3
+-- [1] enp0s3
+--------------------------------------------------
+Packet Statistics
+--------------------------------------------------
+daq
+                 received: 27302064
+                 analyzed: 27302064
+                    allow: 27302064
+                     idle: 2
+                 rx_bytes: 24839045224
+--------------------------------------------------
+codec
+                    total: 27302064    	(100.000%)
+                 discards: 27300334    	( 99.994%)
+                      arp: 16          	(  0.000%)
+                      eth: 27302064    	(100.000%)
+                     ipv4: 27302048    	(100.000%)
+                      tcp: 11588732    	( 42.446%)
+--------------------------------------------------
+Module Statistics
+--------------------------------------------------
+appid
+                  packets: 1714
+        processed_packets: 72
+          ignored_packets: 1642
+           total_sessions: 2
+--------------------------------------------------
+arp_spoof
+                  packets: 16
+--------------------------------------------------
+binder
+              raw_packets: 15714974
+                new_flows: 2
+                 inspects: 15714976
+--------------------------------------------------
+detection
+                 analyzed: 27302064
+               hard_evals: 1714
+             raw_searches: 4
+             pkt_searches: 4
+--------------------------------------------------
+normalizer
+          test_tcp_ts_nop: 2
+           test_tcp_block: 58
+--------------------------------------------------
+pcre
+               pcre_rules: 870
+              pcre_native: 870
+--------------------------------------------------
+port_scan
+                  packets: 11588732
+                 trackers: 16
+--------------------------------------------------
+search_engine
+     non_qualified_events: 1714
+           searched_bytes: 4096
+--------------------------------------------------
+stream
+                    flows: 2
+--------------------------------------------------
+stream_tcp
+                 sessions: 2
+                      max: 1
+                  created: 2
+                 released: 2
+             instantiated: 2
+                   setups: 2
+         discards_skipped: 58
+                   events: 58
+            data_trackers: 2
+              segs_queued: 2
+            segs_released: 2
+                   resets: 58
+                 max_segs: 1
+                max_bytes: 1024
+--------------------------------------------------
+tcp
+        bad_tcp4_checksum: 11587018
+--------------------------------------------------
+wizard
+                tcp_scans: 2
+--------------------------------------------------
+Appid Statistics
+--------------------------------------------------
+detected apps and services
+              Application: Services   Clients    Users      Payloads   Misc       Referred  
+                  unknown: 2          0          0          0          0          0         
+--------------------------------------------------
+Summary Statistics
+--------------------------------------------------
+process
+                  signals: 1
+--------------------------------------------------
+timing
+                  runtime: 00:02:00
+                  seconds: 120.567978
+                 pkts/sec: 226445
+                Mbits/sec: 1572
+o")~   Snort exiting
