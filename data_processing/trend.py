@@ -10,7 +10,7 @@ def read_bw(f):
             lines.append(a.strip())
     return lines
 
-snp1 = read_bw(open("../generator/snp.log", "r").readlines())
+snp1 = read_bw(open("../generator/vanilla.log", "r").readlines())
 
 for a in range(0, len(snp1)):
     print(snp1[a])
