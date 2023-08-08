@@ -1,0 +1,1248 @@
+Starting simulation with cpusnort 1 psize 128 tcpflows 1 rules 0
+=====================================================================
+------------------------------------------------------------
+Client connecting to 192.168.56.10, TCP port 5001 with pid 13517 (1 flows)
+Write buffer size:  128 Byte
+TOS set to 0x0 (Nagle on)
+TCP window size: 16.0 KByte (default)
+------------------------------------------------------------
+[  1] NUM_REPORT_STRUCTS override from 10000 to 20000
+[  1] local 192.168.56.56%tap0 port 49694 connected with 192.168.56.10 port 5001 (sock=3) (icwnd/mss/irtt=0/76/122) (ct=0.17 ms) on 2023-08-08 11:09:57.921 (UTC)
+[ ID] Interval        Transfer    Bandwidth       Write/Err  Rtry     Cwnd/RTT(var)        NetPwr
+[  1] 0.00-70.28 sec  6.62 GBytes   809 Mbits/sec  55508246/0    785711        5K/57(26) us  1773548
+=====================================================================
+Ending simulation with cpusnort 1 psize 128 tcpflows 1 rules 0
+Starting simulation with cpusnort 1 psize 256 tcpflows 1 rules 0
+=====================================================================
+------------------------------------------------------------
+Client connecting to 192.168.56.10, TCP port 5001 with pid 13656 (1 flows)
+Write buffer size:  256 Byte
+TOS set to 0x0 (Nagle on)
+TCP window size: 16.0 KByte (default)
+------------------------------------------------------------
+[  1] NUM_REPORT_STRUCTS override from 10000 to 20000
+[  1] local 192.168.56.56%tap0 port 13588 connected with 192.168.56.10 port 5001 (sock=3) (icwnd/mss/irtt=1/204/129) (ct=0.19 ms) on 2023-08-08 11:11:13.872 (UTC)
+[ ID] Interval        Transfer    Bandwidth       Write/Err  Rtry     Cwnd/RTT(var)        NetPwr
+[  1] 0.00-70.31 sec  12.3 GBytes  1.50 Gbits/sec  51513196/0    355513       10K/94(82) us  1995288
+=====================================================================
+Ending simulation with cpusnort 1 psize 256 tcpflows 1 rules 0
+Starting simulation with cpusnort 1 psize 512 tcpflows 1 rules 0
+=====================================================================
+------------------------------------------------------------
+Client connecting to 192.168.56.10, TCP port 5001 with pid 13834 (1 flows)
+Write buffer size:  512 Byte
+TOS set to 0x0 (Nagle on)
+TCP window size: 16.0 KByte (default)
+------------------------------------------------------------
+[  1] NUM_REPORT_STRUCTS override from 10000 to 20000
+[  1] local 192.168.56.56%tap0 port 19386 connected with 192.168.56.10 port 5001 (sock=3) (icwnd/mss/irtt=4/460/110) (ct=0.14 ms) on 2023-08-08 11:12:29.823 (UTC)
+[ ID] Interval        Transfer    Bandwidth       Write/Err  Rtry     Cwnd/RTT(var)        NetPwr
+[  1] 0.00-70.23 sec  21.6 GBytes  2.64 Gbits/sec  45262501/0    229633       27K/53(6) us  6226379
+=====================================================================
+Ending simulation with cpusnort 1 psize 512 tcpflows 1 rules 0
+Starting simulation with cpusnort 1 psize 1024 tcpflows 1 rules 0
+=====================================================================
+------------------------------------------------------------
+Client connecting to 192.168.56.10, TCP port 5001 with pid 13985 (1 flows)
+Write buffer size: 1024 Byte
+TOS set to 0x0 (Nagle on)
+TCP window size: 16.0 KByte (default)
+------------------------------------------------------------
+[  1] NUM_REPORT_STRUCTS override from 10000 to 20000
+[  1] local 192.168.56.56%tap0 port 51824 connected with 192.168.56.10 port 5001 (sock=3) (icwnd/mss/irtt=9/972/161) (ct=0.22 ms) on 2023-08-08 11:13:45.685 (UTC)
+[ ID] Interval        Transfer    Bandwidth       Write/Err  Rtry     Cwnd/RTT(var)        NetPwr
+[  1] 0.00-70.32 sec  23.5 GBytes  2.87 Gbits/sec  24645770/0     59732       73K/57(9) us  6296317
+=====================================================================
+Ending simulation with cpusnort 1 psize 1024 tcpflows 1 rules 0
+Starting simulation with cpusnort 1 psize 128 tcpflows 2 rules 0
+=====================================================================
+------------------------------------------------------------
+Client connecting to 192.168.56.10, TCP port 5001 with pid 14131 (2 flows)
+Write buffer size:  128 Byte
+TOS set to 0x0 (Nagle on)
+TCP window size: 16.0 KByte (default)
+------------------------------------------------------------
+[  2] local 192.168.56.56%tap0 port 48418 connected with 192.168.56.10 port 5001 (sock=3) (icwnd/mss/irtt=0/76/96) (ct=0.20 ms) on 2023-08-08 11:15:01.663 (UTC)
+[  1] local 192.168.56.56%tap0 port 48420 connected with 192.168.56.10 port 5001 (sock=4) (icwnd/mss/irtt=0/76/138) (ct=0.17 ms) on 2023-08-08 11:15:01.663 (UTC)
+[  1] NUM_REPORT_STRUCTS override from 10000 to 20000
+[  2] NUM_REPORT_STRUCTS override from 10000 to 20000
+[ ID] Interval        Transfer    Bandwidth       Write/Err  Rtry     Cwnd/RTT(var)        NetPwr
+[  1] 0.00-70.32 sec  6.96 GBytes   851 Mbits/sec  58418532/0    791585        4K/505(509) us  210562
+[  2] 0.00-70.32 sec  7.02 GBytes   857 Mbits/sec  58853745/0    778782      113K/50(10) us  2142518
+[SUM] 0.00-70.31 sec  14.0 GBytes  1.71 Gbits/sec  117272277/0   1570367
+[ CT] final connect times (min/avg/max/stdev) = 0.170/0.185/0.200/21.213 ms (tot/err) = 2/0
+=====================================================================
+Ending simulation with cpusnort 1 psize 128 tcpflows 2 rules 0
+Starting simulation with cpusnort 1 psize 256 tcpflows 2 rules 0
+=====================================================================
+------------------------------------------------------------
+Client connecting to 192.168.56.10, TCP port 5001 with pid 14297 (2 flows)
+Write buffer size:  256 Byte
+TOS set to 0x0 (Nagle on)
+TCP window size: 16.0 KByte (default)
+------------------------------------------------------------
+[  1] NUM_REPORT_STRUCTS override from 10000 to 20000
+[  1] local 192.168.56.56%tap0 port 54166 connected with 192.168.56.10 port 5001 (sock=3) (icwnd/mss/irtt=1/204/145) (ct=0.18 ms) on 2023-08-08 11:16:17.613 (UTC)
+[  2] local 192.168.56.56%tap0 port 54168 connected with 192.168.56.10 port 5001 (sock=4) (icwnd/mss/irtt=1/204/104) (ct=0.13 ms) on 2023-08-08 11:16:17.613 (UTC)
+[  2] NUM_REPORT_STRUCTS override from 10000 to 20000
+[ ID] Interval        Transfer    Bandwidth       Write/Err  Rtry     Cwnd/RTT(var)        NetPwr
+[  1] 0.00-70.26 sec  13.3 GBytes  1.63 Gbits/sec  55755213/0    388088       22K/206(233) us  986138
+[  2] 0.00-70.26 sec  13.3 GBytes  1.63 Gbits/sec  55922217/0    406050       35K/52(5) us  3918330
+[SUM] 0.00-70.25 sec  26.6 GBytes  3.26 Gbits/sec  111677430/0    794138
+[ CT] final connect times (min/avg/max/stdev) = 0.126/0.154/0.181/38.891 ms (tot/err) = 2/0
+=====================================================================
+Ending simulation with cpusnort 1 psize 256 tcpflows 2 rules 0
+Starting simulation with cpusnort 1 psize 512 tcpflows 2 rules 0
+=====================================================================
+------------------------------------------------------------
+Client connecting to 192.168.56.10, TCP port 5001 with pid 14452 (2 flows)
+Write buffer size:  512 Byte
+TOS set to 0x0 (Nagle on)
+TCP window size: 16.0 KByte (default)
+------------------------------------------------------------
+[  1] NUM_REPORT_STRUCTS override from 10000 to 20000
+[  2] local 192.168.56.56%tap0 port 52286 connected with 192.168.56.10 port 5001 (sock=3) (icwnd/mss/irtt=4/460/116) (ct=0.15 ms) on 2023-08-08 11:17:33.532 (UTC)
+[  1] local 192.168.56.56%tap0 port 52284 connected with 192.168.56.10 port 5001 (sock=4) (icwnd/mss/irtt=4/460/143) (ct=0.17 ms) on 2023-08-08 11:17:33.532 (UTC)
+[  2] NUM_REPORT_STRUCTS override from 10000 to 20000
+[ ID] Interval        Transfer    Bandwidth       Write/Err  Rtry     Cwnd/RTT(var)        NetPwr
+[  1] 0.00-70.22 sec  25.7 GBytes  3.14 Gbits/sec  53804248/0    193111     1340K/271(54) us  1447695
+[  2] 0.00-70.22 sec  25.6 GBytes  3.13 Gbits/sec  53739974/0    181817       27K/70(11) us  5597955
+[SUM] 0.00-70.21 sec  51.3 GBytes  6.27 Gbits/sec  107544222/0    374928
+[ CT] final connect times (min/avg/max/stdev) = 0.150/0.162/0.173/16.263 ms (tot/err) = 2/0
+=====================================================================
+Ending simulation with cpusnort 1 psize 512 tcpflows 2 rules 0
+Starting simulation with cpusnort 1 psize 1024 tcpflows 2 rules 0
+=====================================================================
+------------------------------------------------------------
+Client connecting to 192.168.56.10, TCP port 5001 with pid 14594 (2 flows)
+Write buffer size: 1024 Byte
+TOS set to 0x0 (Nagle on)
+TCP window size: 16.0 KByte (default)
+------------------------------------------------------------
+[  2] NUM_REPORT_STRUCTS override from 10000 to 20000
+[  2] local 192.168.56.56%tap0 port 30924 connected with 192.168.56.10 port 5001 (sock=4) (icwnd/mss/irtt=9/972/125) (ct=0.16 ms) on 2023-08-08 11:18:49.386 (UTC)
+[  1] local 192.168.56.56%tap0 port 30930 connected with 192.168.56.10 port 5001 (sock=3) (icwnd/mss/irtt=9/972/105) (ct=0.13 ms) on 2023-08-08 11:18:49.386 (UTC)
+[  1] NUM_REPORT_STRUCTS override from 10000 to 20000
+[ ID] Interval        Transfer    Bandwidth       Write/Err  Rtry     Cwnd/RTT(var)        NetPwr
+[  2] 0.00-70.33 sec  43.4 GBytes  5.30 Gbits/sec  45534774/0    144815      106K/79(5) us  8392412
+[  1] 0.00-70.33 sec  43.3 GBytes  5.28 Gbits/sec  45371499/0    144472       57K/70(8) us  9437486
+[SUM] 0.00-70.31 sec  86.7 GBytes  10.6 Gbits/sec  90906273/0    289287
+[ CT] final connect times (min/avg/max/stdev) = 0.131/0.148/0.164/23.335 ms (tot/err) = 2/0
+=====================================================================
+Ending simulation with cpusnort 1 psize 1024 tcpflows 2 rules 0
+Starting simulation with cpusnort 1 psize 128 tcpflows 4 rules 0
+=====================================================================
+------------------------------------------------------------
+Client connecting to 192.168.56.10, TCP port 5001 with pid 14806 (4 flows)
+Write buffer size:  128 Byte
+TOS set to 0x0 (Nagle on)
+TCP window size: 16.0 KByte (default)
+------------------------------------------------------------
+[  2] local 192.168.56.56%tap0 port 16312 connected with 192.168.56.10 port 5001 (sock=4) (icwnd/mss/irtt=0/76/152) (ct=0.19 ms) on 2023-08-08 11:20:05.388 (UTC)
+[  1] local 192.168.56.56%tap0 port 16326 connected with 192.168.56.10 port 5001 (sock=3) (icwnd/mss/irtt=0/76/161) (ct=0.19 ms) on 2023-08-08 11:20:05.388 (UTC)
+[  4] local 192.168.56.56%tap0 port 16340 connected with 192.168.56.10 port 5001 (sock=6) (icwnd/mss/irtt=0/76/105) (ct=0.53 ms) on 2023-08-08 11:20:05.388 (UTC)
+[  3] local 192.168.56.56%tap0 port 16344 connected with 192.168.56.10 port 5001 (sock=5) (icwnd/mss/irtt=0/76/92) (ct=0.57 ms) on 2023-08-08 11:20:05.388 (UTC)
+[  2] NUM_REPORT_STRUCTS override from 10000 to 20000
+[  1] NUM_REPORT_STRUCTS override from 10000 to 20000
+[  4] NUM_REPORT_STRUCTS override from 10000 to 20000
+[  3] NUM_REPORT_STRUCTS override from 10000 to 20000
+[ ID] Interval        Transfer    Bandwidth       Write/Err  Rtry     Cwnd/RTT(var)        NetPwr
+[  2] 0.00-70.38 sec  3.61 GBytes   441 Mbits/sec  30299808/0    456361       82K/629(468) us  87605
+[  3] 0.00-70.38 sec  3.60 GBytes   440 Mbits/sec  30229766/0    437187       95K/143(111) us  384463
+[  1] 0.00-70.39 sec  3.61 GBytes   440 Mbits/sec  30259141/0    461789       89K/62(7) us  887538
+[  4] 0.00-70.39 sec  3.62 GBytes   441 Mbits/sec  30326006/0    428596        5K/114(108) us  483769
+[SUM] 0.00-70.38 sec  14.4 GBytes  1.76 Gbits/sec  121114721/0   1783933
+[ CT] final connect times (min/avg/max/stdev) = 0.189/0.369/0.570/208.552 ms (tot/err) = 4/0
+=====================================================================
+Ending simulation with cpusnort 1 psize 128 tcpflows 4 rules 0
+Starting simulation with cpusnort 1 psize 256 tcpflows 4 rules 0
+=====================================================================
+------------------------------------------------------------
+Client connecting to 192.168.56.10, TCP port 5001 with pid 14953 (4 flows)
+Write buffer size:  256 Byte
+TOS set to 0x0 (Nagle on)
+TCP window size: 16.0 KByte (default)
+------------------------------------------------------------
+[  2] local 192.168.56.56%tap0 port 45738 connected with 192.168.56.10 port 5001 (sock=3) (icwnd/mss/irtt=1/204/146) (ct=0.18 ms) on 2023-08-08 11:21:21.420 (UTC)
+[  1] local 192.168.56.56%tap0 port 45740 connected with 192.168.56.10 port 5001 (sock=4) (icwnd/mss/irtt=1/204/169) (ct=0.20 ms) on 2023-08-08 11:21:21.420 (UTC)
+[  3] local 192.168.56.56%tap0 port 45766 connected with 192.168.56.10 port 5001 (sock=5) (icwnd/mss/irtt=1/204/104) (ct=0.52 ms) on 2023-08-08 11:21:21.420 (UTC)
+[  4] local 192.168.56.56%tap0 port 45772 connected with 192.168.56.10 port 5001 (sock=6) (icwnd/mss/irtt=1/204/112) (ct=0.55 ms) on 2023-08-08 11:21:21.420 (UTC)
+[  1] NUM_REPORT_STRUCTS override from 10000 to 20000
+[  2] NUM_REPORT_STRUCTS override from 10000 to 20000
+[  3] NUM_REPORT_STRUCTS override from 10000 to 20000
+[  4] NUM_REPORT_STRUCTS override from 10000 to 20000
+[ ID] Interval        Transfer    Bandwidth       Write/Err  Rtry     Cwnd/RTT(var)        NetPwr
+[  4] 0.00-70.39 sec  7.02 GBytes   856 Mbits/sec  29424240/0    175830       21K/65(14) us  1646370
+[  1] 0.00-70.39 sec  7.02 GBytes   856 Mbits/sec  29434405/0    180625       25K/90(28) us  1189441
+[  3] 0.00-70.39 sec  7.04 GBytes   859 Mbits/sec  29526666/0    174402       17K/69(14) us  1556318
+[  2] 0.00-70.39 sec  7.00 GBytes   854 Mbits/sec  29359429/0    174038      191K/1798(3350) us  59387
+[SUM] 0.00-70.38 sec  28.1 GBytes  3.43 Gbits/sec  117744740/0    704895
+[ CT] final connect times (min/avg/max/stdev) = 0.181/0.363/0.548/199.866 ms (tot/err) = 4/0
+=====================================================================
+Ending simulation with cpusnort 1 psize 256 tcpflows 4 rules 0
+Starting simulation with cpusnort 1 psize 512 tcpflows 4 rules 0
+=====================================================================
+------------------------------------------------------------
+Client connecting to 192.168.56.10, TCP port 5001 with pid 15100 (4 flows)
+Write buffer size:  512 Byte
+TOS set to 0x0 (Nagle on)
+TCP window size: 16.0 KByte (default)
+------------------------------------------------------------
+[  3] local 192.168.56.56%tap0 port 58394 connected with 192.168.56.10 port 5001 (sock=3) (icwnd/mss/irtt=4/460/122) (ct=0.15 ms) on 2023-08-08 11:22:37.433 (UTC)
+[  2] local 192.168.56.56%tap0 port 58404 connected with 192.168.56.10 port 5001 (sock=5) (icwnd/mss/irtt=4/460/108) (ct=0.13 ms) on 2023-08-08 11:22:37.433 (UTC)
+[  4] local 192.168.56.56%tap0 port 58416 connected with 192.168.56.10 port 5001 (sock=6) (icwnd/mss/irtt=4/460/84) (ct=0.38 ms) on 2023-08-08 11:22:37.433 (UTC)
+[  1] local 192.168.56.56%tap0 port 58410 connected with 192.168.56.10 port 5001 (sock=4) (icwnd/mss/irtt=4/460/99) (ct=0.45 ms) on 2023-08-08 11:22:37.433 (UTC)
+[  2] NUM_REPORT_STRUCTS override from 10000 to 20000
+[  3] NUM_REPORT_STRUCTS override from 10000 to 20000
+[  1] NUM_REPORT_STRUCTS override from 10000 to 20000
+[  4] NUM_REPORT_STRUCTS override from 10000 to 20000
+[ ID] Interval        Transfer    Bandwidth       Write/Err  Rtry     Cwnd/RTT(var)        NetPwr
+[  2] 0.00-70.30 sec  13.2 GBytes  1.61 Gbits/sec  27602298/0    134906       28K/70(19) us  2871903
+[  3] 0.00-70.30 sec  13.1 GBytes  1.60 Gbits/sec  27460064/0    137415       25K/829(1364) us  241251
+[  4] 0.00-70.29 sec  13.1 GBytes  1.60 Gbits/sec  27425987/0    136708       48K/89(16) us  2244545
+[  1] 0.00-70.29 sec  13.1 GBytes  1.60 Gbits/sec  27499034/0    139043       24K/710(1257) us  282107
+[SUM] 0.00-70.29 sec  52.4 GBytes  6.41 Gbits/sec  109987383/0    548072
+[ CT] final connect times (min/avg/max/stdev) = 0.127/0.277/0.450/161.461 ms (tot/err) = 4/0
+=====================================================================
+Ending simulation with cpusnort 1 psize 512 tcpflows 4 rules 0
+Starting simulation with cpusnort 1 psize 1024 tcpflows 4 rules 0
+=====================================================================
+------------------------------------------------------------
+Client connecting to 192.168.56.10, TCP port 5001 with pid 15240 (4 flows)
+Write buffer size: 1024 Byte
+TOS set to 0x0 (Nagle on)
+TCP window size: 16.0 KByte (default)
+------------------------------------------------------------
+[  2] local 192.168.56.56%tap0 port 48844 connected with 192.168.56.10 port 5001 (sock=3) (icwnd/mss/irtt=9/972/133) (ct=0.17 ms) on 2023-08-08 11:23:53.372 (UTC)
+[  3] local 192.168.56.56%tap0 port 48846 connected with 192.168.56.10 port 5001 (sock=4) (icwnd/mss/irtt=9/972/152) (ct=0.18 ms) on 2023-08-08 11:23:53.372 (UTC)
+[  1] local 192.168.56.56%tap0 port 48858 connected with 192.168.56.10 port 5001 (sock=5) (icwnd/mss/irtt=9/972/128) (ct=0.52 ms) on 2023-08-08 11:23:53.372 (UTC)
+[  4] NUM_REPORT_STRUCTS override from 10000 to 20000
+[  4] local 192.168.56.56%tap0 port 48872 connected with 192.168.56.10 port 5001 (sock=6) (icwnd/mss/irtt=9/972/143) (ct=0.54 ms) on 2023-08-08 11:23:53.372 (UTC)
+[  1] NUM_REPORT_STRUCTS override from 10000 to 20000
+[  2] NUM_REPORT_STRUCTS override from 10000 to 20000
+[  3] NUM_REPORT_STRUCTS override from 10000 to 20000
+[ ID] Interval        Transfer    Bandwidth       Write/Err  Rtry     Cwnd/RTT(var)        NetPwr
+[  2] 0.00-70.42 sec  24.5 GBytes  2.98 Gbits/sec  25647061/0    114482       85K/94(6) us  3967509
+[  4] 0.00-70.42 sec  23.8 GBytes  2.90 Gbits/sec  24939905/0    116810      101K/422(616) us  859388
+[  3] 0.00-70.44 sec  24.1 GBytes  2.94 Gbits/sec  25244296/0    114349      100K/205(259) us  1790269
+[  1] 0.00-70.44 sec  24.2 GBytes  2.95 Gbits/sec  25344261/0    117973       53K/1032(1769) us  357032
+[SUM] 0.00-70.42 sec  96.5 GBytes  11.8 Gbits/sec  101175523/0    463614
+[ CT] final connect times (min/avg/max/stdev) = 0.166/0.353/0.539/205.223 ms (tot/err) = 4/0
+=====================================================================
+Ending simulation with cpusnort 1 psize 1024 tcpflows 4 rules 0
+Starting simulation with cpusnort 1 psize 128 tcpflows 8 rules 0
+=====================================================================
+------------------------------------------------------------
+Client connecting to 192.168.56.10, TCP port 5001 with pid 15488 (8 flows)
+Write buffer size:  128 Byte
+TOS set to 0x0 (Nagle on)
+TCP window size: 16.0 KByte (default)
+------------------------------------------------------------
+[  7] local 192.168.56.56%tap0 port 26780 connected with 192.168.56.10 port 5001 (sock=4) (icwnd/mss/irtt=0/76/129) (ct=0.16 ms) on 2023-08-08 11:25:09.431 (UTC)
+[  5] local 192.168.56.56%tap0 port 26798 connected with 192.168.56.10 port 5001 (sock=8) (icwnd/mss/irtt=0/76/118) (ct=0.46 ms) on 2023-08-08 11:25:09.431 (UTC)
+[  2] local 192.168.56.56%tap0 port 26784 connected with 192.168.56.10 port 5001 (sock=5) (icwnd/mss/irtt=0/76/142) (ct=0.17 ms) on 2023-08-08 11:25:09.431 (UTC)
+[  1] local 192.168.56.56%tap0 port 26794 connected with 192.168.56.10 port 5001 (sock=3) (icwnd/mss/irtt=0/76/126) (ct=0.49 ms) on 2023-08-08 11:25:09.431 (UTC)
+[  6] local 192.168.56.56%tap0 port 26820 connected with 192.168.56.10 port 5001 (sock=10) (icwnd/mss/irtt=0/76/124) (ct=0.71 ms) on 2023-08-08 11:25:09.431 (UTC)
+[  8] local 192.168.56.56%tap0 port 26808 connected with 192.168.56.10 port 5001 (sock=9) (icwnd/mss/irtt=0/76/119) (ct=0.81 ms) on 2023-08-08 11:25:09.431 (UTC)
+[  4] local 192.168.56.56%tap0 port 26796 connected with 192.168.56.10 port 5001 (sock=7) (icwnd/mss/irtt=0/76/125) (ct=0.98 ms) on 2023-08-08 11:25:09.431 (UTC)
+[  4] NUM_REPORT_STRUCTS override from 10000 to 20000
+[  2] NUM_REPORT_STRUCTS override from 10000 to 20000
+[  3] NUM_REPORT_STRUCTS override from 10000 to 20000
+[  6] NUM_REPORT_STRUCTS override from 10000 to 20000
+[  1] NUM_REPORT_STRUCTS override from 10000 to 20000
+[  7] NUM_REPORT_STRUCTS override from 10000 to 20000
+[  5] NUM_REPORT_STRUCTS override from 10000 to 20000
+[  3] local 192.168.56.56%tap0 port 26786 connected with 192.168.56.10 port 5001 (sock=6) (icwnd/mss/irtt=0/76/123) (ct=1.17 ms) on 2023-08-08 11:25:09.431 (UTC)
+[  8] NUM_REPORT_STRUCTS override from 10000 to 20000
+[ ID] Interval        Transfer    Bandwidth       Write/Err  Rtry     Cwnd/RTT(var)        NetPwr
+[  6] 0.00-70.32 sec  1.76 GBytes   215 Mbits/sec  14737384/0    297504        7K/115(8) us  233258
+[  5] 0.00-70.32 sec  1.80 GBytes   219 Mbits/sec  15070309/0    292348       13K/884(1323) us  31031
+[  8] 0.00-70.32 sec  1.80 GBytes   219 Mbits/sec  15068685/0    308319      178K/831(1266) us  33007
+[  7] 0.00-70.34 sec  1.79 GBytes   218 Mbits/sec  14999119/0    308658        4K/102(64) us  267599
+[  4] 0.00-70.34 sec  1.83 GBytes   224 Mbits/sec  15365133/0    310785       99K/109(24) us  256520
+[  3] 0.00-70.34 sec  1.80 GBytes   219 Mbits/sec  15077303/0    303069        6K/878(274) us  31249
+[  2] 0.00-70.34 sec  1.82 GBytes   222 Mbits/sec  15243172/0    313169        7K/373(368) us  74367
+[  1] 0.00-70.34 sec  1.85 GBytes   226 Mbits/sec  15518396/0    297195      157K/189(80) us  149417
+[SUM] 0.00-70.32 sec  14.4 GBytes  1.76 Gbits/sec  121079501/0   2431047
+[ CT] final connect times (min/avg/max/stdev) = 0.162/0.619/1.168/365.204 ms (tot/err) = 8/0
+=====================================================================
+Ending simulation with cpusnort 1 psize 128 tcpflows 8 rules 0
+Starting simulation with cpusnort 1 psize 256 tcpflows 8 rules 0
+=====================================================================
+[  1] local 192.168.56.56%tap0 port 46286 connected with 192.168.56.10 port 5001 (sock=3) (icwnd/mss/irtt=1/204/150) (ct=0.19 ms) on 2023-08-08 11:26:25.391 (UTC)
+[  3] local 192.168.56.56%tap0 port 46288 connected with 192.168.56.10 port 5001 (sock=4) (icwnd/mss/irtt=1/204/147) (ct=0.18 ms) on 2023-08-08 11:26:25.391 (UTC)
+[  2] local 192.168.56.56%tap0 port 46346 connected with 192.168.56.10 port 5001 (sock=9) (icwnd/mss/irtt=1/204/123) (ct=0.41 ms) on 2023-08-08 11:26:25.391 (UTC)
+[  5] local 192.168.56.56%tap0 port 46326 connected with 192.168.56.10 port 5001 (sock=7) (icwnd/mss/irtt=1/204/162) (ct=0.56 ms) on 2023-08-08 11:26:25.391 (UTC)
+[  4] local 192.168.56.56%tap0 port 46302 connected with 192.168.56.10 port 5001 (sock=5) (icwnd/mss/irtt=1/204/111) (ct=0.78 ms) on 2023-08-08 11:26:25.391 (UTC)
+[  6] local 192.168.56.56%tap0 port 46338 connected with 192.168.56.10 port 5001 (sock=8) (icwnd/mss/irtt=1/204/134) (ct=0.76 ms) on 2023-08-08 11:26:25.391 (UTC)
+------------------------------------------------------------
+Client connecting to 192.168.56.10, TCP port 5001 with pid 15644 (8 flows)
+Write buffer size:  256 Byte
+TOS set to 0x0 (Nagle on)
+TCP window size: 25.0 KByte (default)
+------------------------------------------------------------
+[  7] local 192.168.56.56%tap0 port 46318 connected with 192.168.56.10 port 5001 (sock=6) (icwnd/mss/irtt=1/204/101) (ct=1.06 ms) on 2023-08-08 11:26:25.391 (UTC)
+[  8] local 192.168.56.56%tap0 port 46358 connected with 192.168.56.10 port 5001 (sock=10) (icwnd/mss/irtt=1/204/78) (ct=0.10 ms) on 2023-08-08 11:26:25.392 (UTC)
+[  1] NUM_REPORT_STRUCTS override from 10000 to 20000
+[  3] NUM_REPORT_STRUCTS override from 10000 to 20000
+[  2] NUM_REPORT_STRUCTS override from 10000 to 20000
+[  5] NUM_REPORT_STRUCTS override from 10000 to 20000
+[  4] NUM_REPORT_STRUCTS override from 10000 to 20000
+[  6] NUM_REPORT_STRUCTS override from 10000 to 20000
+[  7] NUM_REPORT_STRUCTS override from 10000 to 20000
+[  8] NUM_REPORT_STRUCTS override from 10000 to 20000
+[ ID] Interval        Transfer    Bandwidth       Write/Err  Rtry     Cwnd/RTT(var)        NetPwr
+[  5] 0.00-70.38 sec  3.45 GBytes   421 Mbits/sec  14471555/0     87657       12K/2185(4130) us  24092
+[  6] 0.00-70.37 sec  3.44 GBytes   420 Mbits/sec  14446215/0     84394        9K/59(4) us  890792
+[  2] 0.00-70.38 sec  3.46 GBytes   423 Mbits/sec  14525371/0     86514       14K/1046(1909) us  50514
+[  3] 0.00-70.38 sec  3.73 GBytes   455 Mbits/sec  15628620/0     93775        8K/2146(4093) us  26491
+[  8] 0.00-70.35 sec  3.32 GBytes   405 Mbits/sec  13914503/0     79128       21K/77(15) us  657614
+[  7] 0.00-70.37 sec  3.53 GBytes   431 Mbits/sec  14795802/0     89028       71K/48(4) us  1121437
+[  4] 0.00-70.38 sec  3.27 GBytes   399 Mbits/sec  13699702/0     80354       12K/88(38) us  566303
+[  1] 0.00-70.38 sec  3.92 GBytes   478 Mbits/sec  16440530/0    100889       16K/78(14) us  766709
+[SUM] 0.00-70.36 sec  28.1 GBytes  3.43 Gbits/sec  117922298/0    701739
+[ CT] final connect times (min/avg/max/stdev) = 0.099/0.506/1.058/343.571 ms (tot/err) = 8/0
+=====================================================================
+Ending simulation with cpusnort 1 psize 256 tcpflows 8 rules 0
+Starting simulation with cpusnort 1 psize 512 tcpflows 8 rules 0
+=====================================================================
+------------------------------------------------------------
+Client connecting to 192.168.56.10, TCP port 5001 with pid 15771 (8 flows)
+Write buffer size:  512 Byte
+TOS set to 0x0 (Nagle on)
+TCP window size: 16.0 KByte (default)
+------------------------------------------------------------
+[  2] local 192.168.56.56%tap0 port 26526 connected with 192.168.56.10 port 5001 (sock=4) (icwnd/mss/irtt=4/460/110) (ct=0.14 ms) on 2023-08-08 11:27:41.389 (UTC)
+[  3] local 192.168.56.56%tap0 port 26538 connected with 192.168.56.10 port 5001 (sock=3) (icwnd/mss/irtt=4/460/103) (ct=0.49 ms) on 2023-08-08 11:27:41.389 (UTC)
+[  5] local 192.168.56.56%tap0 port 26570 connected with 192.168.56.10 port 5001 (sock=10) (icwnd/mss/irtt=4/460/163) (ct=0.67 ms) on 2023-08-08 11:27:41.389 (UTC)
+[  4] local 192.168.56.56%tap0 port 26528 connected with 192.168.56.10 port 5001 (sock=5) (icwnd/mss/irtt=4/460/124) (ct=0.16 ms) on 2023-08-08 11:27:41.389 (UTC)
+[  6] local 192.168.56.56%tap0 port 26550 connected with 192.168.56.10 port 5001 (sock=7) (icwnd/mss/irtt=4/460/103) (ct=0.74 ms) on 2023-08-08 11:27:41.389 (UTC)
+[  1] local 192.168.56.56%tap0 port 26532 connected with 192.168.56.10 port 5001 (sock=6) (icwnd/mss/irtt=4/460/99) (ct=0.49 ms) on 2023-08-08 11:27:41.389 (UTC)
+[  7] local 192.168.56.56%tap0 port 26566 connected with 192.168.56.10 port 5001 (sock=8) (icwnd/mss/irtt=4/460/103) (ct=1.08 ms) on 2023-08-08 11:27:41.389 (UTC)
+[  8] local 192.168.56.56%tap0 port 26572 connected with 192.168.56.10 port 5001 (sock=9) (icwnd/mss/irtt=4/460/68) (ct=0.09 ms) on 2023-08-08 11:27:41.390 (UTC)
+[  2] NUM_REPORT_STRUCTS override from 10000 to 20000
+[  4] NUM_REPORT_STRUCTS override from 10000 to 20000
+[  3] NUM_REPORT_STRUCTS override from 10000 to 20000
+[  6] NUM_REPORT_STRUCTS override from 10000 to 20000
+[  1] NUM_REPORT_STRUCTS override from 10000 to 20000
+[  7] NUM_REPORT_STRUCTS override from 10000 to 20000
+[  8] NUM_REPORT_STRUCTS override from 10000 to 20000
+[  5] NUM_REPORT_STRUCTS override from 10000 to 20000
+[ ID] Interval        Transfer    Bandwidth       Write/Err  Rtry     Cwnd/RTT(var)        NetPwr
+[  1] 0.00-70.36 sec  6.54 GBytes   799 Mbits/sec  13721595/0     57722       34K/1709(3221) us  58424
+[  5] 0.00-70.32 sec  6.33 GBytes   774 Mbits/sec  13282167/0     52517       48K/1732(3219) us  55837
+[  8] 0.00-70.35 sec  6.75 GBytes   824 Mbits/sec  14151048/0     60350       34K/1709(3232) us  60262
+[  4] 0.00-70.36 sec  6.95 GBytes   848 Mbits/sec  14572189/0     58314       35K/145(156) us  731274
+[  7] 0.00-70.35 sec  6.65 GBytes   812 Mbits/sec  13951558/0     57906       36K/64(8) us  1586420
+[  3] 0.00-70.36 sec  6.55 GBytes   800 Mbits/sec  13743888/0     60066       21K/1791(3243) us  55839
+[  2] 0.00-70.37 sec  6.26 GBytes   765 Mbits/sec  13136867/0     55400       37K/2001(3806) us  47770
+[  6] 0.00-70.38 sec  7.13 GBytes   870 Mbits/sec  14952111/0     61076       42K/338(369) us  321821
+[SUM] 0.00-70.35 sec  53.2 GBytes  6.49 Gbits/sec  111511423/0    463351
+[ CT] final connect times (min/avg/max/stdev) = 0.091/0.483/1.085/346.590 ms (tot/err) = 8/0
+=====================================================================
+Ending simulation with cpusnort 1 psize 512 tcpflows 8 rules 0
+Starting simulation with cpusnort 1 psize 1024 tcpflows 8 rules 0
+=====================================================================
+------------------------------------------------------------
+Client connecting to 192.168.56.10, TCP port 5001 with pid 15913 (8 flows)
+Write buffer size: 1024 Byte
+TOS set to 0x0 (Nagle on)
+TCP window size: 16.0 KByte (default)
+------------------------------------------------------------
+[  3] local 192.168.56.56%tap0 port 11464 connected with 192.168.56.10 port 5001 (sock=3) (icwnd/mss/irtt=9/972/167) (ct=0.20 ms) on 2023-08-08 11:28:57.413 (UTC)
+[  7] local 192.168.56.56%tap0 port 11510 connected with 192.168.56.10 port 5001 (sock=10) (icwnd/mss/irtt=9/972/97) (ct=0.11 ms) on 2023-08-08 11:28:57.413 (UTC)
+[  6] local 192.168.56.56%tap0 port 11496 connected with 192.168.56.10 port 5001 (sock=9) (icwnd/mss/irtt=9/972/71) (ct=0.42 ms) on 2023-08-08 11:28:57.413 (UTC)
+[  2] local 192.168.56.56%tap0 port 11480 connected with 192.168.56.10 port 5001 (sock=5) (icwnd/mss/irtt=9/972/105) (ct=0.57 ms) on 2023-08-08 11:28:57.413 (UTC)
+[  5] local 192.168.56.56%tap0 port 11494 connected with 192.168.56.10 port 5001 (sock=7) (icwnd/mss/irtt=9/972/93) (ct=0.74 ms) on 2023-08-08 11:28:57.413 (UTC)
+[  4] local 192.168.56.56%tap0 port 11466 connected with 192.168.56.10 port 5001 (sock=4) (icwnd/mss/irtt=9/972/137) (ct=1.10 ms) on 2023-08-08 11:28:57.413 (UTC)
+[  8] local 192.168.56.56%tap0 port 11474 connected with 192.168.56.10 port 5001 (sock=6) (icwnd/mss/irtt=9/972/128) (ct=0.15 ms) on 2023-08-08 11:28:57.413 (UTC)
+[  1] local 192.168.56.56%tap0 port 11516 connected with 192.168.56.10 port 5001 (sock=8) (icwnd/mss/irtt=9/972/71) (ct=0.32 ms) on 2023-08-08 11:28:57.414 (UTC)
+[  2] NUM_REPORT_STRUCTS override from 10000 to 20000
+[  3] NUM_REPORT_STRUCTS override from 10000 to 20000
+[  1] NUM_REPORT_STRUCTS override from 10000 to 20000
+[  4] NUM_REPORT_STRUCTS override from 10000 to 20000
+[  5] NUM_REPORT_STRUCTS override from 10000 to 20000
+[  8] NUM_REPORT_STRUCTS override from 10000 to 20000
+[  7] NUM_REPORT_STRUCTS override from 10000 to 20000
+[  6] NUM_REPORT_STRUCTS override from 10000 to 20000
+[ ID] Interval        Transfer    Bandwidth       Write/Err  Rtry     Cwnd/RTT(var)        NetPwr
+[  4] 0.00-70.31 sec  12.1 GBytes  1.47 Gbits/sec  12656584/0     62176      172K/1114(1878) us  165459
+[  3] 0.00-70.31 sec  12.1 GBytes  1.48 Gbits/sec  12732399/0     67982       95K/1062(1860) us  174600
+[  5] 0.00-70.31 sec  12.3 GBytes  1.50 Gbits/sec  12865045/0     68694       98K/1188(1880) us  157708
+[  7] 0.00-70.31 sec  12.4 GBytes  1.51 Gbits/sec  12976237/0     67786       78K/1073(1900) us  176131
+[  2] 0.00-70.31 sec  12.4 GBytes  1.51 Gbits/sec  12986325/0     68075       50K/103(16) us  1836144
+[  8] 0.00-70.31 sec  12.1 GBytes  1.48 Gbits/sec  12698583/0     65192       94K/142(13) us  1302352
+[  1] 0.00-70.31 sec  12.4 GBytes  1.52 Gbits/sec  13034567/0     69282      112K/108(27) us  1757645
+[  6] 0.00-70.31 sec  12.6 GBytes  1.54 Gbits/sec  13231016/0     70822       83K/1084(1876) us  177767
+[SUM] 0.00-70.31 sec  98.4 GBytes  12.0 Gbits/sec  103180756/0    540009
+[ CT] final connect times (min/avg/max/stdev) = 0.112/0.450/1.096/338.787 ms (tot/err) = 8/0
+=====================================================================
+Ending simulation with cpusnort 1 psize 1024 tcpflows 8 rules 0
+Starting simulation with cpusnort 1 psize 128 tcpflows 16 rules 0
+=====================================================================
+------------------------------------------------------------
+Client connecting to 192.168.56.10, TCP port 5001 with pid 16063 (16 flows)
+Write buffer size:  128 Byte
+TOS set to 0x0 (Nagle on)
+TCP window size: 25.0 KByte (default)
+------------------------------------------------------------
+[  2] local 192.168.56.56%tap0 port 17228 connected with 192.168.56.10 port 5001 (sock=3) (icwnd/mss/irtt=0/76/133) (ct=0.17 ms) on 2023-08-08 11:30:13.382 (UTC)
+[  4] local 192.168.56.56%tap0 port 17238 connected with 192.168.56.10 port 5001 (sock=6) (icwnd/mss/irtt=0/76/112) (ct=0.18 ms) on 2023-08-08 11:30:13.382 (UTC)
+[  6] local 192.168.56.56%tap0 port 17262 connected with 192.168.56.10 port 5001 (sock=8) (icwnd/mss/irtt=0/76/102) (ct=0.12 ms) on 2023-08-08 11:30:13.382 (UTC)
+[  3] local 192.168.56.56%tap0 port 17232 connected with 192.168.56.10 port 5001 (sock=5) (icwnd/mss/irtt=0/76/118) (ct=0.21 ms) on 2023-08-08 11:30:13.382 (UTC)
+[ 12] local 192.168.56.56%tap0 port 17338 connected with 192.168.56.10 port 5001 (sock=26) (icwnd/mss/irtt=0/76/50) (ct=0.07 ms) on 2023-08-08 11:30:13.383 (UTC)
+[  5] local 192.168.56.56%tap0 port 17252 connected with 192.168.56.10 port 5001 (sock=7) (icwnd/mss/irtt=0/76/105) (ct=0.15 ms) on 2023-08-08 11:30:13.382 (UTC)
+[  1] local 192.168.56.56%tap0 port 17300 connected with 192.168.56.10 port 5001 (sock=4) (icwnd/mss/irtt=0/76/103) (ct=0.12 ms) on 2023-08-08 11:30:13.382 (UTC)
+[  7] local 192.168.56.56%tap0 port 17274 connected with 192.168.56.10 port 5001 (sock=9) (icwnd/mss/irtt=0/76/142) (ct=0.16 ms) on 2023-08-08 11:30:13.382 (UTC)
+[ 13] local 192.168.56.56%tap0 port 17342 connected with 192.168.56.10 port 5001 (sock=28) (icwnd/mss/irtt=0/76/50) (ct=0.59 ms) on 2023-08-08 11:30:13.383 (UTC)
+[ 11] local 192.168.56.56%tap0 port 17332 connected with 192.168.56.10 port 5001 (sock=25) (icwnd/mss/irtt=0/76/63) (ct=0.09 ms) on 2023-08-08 11:30:13.383 (UTC)
+[  9] local 192.168.56.56%tap0 port 17290 connected with 192.168.56.10 port 5001 (sock=11) (icwnd/mss/irtt=0/76/134) (ct=0.31 ms) on 2023-08-08 11:30:13.382 (UTC)
+[  8] local 192.168.56.56%tap0 port 17282 connected with 192.168.56.10 port 5001 (sock=10) (icwnd/mss/irtt=0/76/139) (ct=0.16 ms) on 2023-08-08 11:30:13.382 (UTC)
+[ 16] local 192.168.56.56%tap0 port 17326 connected with 192.168.56.10 port 5001 (sock=22) (icwnd/mss/irtt=0/76/62) (ct=0.26 ms) on 2023-08-08 11:30:13.382 (UTC)
+[ 15] local 192.168.56.56%tap0 port 17310 connected with 192.168.56.10 port 5001 (sock=20) (icwnd/mss/irtt=0/76/53) (ct=0.13 ms) on 2023-08-08 11:30:13.382 (UTC)
+[ 14] local 192.168.56.56%tap0 port 17348 connected with 192.168.56.10 port 5001 (sock=12) (icwnd/mss/irtt=0/76/70) (ct=0.09 ms) on 2023-08-08 11:30:13.384 (UTC)
+[ 10] local 192.168.56.56%tap0 port 17358 connected with 192.168.56.10 port 5001 (sock=13) (icwnd/mss/irtt=0/76/62) (ct=0.08 ms) on 2023-08-08 11:30:13.384 (UTC)
+[  6] NUM_REPORT_STRUCTS override from 10000 to 20000
+[  2] NUM_REPORT_STRUCTS override from 10000 to 20000
+[  5] NUM_REPORT_STRUCTS override from 10000 to 20000
+[  4] NUM_REPORT_STRUCTS override from 10000 to 20000
+[  3] NUM_REPORT_STRUCTS override from 10000 to 20000
+[ 11] NUM_REPORT_STRUCTS override from 10000 to 20000
+[  7] NUM_REPORT_STRUCTS override from 10000 to 20000
+[ 13] NUM_REPORT_STRUCTS override from 10000 to 20000
+[  9] NUM_REPORT_STRUCTS override from 10000 to 20000
+[  1] NUM_REPORT_STRUCTS override from 10000 to 20000
+[ 15] NUM_REPORT_STRUCTS override from 10000 to 20000
+[ 16] NUM_REPORT_STRUCTS override from 10000 to 20000
+[ 12] NUM_REPORT_STRUCTS override from 10000 to 20000
+[  8] NUM_REPORT_STRUCTS override from 10000 to 20000
+[ 14] NUM_REPORT_STRUCTS override from 10000 to 20000
+[ 10] NUM_REPORT_STRUCTS override from 10000 to 20000
+[ ID] Interval        Transfer    Bandwidth       Write/Err  Rtry     Cwnd/RTT(var)        NetPwr
+[  2] 0.00-70.42 sec   940 MBytes   112 Mbits/sec  7700977/0    210569        5K/68(10) us  205856
+[  4] 0.00-70.42 sec   922 MBytes   110 Mbits/sec  7552870/0    209618        4K/1004(1819) us  13674
+[ 11] 0.00-70.42 sec   896 MBytes   107 Mbits/sec  7342202/0    208790        7K/91(14) us  146662
+[ 13] 0.00-70.42 sec   896 MBytes   107 Mbits/sec  7344108/0    208431        7K/1024(1837) us  13037
+[  1] 0.00-70.42 sec   945 MBytes   113 Mbits/sec  7737574/0    210953        2K/129(91) us  109032
+[ 16] 0.00-70.41 sec   940 MBytes   112 Mbits/sec  7699529/0    222995        4K/117(36) us  119630
+[  8] 0.00-70.41 sec   922 MBytes   110 Mbits/sec  7550297/0    208938        5K/1016(1833) us  13509
+[ 10] 0.00-70.41 sec   945 MBytes   113 Mbits/sec  7741799/0    214161        3K/1010(1808) us  13934
+[  5] 0.00-70.42 sec   922 MBytes   110 Mbits/sec  7549020/0    210118        4K/1002(1819) us  13695
+[  3] 0.00-70.42 sec   944 MBytes   112 Mbits/sec  7736209/0    218785        3K/114(40) us  123354
+[  9] 0.00-70.42 sec   931 MBytes   111 Mbits/sec  7628973/0    225917        3K/1035(1863) us  13399
+[ 12] 0.00-70.41 sec   922 MBytes   110 Mbits/sec  7552205/0    213408        3K/1024(1835) us  13407
+[  6] 0.00-70.42 sec   923 MBytes   110 Mbits/sec  7564867/0    210977        4K/1094(1886) us  12569
+[  7] 0.00-70.42 sec   937 MBytes   112 Mbits/sec  7678500/0    215808        6K/1054(1877) us  13243
+[ 14] 0.00-70.41 sec   924 MBytes   110 Mbits/sec  7569492/0    209906       10K/1045(1825) us  13168
+[ 15] 0.00-70.41 sec   924 MBytes   110 Mbits/sec  7565390/0    208141       66K/46(9) us  298972
+[SUM] 0.00-70.41 sec  14.5 GBytes  1.77 Gbits/sec  121514012/0   3407515
+[ CT] final connect times (min/avg/max/stdev) = 0.073/0.181/0.588/126.627 ms (tot/err) = 16/0
+=====================================================================
+Ending simulation with cpusnort 1 psize 128 tcpflows 16 rules 0
+Starting simulation with cpusnort 1 psize 256 tcpflows 16 rules 0
+=====================================================================
+------------------------------------------------------------
+Client connecting to 192.168.56.10, TCP port 5001 with pid 16220 (16 flows)
+Write buffer size:  256 Byte
+TOS set to 0x0 (Nagle on)
+TCP window size: 16.0 KByte (default)
+------------------------------------------------------------
+[  1] local 192.168.56.56%tap0 port 56172 connected with 192.168.56.10 port 5001 (sock=4) (icwnd/mss/irtt=1/204/122) (ct=0.15 ms) on 2023-08-08 11:31:29.455 (UTC)
+[  9] local 192.168.56.56%tap0 port 56208 connected with 192.168.56.10 port 5001 (sock=11) (icwnd/mss/irtt=1/204/155) (ct=0.47 ms) on 2023-08-08 11:31:29.455 (UTC)
+[ 13] local 192.168.56.56%tap0 port 56228 connected with 192.168.56.10 port 5001 (sock=14) (icwnd/mss/irtt=1/204/139) (ct=0.69 ms) on 2023-08-08 11:31:29.455 (UTC)
+[  2] local 192.168.56.56%tap0 port 56184 connected with 192.168.56.10 port 5001 (sock=7) (icwnd/mss/irtt=1/204/111) (ct=0.13 ms) on 2023-08-08 11:31:29.455 (UTC)
+[  3] local 192.168.56.56%tap0 port 56180 connected with 192.168.56.10 port 5001 (sock=6) (icwnd/mss/irtt=1/204/110) (ct=0.79 ms) on 2023-08-08 11:31:29.455 (UTC)
+[  4] local 192.168.56.56%tap0 port 56192 connected with 192.168.56.10 port 5001 (sock=8) (icwnd/mss/irtt=1/204/115) (ct=0.51 ms) on 2023-08-08 11:31:29.455 (UTC)
+[  7] local 192.168.56.56%tap0 port 56198 connected with 192.168.56.10 port 5001 (sock=9) (icwnd/mss/irtt=1/204/118) (ct=1.01 ms) on 2023-08-08 11:31:29.455 (UTC)
+[  5] local 192.168.56.56%tap0 port 56224 connected with 192.168.56.10 port 5001 (sock=13) (icwnd/mss/irtt=1/204/151) (ct=1.05 ms) on 2023-08-08 11:31:29.455 (UTC)
+[  6] local 192.168.56.56%tap0 port 56206 connected with 192.168.56.10 port 5001 (sock=10) (icwnd/mss/irtt=1/204/159) (ct=1.26 ms) on 2023-08-08 11:31:29.455 (UTC)
+[ 12] local 192.168.56.56%tap0 port 56222 connected with 192.168.56.10 port 5001 (sock=12) (icwnd/mss/irtt=1/204/149) (ct=1.39 ms) on 2023-08-08 11:31:29.455 (UTC)
+[  8] local 192.168.56.56%tap0 port 56254 connected with 192.168.56.10 port 5001 (sock=18) (icwnd/mss/irtt=1/204/79) (ct=0.12 ms) on 2023-08-08 11:31:29.457 (UTC)
+[ 14] local 192.168.56.56%tap0 port 56234 connected with 192.168.56.10 port 5001 (sock=15) (icwnd/mss/irtt=1/204/141) (ct=1.60 ms) on 2023-08-08 11:31:29.455 (UTC)
+[ 11] local 192.168.56.56%tap0 port 56174 connected with 192.168.56.10 port 5001 (sock=5) (icwnd/mss/irtt=1/204/109) (ct=1.78 ms) on 2023-08-08 11:31:29.455 (UTC)
+[ 15] local 192.168.56.56%tap0 port 56244 connected with 192.168.56.10 port 5001 (sock=17) (icwnd/mss/irtt=1/204/133) (ct=1.84 ms) on 2023-08-08 11:31:29.455 (UTC)
+[ 10] local 192.168.56.56%tap0 port 56170 connected with 192.168.56.10 port 5001 (sock=3) (icwnd/mss/irtt=1/204/115) (ct=2.12 ms) on 2023-08-08 11:31:29.455 (UTC)
+[ 16] local 192.168.56.56%tap0 port 56260 connected with 192.168.56.10 port 5001 (sock=19) (icwnd/mss/irtt=1/204/59) (ct=0.21 ms) on 2023-08-08 11:31:29.457 (UTC)
+[  1] NUM_REPORT_STRUCTS override from 10000 to 20000
+[  9] NUM_REPORT_STRUCTS override from 10000 to 20000
+[  6] NUM_REPORT_STRUCTS override from 10000 to 20000
+[  4] NUM_REPORT_STRUCTS override from 10000 to 20000
+[ 11] NUM_REPORT_STRUCTS override from 10000 to 20000
+[ 10] NUM_REPORT_STRUCTS override from 10000 to 20000
+[ 13] NUM_REPORT_STRUCTS override from 10000 to 20000
+[  7] NUM_REPORT_STRUCTS override from 10000 to 20000
+[  3] NUM_REPORT_STRUCTS override from 10000 to 20000
+[ 12] NUM_REPORT_STRUCTS override from 10000 to 20000
+[ 14] NUM_REPORT_STRUCTS override from 10000 to 20000
+[ 16] NUM_REPORT_STRUCTS override from 10000 to 20000
+[ 15] NUM_REPORT_STRUCTS override from 10000 to 20000
+[  5] NUM_REPORT_STRUCTS override from 10000 to 20000
+[  2] NUM_REPORT_STRUCTS override from 10000 to 20000
+[  8] NUM_REPORT_STRUCTS override from 10000 to 20000
+[ ID] Interval        Transfer    Bandwidth       Write/Err  Rtry     Cwnd/RTT(var)        NetPwr
+[ 12] 0.00-70.31 sec  1.76 GBytes   215 Mbits/sec  7377469/0     54995       25K/1479(2780) us  18162
+[ 16] 0.00-70.30 sec  1.77 GBytes   216 Mbits/sec  7422410/0     53750       24K/1236(2234) us  21867
+[  5] 0.00-70.30 sec  1.77 GBytes   216 Mbits/sec  7420113/0     54962       20K/1222(2238) us  22111
+[  1] 0.00-70.31 sec  1.76 GBytes   215 Mbits/sec  7387192/0     52880       22K/1195(2213) us  22508
+[  8] 0.00-70.23 sec  1.77 GBytes   217 Mbits/sec  7427243/0     52347       18K/65(12) us  416533
+[  4] 0.00-70.31 sec  1.77 GBytes   216 Mbits/sec  7418990/0     52578       34K/2376(4595) us  11369
+[ 10] 0.00-70.31 sec  1.74 GBytes   212 Mbits/sec  7291988/0     50231        3K/202(191) us  131442
+[  7] 0.00-70.31 sec  1.76 GBytes   216 Mbits/sec  7399300/0     53328       16K/1217(2265) us  22138
+[ 14] 0.00-70.31 sec  1.74 GBytes   213 Mbits/sec  7307834/0     51215       14K/84(6) us  316780
+[  2] 0.00-70.30 sec  1.72 GBytes   210 Mbits/sec  7217470/0     51246       21K/66(10) us  398214
+[  6] 0.00-70.31 sec  1.69 GBytes   207 Mbits/sec  7096166/0     51696       12K/1317(2289) us  19619
+[ 13] 0.00-70.31 sec  1.73 GBytes   211 Mbits/sec  7237926/0     51034       16K/1469(2770) us  17940
+[ 15] 0.00-70.30 sec  1.74 GBytes   213 Mbits/sec  7301264/0     51669       20K/1226(2219) us  21686
+[ 11] 0.00-70.31 sec  1.71 GBytes   209 Mbits/sec  7159399/0     54061       11K/1198(2223) us  21760
+[  3] 0.00-70.31 sec  1.69 GBytes   207 Mbits/sec  7100376/0     48091       20K/1193(2199) us  21671
+[  9] 0.00-71.31 sec  1.74 GBytes   210 Mbits/sec  7305304/0     51814        8K/5709(11004) us  4594
+[SUM] 0.00-70.30 sec  27.9 GBytes  3.40 Gbits/sec  116870444/0    835897
+[ CT] final connect times (min/avg/max/stdev) = 0.123/0.946/2.117/664.436 ms (tot/err) = 16/0
+=====================================================================
+Ending simulation with cpusnort 1 psize 256 tcpflows 16 rules 0
+Starting simulation with cpusnort 1 psize 512 tcpflows 16 rules 0
+=====================================================================
+------------------------------------------------------------
+Client connecting to 192.168.56.10, TCP port 5001 with pid 16365 (16 flows)
+Write buffer size:  512 Byte
+TOS set to 0x0 (Nagle on)
+TCP window size: 16.0 KByte (default)
+------------------------------------------------------------
+[  8] local 192.168.56.56%tap0 port 31118 connected with 192.168.56.10 port 5001 (sock=3) (icwnd/mss/irtt=4/460/166) (ct=0.21 ms) on 2023-08-08 11:32:45.406 (UTC)
+[  3] local 192.168.56.56%tap0 port 31160 connected with 192.168.56.10 port 5001 (sock=7) (icwnd/mss/irtt=4/460/161) (ct=0.56 ms) on 2023-08-08 11:32:45.406 (UTC)
+[  4] local 192.168.56.56%tap0 port 31168 connected with 192.168.56.10 port 5001 (sock=9) (icwnd/mss/irtt=4/460/158) (ct=0.81 ms) on 2023-08-08 11:32:45.406 (UTC)
+[  5] local 192.168.56.56%tap0 port 31184 connected with 192.168.56.10 port 5001 (sock=11) (icwnd/mss/irtt=4/460/157) (ct=1.04 ms) on 2023-08-08 11:32:45.406 (UTC)
+[  2] local 192.168.56.56%tap0 port 31132 connected with 192.168.56.10 port 5001 (sock=5) (icwnd/mss/irtt=4/460/176) (ct=0.21 ms) on 2023-08-08 11:32:45.406 (UTC)
+[  9] local 192.168.56.56%tap0 port 31148 connected with 192.168.56.10 port 5001 (sock=6) (icwnd/mss/irtt=4/460/156) (ct=0.84 ms) on 2023-08-08 11:32:45.406 (UTC)
+[ 11] local 192.168.56.56%tap0 port 31164 connected with 192.168.56.10 port 5001 (sock=8) (icwnd/mss/irtt=4/460/155) (ct=0.55 ms) on 2023-08-08 11:32:45.406 (UTC)
+[  1] local 192.168.56.56%tap0 port 31206 connected with 192.168.56.10 port 5001 (sock=4) (icwnd/mss/irtt=4/460/160) (ct=1.02 ms) on 2023-08-08 11:32:45.406 (UTC)
+[  7] local 192.168.56.56%tap0 port 31202 connected with 192.168.56.10 port 5001 (sock=13) (icwnd/mss/irtt=4/460/160) (ct=1.28 ms) on 2023-08-08 11:32:45.406 (UTC)
+[  6] local 192.168.56.56%tap0 port 31204 connected with 192.168.56.10 port 5001 (sock=14) (icwnd/mss/irtt=4/460/153) (ct=1.43 ms) on 2023-08-08 11:32:45.406 (UTC)
+[ 15] local 192.168.56.56%tap0 port 31174 connected with 192.168.56.10 port 5001 (sock=10) (icwnd/mss/irtt=4/460/154) (ct=1.44 ms) on 2023-08-08 11:32:45.406 (UTC)
+[ 12] local 192.168.56.56%tap0 port 31214 connected with 192.168.56.10 port 5001 (sock=15) (icwnd/mss/irtt=4/460/197) (ct=1.63 ms) on 2023-08-08 11:32:45.406 (UTC)
+[ 10] local 192.168.56.56%tap0 port 31230 connected with 192.168.56.10 port 5001 (sock=16) (icwnd/mss/irtt=4/460/184) (ct=1.78 ms) on 2023-08-08 11:32:45.406 (UTC)
+[ 16] local 192.168.56.56%tap0 port 31232 connected with 192.168.56.10 port 5001 (sock=17) (icwnd/mss/irtt=4/460/167) (ct=2.05 ms) on 2023-08-08 11:32:45.406 (UTC)
+[ 13] local 192.168.56.56%tap0 port 31192 connected with 192.168.56.10 port 5001 (sock=12) (icwnd/mss/irtt=4/460/153) (ct=1.88 ms) on 2023-08-08 11:32:45.406 (UTC)
+[ 14] local 192.168.56.56%tap0 port 31238 connected with 192.168.56.10 port 5001 (sock=18) (icwnd/mss/irtt=4/460/85) (ct=0.34 ms) on 2023-08-08 11:32:45.408 (UTC)
+[  2] NUM_REPORT_STRUCTS override from 10000 to 20000
+[  4] NUM_REPORT_STRUCTS override from 10000 to 20000
+[ 10] NUM_REPORT_STRUCTS override from 10000 to 20000
+[  9] NUM_REPORT_STRUCTS override from 10000 to 20000
+[  8] NUM_REPORT_STRUCTS override from 10000 to 20000
+[ 14] NUM_REPORT_STRUCTS override from 10000 to 20000
+[  5] NUM_REPORT_STRUCTS override from 10000 to 20000
+[  7] NUM_REPORT_STRUCTS override from 10000 to 20000
+[  6] NUM_REPORT_STRUCTS override from 10000 to 20000
+[ 12] NUM_REPORT_STRUCTS override from 10000 to 20000
+[ 11] NUM_REPORT_STRUCTS override from 10000 to 20000
+[ 16] NUM_REPORT_STRUCTS override from 10000 to 20000
+[  1] NUM_REPORT_STRUCTS override from 10000 to 20000
+[  3] NUM_REPORT_STRUCTS override from 10000 to 20000
+[ 13] NUM_REPORT_STRUCTS override from 10000 to 20000
+[ 15] NUM_REPORT_STRUCTS override from 10000 to 20000
+[ ID] Interval        Transfer    Bandwidth       Write/Err  Rtry     Cwnd/RTT(var)        NetPwr
+[  4] 0.00-70.34 sec  2.99 GBytes   365 Mbits/sec  6268905/0     28684       27K/1611(2954) us  28326
+[  8] 0.00-70.34 sec  2.92 GBytes   356 Mbits/sec  6113866/0     30266       33K/1643(2983) us  27088
+[  5] 0.00-70.34 sec  3.80 GBytes   464 Mbits/sec  7974229/0     37776       29K/1783(3085) us  32556
+[  6] 0.00-70.33 sec  2.98 GBytes   364 Mbits/sec  6252944/0     28330       26K/1687(2973) us  26982
+[ 11] 0.00-70.33 sec  3.00 GBytes   367 Mbits/sec  6300550/0     30359       25K/649(465) us  70674
+[ 13] 0.00-70.32 sec  3.79 GBytes   463 Mbits/sec  7951615/0     35388       51K/1655(3003) us  34982
+[  2] 0.00-70.34 sec  3.78 GBytes   461 Mbits/sec  7916952/0     36472       49K/1612(2987) us  35751
+[ 14] 0.00-70.34 sec  3.69 GBytes   450 Mbits/sec  7731683/0     36271       33K/1601(2981) us  35154
+[ 12] 0.00-70.33 sec  3.80 GBytes   464 Mbits/sec  7965617/0     37805       46K/105(17) us  552246
+[ 16] 0.00-70.33 sec  3.80 GBytes   464 Mbits/sec  7965289/0     36024       41K/1567(2946) us  37005
+[ 15] 0.00-70.32 sec  3.02 GBytes   368 Mbits/sec  6326116/0     28834       52K/1658(3011) us  27781
+[  7] 0.00-70.34 sec  3.80 GBytes   464 Mbits/sec  7960390/0     35486       43K/1594(2956) us  36353
+[ 10] 0.00-70.34 sec  2.99 GBytes   365 Mbits/sec  6260506/0     30617       30K/64(17) us  712068
+[  1] 0.00-70.33 sec  3.00 GBytes   367 Mbits/sec  6295976/0     29120       35K/76(16) us  603068
+[  9] 0.00-70.34 sec  2.92 GBytes   357 Mbits/sec  6125235/0     28738       44K/3449(5829) us  12927
+[  3] 0.00-71.33 sec  3.00 GBytes   361 Mbits/sec  6281307/0     32177       44K/5990(11782) us  7527
+[SUM] 0.00-70.32 sec  53.3 GBytes  6.51 Gbits/sec  111691180/0    522347
+[ CT] final connect times (min/avg/max/stdev) = 0.209/1.067/2.050/601.499 ms (tot/err) = 16/0
+=====================================================================
+Ending simulation with cpusnort 1 psize 512 tcpflows 16 rules 0
+Starting simulation with cpusnort 1 psize 1024 tcpflows 16 rules 0
+=====================================================================
+[  1] local 192.168.56.56%tap0 port 12976 connected with 192.168.56.10 port 5001 (sock=3) (icwnd/mss/irtt=9/972/127) (ct=0.16 ms) on 2023-08-08 11:34:01.422 (UTC)
+[  3] local 192.168.56.56%tap0 port 12998 connected with 192.168.56.10 port 5001 (sock=5) (icwnd/mss/irtt=9/972/112) (ct=0.45 ms) on 2023-08-08 11:34:01.422 (UTC)
+[  6] local 192.168.56.56%tap0 port 13032 connected with 192.168.56.10 port 5001 (sock=8) (icwnd/mss/irtt=9/972/110) (ct=0.77 ms) on 2023-08-08 11:34:01.422 (UTC)
+[  8] local 192.168.56.56%tap0 port 13048 connected with 192.168.56.10 port 5001 (sock=10) (icwnd/mss/irtt=9/972/158) (ct=0.96 ms) on 2023-08-08 11:34:01.422 (UTC)
+[  5] local 192.168.56.56%tap0 port 13020 connected with 192.168.56.10 port 5001 (sock=7) (icwnd/mss/irtt=9/972/108) (ct=0.64 ms) on 2023-08-08 11:34:01.422 (UTC)
+[ 12] local 192.168.56.56%tap0 port 13080 connected with 192.168.56.10 port 5001 (sock=14) (icwnd/mss/irtt=9/972/61) (ct=0.08 ms) on 2023-08-08 11:34:01.423 (UTC)
+[ 14] local 192.168.56.56%tap0 port 13088 connected with 192.168.56.10 port 5001 (sock=16) (icwnd/mss/irtt=9/972/53) (ct=0.27 ms) on 2023-08-08 11:34:01.423 (UTC)
+[  2] local 192.168.56.56%tap0 port 12990 connected with 192.168.56.10 port 5001 (sock=4) (icwnd/mss/irtt=9/972/113) (ct=0.36 ms) on 2023-08-08 11:34:01.422 (UTC)
+[  7] local 192.168.56.56%tap0 port 13040 connected with 192.168.56.10 port 5001 (sock=9) (icwnd/mss/irtt=9/972/107) (ct=0.87 ms) on 2023-08-08 11:34:01.422 (UTC)
+[ 13] local 192.168.56.56%tap0 port 13084 connected with 192.168.56.10 port 5001 (sock=15) (icwnd/mss/irtt=9/972/55) (ct=0.18 ms) on 2023-08-08 11:34:01.423 (UTC)
+[  4] local 192.168.56.56%tap0 port 13012 connected with 192.168.56.10 port 5001 (sock=6) (icwnd/mss/irtt=9/972/110) (ct=0.55 ms) on 2023-08-08 11:34:01.422 (UTC)
+[ 15] local 192.168.56.56%tap0 port 13104 connected with 192.168.56.10 port 5001 (sock=17) (icwnd/mss/irtt=9/972/81) (ct=0.36 ms) on 2023-08-08 11:34:01.423 (UTC)
+[  9] local 192.168.56.56%tap0 port 13054 connected with 192.168.56.10 port 5001 (sock=11) (icwnd/mss/irtt=9/972/155) (ct=1.05 ms) on 2023-08-08 11:34:01.422 (UTC)
+[ 11] local 192.168.56.56%tap0 port 13074 connected with 192.168.56.10 port 5001 (sock=13) (icwnd/mss/irtt=9/972/148) (ct=1.77 ms) on 2023-08-08 11:34:01.422 (UTC)
+[ 10] local 192.168.56.56%tap0 port 13070 connected with 192.168.56.10 port 5001 (sock=12) (icwnd/mss/irtt=9/972/154) (ct=1.92 ms) on 2023-08-08 11:34:01.422 (UTC)
+------------------------------------------------------------
+Client connecting to 192.168.56.10, TCP port 5001 with pid 16518 (16 flows)
+Write buffer size: 1024 Byte
+TOS set to 0x0 (Nagle on)
+TCP window size: 16.0 KByte (default)
+------------------------------------------------------------
+[  1] NUM_REPORT_STRUCTS override from 10000 to 20000
+[  3] NUM_REPORT_STRUCTS override from 10000 to 20000
+[  2] NUM_REPORT_STRUCTS override from 10000 to 20000
+[  4] NUM_REPORT_STRUCTS override from 10000 to 20000
+[  5] NUM_REPORT_STRUCTS override from 10000 to 20000
+[  6] NUM_REPORT_STRUCTS override from 10000 to 20000
+[  7] NUM_REPORT_STRUCTS override from 10000 to 20000
+[  8] NUM_REPORT_STRUCTS override from 10000 to 20000
+[  9] NUM_REPORT_STRUCTS override from 10000 to 20000
+[ 10] NUM_REPORT_STRUCTS override from 10000 to 20000
+[ 11] NUM_REPORT_STRUCTS override from 10000 to 20000
+[ 12] NUM_REPORT_STRUCTS override from 10000 to 20000
+[ 13] NUM_REPORT_STRUCTS override from 10000 to 20000
+[ 16] NUM_REPORT_STRUCTS override from 10000 to 20000
+[ 14] NUM_REPORT_STRUCTS override from 10000 to 20000
+[ 15] NUM_REPORT_STRUCTS override from 10000 to 20000
+[ 16] local 192.168.56.56%tap0 port 13114 connected with 192.168.56.10 port 5001 (sock=18) (icwnd/mss/irtt=9/972/52) (ct=0.07 ms) on 2023-08-08 11:34:01.424 (UTC)
+[ ID] Interval        Transfer    Bandwidth       Write/Err  Rtry     Cwnd/RTT(var)        NetPwr
+[  1] 0.00-70.29 sec  5.70 GBytes   697 Mbits/sec  5980554/0     36046      194K/885(1274) us  98450
+[  2] 0.00-70.29 sec  6.87 GBytes   839 Mbits/sec  7200189/0     41061      137K/180(29) us  582761
+[  5] 0.00-70.29 sec  6.93 GBytes   847 Mbits/sec  7266611/0     42005       63K/1450(2679) us  73010
+[  7] 0.00-70.29 sec  5.65 GBytes   690 Mbits/sec  5924126/0     35418       82K/775(1238) us  111364
+[  9] 0.00-70.29 sec  5.65 GBytes   690 Mbits/sec  5919251/0     35125      112K/140(31) us  615975
+[ 11] 0.00-70.27 sec  5.66 GBytes   692 Mbits/sec  5937448/0     34901       59K/753(1212) us  114899
+[ 13] 0.00-70.27 sec  5.74 GBytes   702 Mbits/sec  6023700/0     34882      103K/78(10) us  1125362
+[ 14] 0.00-70.27 sec  5.63 GBytes   688 Mbits/sec  5905136/0     35239       49K/910(1295) us  94569
+[  3] 0.00-70.29 sec  5.51 GBytes   674 Mbits/sec  5778895/0     33688       62K/756(1160) us  111363
+[  6] 0.00-70.29 sec  6.94 GBytes   848 Mbits/sec  7273363/0     39371      615K/880(1206) us  120413
+[ 10] 0.00-70.27 sec  6.89 GBytes   843 Mbits/sec  7229477/0     39884      866K/786(1233) us  134028
+[ 16] 0.00-70.27 sec  5.77 GBytes   705 Mbits/sec  6049829/0     34323       76K/734(1242) us  120115
+[  4] 0.00-70.29 sec  5.66 GBytes   692 Mbits/sec  5935608/0     32289      108K/758(1217) us  114082
+[ 12] 0.00-70.27 sec  6.83 GBytes   835 Mbits/sec  7160767/0     42634       75K/742(1220) us  140627
+[  8] 0.00-70.29 sec  6.76 GBytes   827 Mbits/sec  7092826/0     40832       73K/812(1263) us  127259
+[ 15] 0.00-70.25 sec  6.89 GBytes   843 Mbits/sec  7225789/0     39765       94K/711(1201) us  148134
+[SUM] 0.00-70.28 sec  99.1 GBytes  12.1 Gbits/sec  103903569/0    597463
+[ CT] final connect times (min/avg/max/stdev) = 0.068/0.654/1.924/559.448 ms (tot/err) = 16/0
+=====================================================================
+Ending simulation with cpusnort 1 psize 1024 tcpflows 16 rules 0
+Starting simulation with cpusnort 2 psize 128 tcpflows 1 rules 0
+=====================================================================
+------------------------------------------------------------
+Client connecting to 192.168.56.10, TCP port 5001 with pid 16663 (1 flows)
+Write buffer size:  128 Byte
+TOS set to 0x0 (Nagle on)
+TCP window size: 16.0 KByte (default)
+------------------------------------------------------------
+[  1] NUM_REPORT_STRUCTS override from 10000 to 20000
+[  1] local 192.168.56.56%tap0 port 57730 connected with 192.168.56.10 port 5001 (sock=3) (icwnd/mss/irtt=0/76/137) (ct=0.20 ms) on 2023-08-08 11:35:17.368 (UTC)
+[ ID] Interval        Transfer    Bandwidth       Write/Err  Rtry     Cwnd/RTT(var)        NetPwr
+[  1] 0.00-70.40 sec  6.61 GBytes   807 Mbits/sec  55487145/0    935916       70K/102(9) us  989051
+=====================================================================
+Ending simulation with cpusnort 2 psize 128 tcpflows 1 rules 0
+Starting simulation with cpusnort 2 psize 256 tcpflows 1 rules 0
+=====================================================================
+------------------------------------------------------------
+Client connecting to 192.168.56.10, TCP port 5001 with pid 16768 (1 flows)
+Write buffer size:  256 Byte
+TOS set to 0x0 (Nagle on)
+TCP window size: 16.0 KByte (default)
+------------------------------------------------------------
+[  1] NUM_REPORT_STRUCTS override from 10000 to 20000
+[  1] local 192.168.56.56%tap0 port 42790 connected with 192.168.56.10 port 5001 (sock=3) (icwnd/mss/irtt=1/204/108) (ct=0.14 ms) on 2023-08-08 11:36:33.404 (UTC)
+[ ID] Interval        Transfer    Bandwidth       Write/Err  Rtry     Cwnd/RTT(var)        NetPwr
+[  1] 0.00-70.34 sec  12.3 GBytes  1.50 Gbits/sec  51508409/0    330381       11K/52(5) us  3604982
+=====================================================================
+Ending simulation with cpusnort 2 psize 256 tcpflows 1 rules 0
+Starting simulation with cpusnort 2 psize 512 tcpflows 1 rules 0
+=====================================================================
+------------------------------------------------------------
+Client connecting to 192.168.56.10, TCP port 5001 with pid 16885 (1 flows)
+Write buffer size:  512 Byte
+TOS set to 0x0 (Nagle on)
+TCP window size: 16.0 KByte (default)
+------------------------------------------------------------
+[  1] NUM_REPORT_STRUCTS override from 10000 to 20000
+[  1] local 192.168.56.56%tap0 port 47118 connected with 192.168.56.10 port 5001 (sock=3) (icwnd/mss/irtt=4/460/155) (ct=0.28 ms) on 2023-08-08 11:37:49.407 (UTC)
+[ ID] Interval        Transfer    Bandwidth       Write/Err  Rtry     Cwnd/RTT(var)        NetPwr
+[  1] 0.00-70.32 sec  21.1 GBytes  2.58 Gbits/sec  44334413/0    232780       19K/48(5) us  6724554
+=====================================================================
+Ending simulation with cpusnort 2 psize 512 tcpflows 1 rules 0
+Starting simulation with cpusnort 2 psize 1024 tcpflows 1 rules 0
+=====================================================================
+------------------------------------------------------------
+Client connecting to 192.168.56.10, TCP port 5001 with pid 17002 (1 flows)
+Write buffer size: 1024 Byte
+TOS set to 0x0 (Nagle on)
+TCP window size: 16.0 KByte (default)
+------------------------------------------------------------
+[  1] NUM_REPORT_STRUCTS override from 10000 to 20000
+[  1] local 192.168.56.56%tap0 port 18080 connected with 192.168.56.10 port 5001 (sock=3) (icwnd/mss/irtt=9/972/143) (ct=0.20 ms) on 2023-08-08 11:39:05.376 (UTC)
+[ ID] Interval        Transfer    Bandwidth       Write/Err  Rtry     Cwnd/RTT(var)        NetPwr
+[  1] 0.00-70.38 sec  32.8 GBytes  4.00 Gbits/sec  34400196/0    105261       54K/60(3) us  8342265
+=====================================================================
+Ending simulation with cpusnort 2 psize 1024 tcpflows 1 rules 0
+Starting simulation with cpusnort 2 psize 128 tcpflows 2 rules 0
+=====================================================================
+------------------------------------------------------------
+Client connecting to 192.168.56.10, TCP port 5001 with pid 17121 (2 flows)
+Write buffer size:  128 Byte
+TOS set to 0x0 (Nagle on)
+TCP window size: 16.0 KByte (default)
+------------------------------------------------------------
+[  2] local 192.168.56.56%tap0 port 10300 connected with 192.168.56.10 port 5001 (sock=3) (icwnd/mss/irtt=0/76/128) (ct=0.23 ms) on 2023-08-08 11:40:21.403 (UTC)
+[  1] local 192.168.56.56%tap0 port 10310 connected with 192.168.56.10 port 5001 (sock=4) (icwnd/mss/irtt=0/76/160) (ct=0.38 ms) on 2023-08-08 11:40:21.403 (UTC)
+[  1] NUM_REPORT_STRUCTS override from 10000 to 20000
+[  2] NUM_REPORT_STRUCTS override from 10000 to 20000
+[ ID] Interval        Transfer    Bandwidth       Write/Err  Rtry     Cwnd/RTT(var)        NetPwr
+[  1] 0.00-70.34 sec  7.10 GBytes   867 Mbits/sec  59537878/0   1062297        5K/77(30) us  1407101
+[  2] 0.00-70.34 sec  7.17 GBytes   875 Mbits/sec  60136134/0   1049143      213K/65(13) us  1683623
+[SUM] 0.00-70.33 sec  14.3 GBytes  1.74 Gbits/sec  119674012/0   2111440
+[ CT] final connect times (min/avg/max/stdev) = 0.228/0.306/0.385/111.016 ms (tot/err) = 2/0
+=====================================================================
+Ending simulation with cpusnort 2 psize 128 tcpflows 2 rules 0
+Starting simulation with cpusnort 2 psize 256 tcpflows 2 rules 0
+=====================================================================
+------------------------------------------------------------
+Client connecting to 192.168.56.10, TCP port 5001 with pid 17234 (2 flows)
+Write buffer size:  256 Byte
+TOS set to 0x0 (Nagle on)
+TCP window size: 16.0 KByte (default)
+------------------------------------------------------------
+[  1] NUM_REPORT_STRUCTS override from 10000 to 20000
+[  1] local 192.168.56.56%tap0 port 21192 connected with 192.168.56.10 port 5001 (sock=3) (icwnd/mss/irtt=1/204/120) (ct=0.15 ms) on 2023-08-08 11:41:37.415 (UTC)
+[  2] local 192.168.56.56%tap0 port 21206 connected with 192.168.56.10 port 5001 (sock=4) (icwnd/mss/irtt=1/204/104) (ct=0.13 ms) on 2023-08-08 11:41:37.415 (UTC)
+[  2] NUM_REPORT_STRUCTS override from 10000 to 20000
+[ ID] Interval        Transfer    Bandwidth       Write/Err  Rtry     Cwnd/RTT(var)        NetPwr
+[  1] 0.00-70.34 sec  13.5 GBytes  1.65 Gbits/sec  56789458/0    545314       73K/85(9) us  2431549
+[  2] 0.00-70.34 sec  13.6 GBytes  1.66 Gbits/sec  57127426/0    553117       21K/94(22) us  2211829
+[SUM] 0.00-70.33 sec  27.2 GBytes  3.32 Gbits/sec  113916884/0   1098431
+[ CT] final connect times (min/avg/max/stdev) = 0.133/0.144/0.155/15.556 ms (tot/err) = 2/0
+=====================================================================
+Ending simulation with cpusnort 2 psize 256 tcpflows 2 rules 0
+Starting simulation with cpusnort 2 psize 512 tcpflows 2 rules 0
+=====================================================================
+------------------------------------------------------------
+Client connecting to 192.168.56.10, TCP port 5001 with pid 17346 (2 flows)
+Write buffer size:  512 Byte
+TOS set to 0x0 (Nagle on)
+TCP window size: 16.0 KByte (default)
+------------------------------------------------------------
+[  1] NUM_REPORT_STRUCTS override from 10000 to 20000
+[  1] local 192.168.56.56%tap0 port 57724 connected with 192.168.56.10 port 5001 (sock=3) (icwnd/mss/irtt=4/460/151) (ct=0.19 ms) on 2023-08-08 11:42:53.404 (UTC)
+[  2] local 192.168.56.56%tap0 port 57734 connected with 192.168.56.10 port 5001 (sock=4) (icwnd/mss/irtt=4/460/127) (ct=0.15 ms) on 2023-08-08 11:42:53.404 (UTC)
+[  2] NUM_REPORT_STRUCTS override from 10000 to 20000
+[ ID] Interval        Transfer    Bandwidth       Write/Err  Rtry     Cwnd/RTT(var)        NetPwr
+[  1] 0.00-70.35 sec  25.3 GBytes  3.09 Gbits/sec  53109244/0    323993       38K/57(7) us  6780640
+[  2] 0.00-70.35 sec  25.5 GBytes  3.11 Gbits/sec  53383103/0    326643       29K/89(30) us  4365056
+[SUM] 0.00-70.34 sec  50.8 GBytes  6.20 Gbits/sec  106492347/0    650636
+[ CT] final connect times (min/avg/max/stdev) = 0.155/0.173/0.191/25.456 ms (tot/err) = 2/0
+=====================================================================
+Ending simulation with cpusnort 2 psize 512 tcpflows 2 rules 0
+Starting simulation with cpusnort 2 psize 1024 tcpflows 2 rules 0
+=====================================================================
+------------------------------------------------------------
+Client connecting to 192.168.56.10, TCP port 5001 with pid 17460 (2 flows)
+Write buffer size: 1024 Byte
+TOS set to 0x0 (Nagle on)
+TCP window size: 16.0 KByte (default)
+------------------------------------------------------------
+[  1] NUM_REPORT_STRUCTS override from 10000 to 20000
+[  1] local 192.168.56.56%tap0 port 29888 connected with 192.168.56.10 port 5001 (sock=4) (icwnd/mss/irtt=9/972/127) (ct=0.18 ms) on 2023-08-08 11:44:09.378 (UTC)
+[  2] local 192.168.56.56%tap0 port 29886 connected with 192.168.56.10 port 5001 (sock=3) (icwnd/mss/irtt=9/972/156) (ct=0.22 ms) on 2023-08-08 11:44:09.378 (UTC)
+[  2] NUM_REPORT_STRUCTS override from 10000 to 20000
+[ ID] Interval        Transfer    Bandwidth       Write/Err  Rtry     Cwnd/RTT(var)        NetPwr
+[  1] 0.00-70.36 sec  42.0 GBytes  5.12 Gbits/sec  44013045/0    213978      116K/74(15) us  8655959
+[  2] 0.00-70.36 sec  42.0 GBytes  5.13 Gbits/sec  44031117/0    214085       75K/83(16) us  7720544
+[SUM] 0.00-70.35 sec  84.0 GBytes  10.3 Gbits/sec  88044162/0    428063
+[ CT] final connect times (min/avg/max/stdev) = 0.179/0.201/0.223/31.113 ms (tot/err) = 2/0
+=====================================================================
+Ending simulation with cpusnort 2 psize 1024 tcpflows 2 rules 0
+Starting simulation with cpusnort 2 psize 128 tcpflows 4 rules 0
+=====================================================================
+------------------------------------------------------------
+Client connecting to 192.168.56.10, TCP port 5001 with pid 17579 (4 flows)
+Write buffer size:  128 Byte
+TOS set to 0x0 (Nagle on)
+TCP window size: 16.0 KByte (default)
+------------------------------------------------------------
+[  1] local 192.168.56.56%tap0 port 37440 connected with 192.168.56.10 port 5001 (sock=4) (icwnd/mss/irtt=0/76/110) (ct=0.13 ms) on 2023-08-08 11:45:25.367 (UTC)
+[  2] local 192.168.56.56%tap0 port 37428 connected with 192.168.56.10 port 5001 (sock=3) (icwnd/mss/irtt=0/76/156) (ct=0.20 ms) on 2023-08-08 11:45:25.367 (UTC)
+[  4] local 192.168.56.56%tap0 port 37458 connected with 192.168.56.10 port 5001 (sock=8) (icwnd/mss/irtt=0/76/76) (ct=0.10 ms) on 2023-08-08 11:45:25.367 (UTC)
+[  3] local 192.168.56.56%tap0 port 37448 connected with 192.168.56.10 port 5001 (sock=7) (icwnd/mss/irtt=0/76/65) (ct=0.57 ms) on 2023-08-08 11:45:25.367 (UTC)
+[  2] NUM_REPORT_STRUCTS override from 10000 to 20000
+[  4] NUM_REPORT_STRUCTS override from 10000 to 20000
+[  1] NUM_REPORT_STRUCTS override from 10000 to 20000
+[  3] NUM_REPORT_STRUCTS override from 10000 to 20000
+[ ID] Interval        Transfer    Bandwidth       Write/Err  Rtry     Cwnd/RTT(var)        NetPwr
+[  4] 0.00-70.23 sec  3.67 GBytes   448 Mbits/sec  30750338/0    636794        7K/892(1156) us  62834
+[  3] 0.00-70.22 sec  3.67 GBytes   449 Mbits/sec  30782218/0    615567       84K/122(7) us  459899
+[  1] 0.00-70.23 sec  3.68 GBytes   450 Mbits/sec  30832904/0    634207       78K/144(8) us  390274
+[  2] 0.00-70.26 sec  3.67 GBytes   449 Mbits/sec  30803303/0    624028       47K/314(438) us  178723
+[SUM] 0.00-70.22 sec  14.7 GBytes  1.80 Gbits/sec  123168763/0   2510596
+[ CT] final connect times (min/avg/max/stdev) = 0.103/0.249/0.567/215.304 ms (tot/err) = 4/0
+=====================================================================
+Ending simulation with cpusnort 2 psize 128 tcpflows 4 rules 0
+Starting simulation with cpusnort 2 psize 256 tcpflows 4 rules 0
+=====================================================================
+------------------------------------------------------------
+Client connecting to 192.168.56.10, TCP port 5001 with pid 17677 (4 flows)
+Write buffer size:  256 Byte
+TOS set to 0x0 (Nagle on)
+TCP window size: 16.0 KByte (default)
+------------------------------------------------------------
+[  1] local 192.168.56.56%tap0 port 31052 connected with 192.168.56.10 port 5001 (sock=3) (icwnd/mss/irtt=1/204/154) (ct=0.19 ms) on 2023-08-08 11:46:41.244 (UTC)
+[  2] local 192.168.56.56%tap0 port 31054 connected with 192.168.56.10 port 5001 (sock=4) (icwnd/mss/irtt=1/204/169) (ct=0.20 ms) on 2023-08-08 11:46:41.244 (UTC)
+[  3] local 192.168.56.56%tap0 port 31068 connected with 192.168.56.10 port 5001 (sock=5) (icwnd/mss/irtt=1/204/151) (ct=0.57 ms) on 2023-08-08 11:46:41.244 (UTC)
+[  1] NUM_REPORT_STRUCTS override from 10000 to 20000
+[  2] NUM_REPORT_STRUCTS override from 10000 to 20000
+[  3] NUM_REPORT_STRUCTS override from 10000 to 20000
+[  4] local 192.168.56.56%tap0 port 31080 connected with 192.168.56.10 port 5001 (sock=6) (icwnd/mss/irtt=1/204/137) (ct=0.73 ms) on 2023-08-08 11:46:41.244 (UTC)
+[  4] NUM_REPORT_STRUCTS override from 10000 to 20000
+[ ID] Interval        Transfer    Bandwidth       Write/Err  Rtry     Cwnd/RTT(var)        NetPwr
+[  4] 0.00-70.22 sec  7.13 GBytes   873 Mbits/sec  29922202/0    240200       12K/176(188) us  619814
+[  3] 0.00-70.25 sec  7.11 GBytes   869 Mbits/sec  29821244/0    245887        7K/96(28) us  1132078
+[  1] 0.00-70.25 sec  7.16 GBytes   876 Mbits/sec  30051683/0    252242       37K/92(21) us  1190417
+[  2] 0.00-70.25 sec  7.16 GBytes   876 Mbits/sec  30045594/0    252741      219K/119(47) us  920137
+[SUM] 0.00-70.23 sec  28.6 GBytes  3.49 Gbits/sec  119840723/0    991070
+[ CT] final connect times (min/avg/max/stdev) = 0.186/0.419/0.730/272.696 ms (tot/err) = 4/0
+=====================================================================
+Ending simulation with cpusnort 2 psize 256 tcpflows 4 rules 0
+Starting simulation with cpusnort 2 psize 512 tcpflows 4 rules 0
+=====================================================================
+------------------------------------------------------------
+Client connecting to 192.168.56.10, TCP port 5001 with pid 17780 (4 flows)
+Write buffer size:  512 Byte
+TOS set to 0x0 (Nagle on)
+TCP window size: 16.0 KByte (default)
+------------------------------------------------------------
+[  3] local 192.168.56.56%tap0 port 43114 connected with 192.168.56.10 port 5001 (sock=4) (icwnd/mss/irtt=4/460/129) (ct=0.16 ms) on 2023-08-08 11:47:57.114 (UTC)
+[  1] local 192.168.56.56%tap0 port 43120 connected with 192.168.56.10 port 5001 (sock=5) (icwnd/mss/irtt=4/460/123) (ct=0.21 ms) on 2023-08-08 11:47:57.114 (UTC)
+[  2] local 192.168.56.56%tap0 port 43104 connected with 192.168.56.10 port 5001 (sock=3) (icwnd/mss/irtt=4/460/144) (ct=0.18 ms) on 2023-08-08 11:47:57.114 (UTC)
+[  4] NUM_REPORT_STRUCTS override from 10000 to 20000
+[  1] NUM_REPORT_STRUCTS override from 10000 to 20000
+[  3] NUM_REPORT_STRUCTS override from 10000 to 20000
+[  4] local 192.168.56.56%tap0 port 43124 connected with 192.168.56.10 port 5001 (sock=6) (icwnd/mss/irtt=4/460/132) (ct=0.61 ms) on 2023-08-08 11:47:57.114 (UTC)
+[  2] NUM_REPORT_STRUCTS override from 10000 to 20000
+[ ID] Interval        Transfer    Bandwidth       Write/Err  Rtry     Cwnd/RTT(var)        NetPwr
+[  3] 0.00-70.38 sec  13.6 GBytes  1.66 Gbits/sec  28508615/0    166331       45K/74(13) us  2802580
+[  2] 0.00-70.38 sec  13.7 GBytes  1.67 Gbits/sec  28729556/0    167154       37K/124(19) us  1685482
+[  1] 0.00-70.38 sec  13.6 GBytes  1.66 Gbits/sec  28601157/0    167395       27K/85(12) us  2447811
+[  4] 0.00-70.38 sec  13.1 GBytes  1.59 Gbits/sec  27387659/0    166413       18K/2016(3860) us  98827
+[SUM] 0.00-70.37 sec  54.0 GBytes  6.59 Gbits/sec  113226987/0    667293
+[ CT] final connect times (min/avg/max/stdev) = 0.158/0.290/0.607/212.272 ms (tot/err) = 4/0
+=====================================================================
+Ending simulation with cpusnort 2 psize 512 tcpflows 4 rules 0
+Starting simulation with cpusnort 2 psize 1024 tcpflows 4 rules 0
+=====================================================================
+------------------------------------------------------------
+Client connecting to 192.168.56.10, TCP port 5001 with pid 17910 (4 flows)
+Write buffer size: 1024 Byte
+TOS set to 0x0 (Nagle on)
+TCP window size: 16.0 KByte (default)
+------------------------------------------------------------
+[  1] local 192.168.56.56%tap0 port 45866 connected with 192.168.56.10 port 5001 (sock=3) (icwnd/mss/irtt=9/972/145) (ct=0.18 ms) on 2023-08-08 11:49:13.133 (UTC)
+[  3] local 192.168.56.56%tap0 port 45868 connected with 192.168.56.10 port 5001 (sock=4) (icwnd/mss/irtt=9/972/164) (ct=0.20 ms) on 2023-08-08 11:49:13.133 (UTC)
+[  2] local 192.168.56.56%tap0 port 45888 connected with 192.168.56.10 port 5001 (sock=5) (icwnd/mss/irtt=9/972/132) (ct=0.54 ms) on 2023-08-08 11:49:13.133 (UTC)
+[  4] local 192.168.56.56%tap0 port 45902 connected with 192.168.56.10 port 5001 (sock=6) (icwnd/mss/irtt=9/972/94) (ct=0.66 ms) on 2023-08-08 11:49:13.133 (UTC)
+[  1] NUM_REPORT_STRUCTS override from 10000 to 20000
+[  3] NUM_REPORT_STRUCTS override from 10000 to 20000
+[  2] NUM_REPORT_STRUCTS override from 10000 to 20000
+[  4] NUM_REPORT_STRUCTS override from 10000 to 20000
+[ ID] Interval        Transfer    Bandwidth       Write/Err  Rtry     Cwnd/RTT(var)        NetPwr
+[  1] 0.00-70.37 sec  24.6 GBytes  3.01 Gbits/sec  25818643/0    151047      378K/201(11) us  1869215
+[  3] 0.00-70.37 sec  24.3 GBytes  2.96 Gbits/sec  25449901/0    154983      825K/612(38) us  605141
+[  4] 0.00-70.37 sec  24.2 GBytes  2.96 Gbits/sec  25425729/0    156837      818K/603(33) us  613594
+[  2] 0.00-70.37 sec  23.8 GBytes  2.90 Gbits/sec  24911196/0    147890       64K/156(90) us  2323770
+[SUM] 0.00-70.36 sec  96.9 GBytes  11.8 Gbits/sec  101605469/0    610757
+[ CT] final connect times (min/avg/max/stdev) = 0.180/0.395/0.662/244.351 ms (tot/err) = 4/0
+=====================================================================
+Ending simulation with cpusnort 2 psize 1024 tcpflows 4 rules 0
+Starting simulation with cpusnort 2 psize 128 tcpflows 8 rules 0
+=====================================================================
+------------------------------------------------------------
+Client connecting to 192.168.56.10, TCP port 5001 with pid 18026 (8 flows)
+Write buffer size:  128 Byte
+TOS set to 0x0 (Nagle on)
+TCP window size: 16.0 KByte (default)
+------------------------------------------------------------
+[  4] local 192.168.56.56%tap0 port 30776 connected with 192.168.56.10 port 5001 (sock=5) (icwnd/mss/irtt=0/76/118) (ct=0.14 ms) on 2023-08-08 11:50:29.145 (UTC)
+[  1] local 192.168.56.56%tap0 port 30762 connected with 192.168.56.10 port 5001 (sock=3) (icwnd/mss/irtt=0/76/145) (ct=0.18 ms) on 2023-08-08 11:50:29.145 (UTC)
+[  3] local 192.168.56.56%tap0 port 30792 connected with 192.168.56.10 port 5001 (sock=6) (icwnd/mss/irtt=0/76/111) (ct=0.55 ms) on 2023-08-08 11:50:29.145 (UTC)
+[  6] local 192.168.56.56%tap0 port 30816 connected with 192.168.56.10 port 5001 (sock=8) (icwnd/mss/irtt=0/76/106) (ct=0.45 ms) on 2023-08-08 11:50:29.145 (UTC)
+[  5] local 192.168.56.56%tap0 port 30802 connected with 192.168.56.10 port 5001 (sock=7) (icwnd/mss/irtt=0/76/108) (ct=0.81 ms) on 2023-08-08 11:50:29.145 (UTC)
+[  2] local 192.168.56.56%tap0 port 30756 connected with 192.168.56.10 port 5001 (sock=4) (icwnd/mss/irtt=0/76/123) (ct=0.99 ms) on 2023-08-08 11:50:29.145 (UTC)
+[  7] local 192.168.56.56%tap0 port 30828 connected with 192.168.56.10 port 5001 (sock=9) (icwnd/mss/irtt=0/76/66) (ct=1.11 ms) on 2023-08-08 11:50:29.145 (UTC)
+[  8] local 192.168.56.56%tap0 port 30830 connected with 192.168.56.10 port 5001 (sock=10) (icwnd/mss/irtt=0/76/56) (ct=0.08 ms) on 2023-08-08 11:50:29.146 (UTC)
+[  4] NUM_REPORT_STRUCTS override from 10000 to 20000
+[  5] NUM_REPORT_STRUCTS override from 10000 to 20000
+[  1] NUM_REPORT_STRUCTS override from 10000 to 20000
+[  2] NUM_REPORT_STRUCTS override from 10000 to 20000
+[  3] NUM_REPORT_STRUCTS override from 10000 to 20000
+[  7] NUM_REPORT_STRUCTS override from 10000 to 20000
+[  6] NUM_REPORT_STRUCTS override from 10000 to 20000
+[  8] NUM_REPORT_STRUCTS override from 10000 to 20000
+[ ID] Interval        Transfer    Bandwidth       Write/Err  Rtry     Cwnd/RTT(var)        NetPwr
+[  5] 0.00-70.39 sec  1.81 GBytes   220 Mbits/sec  15144079/0    417347       12K/1751(2889) us  15728
+[  1] 0.00-70.39 sec  1.86 GBytes   227 Mbits/sec  15591045/0    441546      105K/2572(4228) us  11023
+[  3] 0.00-70.39 sec  1.80 GBytes   220 Mbits/sec  15115914/0    432665       34K/737(381) us  37298
+[  6] 0.00-70.39 sec  1.85 GBytes   226 Mbits/sec  15528213/0    439678      243K/117(38) us  241357
+[  4] 0.00-70.39 sec  1.80 GBytes   219 Mbits/sec  15079890/0    427575      334K/110(30) us  249297
+[  2] 0.00-70.39 sec  1.80 GBytes   220 Mbits/sec  15137529/0    423370        4K/53(4) us  519392
+[  8] 0.00-70.38 sec  1.80 GBytes   220 Mbits/sec  15132367/0    440162       30K/217(69) us  126823
+[  7] 0.00-70.39 sec  1.85 GBytes   226 Mbits/sec  15512389/0    436312       42K/1574(2870) us  17922
+[SUM] 0.00-70.38 sec  14.6 GBytes  1.78 Gbits/sec  122241426/0   3458655
+[ CT] final connect times (min/avg/max/stdev) = 0.076/0.539/1.111/399.790 ms (tot/err) = 8/0
+=====================================================================
+Ending simulation with cpusnort 2 psize 128 tcpflows 8 rules 0
+Starting simulation with cpusnort 2 psize 256 tcpflows 8 rules 0
+=====================================================================
+------------------------------------------------------------
+Client connecting to 192.168.56.10, TCP port 5001 with pid 18129 (8 flows)
+Write buffer size:  256 Byte
+TOS set to 0x0 (Nagle on)
+TCP window size: 16.0 KByte (default)
+------------------------------------------------------------
+[  1] local 192.168.56.56%tap0 port 14324 connected with 192.168.56.10 port 5001 (sock=4) (icwnd/mss/irtt=1/204/134) (ct=0.17 ms) on 2023-08-08 11:51:45.150 (UTC)
+[  2] local 192.168.56.56%tap0 port 14332 connected with 192.168.56.10 port 5001 (sock=6) (icwnd/mss/irtt=1/204/130) (ct=0.56 ms) on 2023-08-08 11:51:45.150 (UTC)
+[  6] local 192.168.56.56%tap0 port 14336 connected with 192.168.56.10 port 5001 (sock=7) (icwnd/mss/irtt=1/204/136) (ct=0.76 ms) on 2023-08-08 11:51:45.150 (UTC)
+[  4] local 192.168.56.56%tap0 port 14314 connected with 192.168.56.10 port 5001 (sock=3) (icwnd/mss/irtt=1/204/159) (ct=0.19 ms) on 2023-08-08 11:51:45.150 (UTC)
+[  7] local 192.168.56.56%tap0 port 14344 connected with 192.168.56.10 port 5001 (sock=8) (icwnd/mss/irtt=1/204/132) (ct=0.91 ms) on 2023-08-08 11:51:45.150 (UTC)
+[  5] local 192.168.56.56%tap0 port 14326 connected with 192.168.56.10 port 5001 (sock=5) (icwnd/mss/irtt=1/204/132) (ct=0.57 ms) on 2023-08-08 11:51:45.150 (UTC)
+[  3] local 192.168.56.56%tap0 port 14352 connected with 192.168.56.10 port 5001 (sock=9) (icwnd/mss/irtt=1/204/136) (ct=0.92 ms) on 2023-08-08 11:51:45.150 (UTC)
+[  8] local 192.168.56.56%tap0 port 14354 connected with 192.168.56.10 port 5001 (sock=10) (icwnd/mss/irtt=1/204/145) (ct=1.18 ms) on 2023-08-08 11:51:45.150 (UTC)
+[  6] NUM_REPORT_STRUCTS override from 10000 to 20000
+[  5] NUM_REPORT_STRUCTS override from 10000 to 20000
+[  1] NUM_REPORT_STRUCTS override from 10000 to 20000
+[  7] NUM_REPORT_STRUCTS override from 10000 to 20000
+[  4] NUM_REPORT_STRUCTS override from 10000 to 20000
+[  3] NUM_REPORT_STRUCTS override from 10000 to 20000
+[  2] NUM_REPORT_STRUCTS override from 10000 to 20000
+[  8] NUM_REPORT_STRUCTS override from 10000 to 20000
+[ ID] Interval        Transfer    Bandwidth       Write/Err  Rtry     Cwnd/RTT(var)        NetPwr
+[  3] 0.00-70.34 sec  3.55 GBytes   433 Mbits/sec  14873898/0    118576       13K/511(846) us  105938
+[  8] 0.00-70.30 sec  3.57 GBytes   436 Mbits/sec  14970945/0    122938       10K/119(23) us  458147
+[  1] 0.00-70.34 sec  3.65 GBytes   446 Mbits/sec  15307113/0    119886       18K/536(830) us  103937
+[  4] 0.00-70.34 sec  3.66 GBytes   447 Mbits/sec  15343252/0    124466       24K/670(852) us  83347
+[  2] 0.00-70.34 sec  3.55 GBytes   433 Mbits/sec  14870007/0    122057       72K/747(1001) us  72451
+[  6] 0.00-70.36 sec  3.56 GBytes   435 Mbits/sec  14945997/0    117721       11K/110(41) us  494391
+[  7] 0.00-70.37 sec  3.66 GBytes   447 Mbits/sec  15357316/0    118167       12K/673(1028) us  83013
+[  5] 0.00-70.37 sec  3.64 GBytes   444 Mbits/sec  15257155/0    118470       13K/1137(1975) us  48815
+[SUM] 0.00-70.34 sec  28.8 GBytes  3.52 Gbits/sec  120925683/0    962281
+[ CT] final connect times (min/avg/max/stdev) = 0.167/0.659/1.184/357.409 ms (tot/err) = 8/0
+=====================================================================
+Ending simulation with cpusnort 2 psize 256 tcpflows 8 rules 0
+Starting simulation with cpusnort 2 psize 512 tcpflows 8 rules 0
+=====================================================================
+------------------------------------------------------------
+Client connecting to 192.168.56.10, TCP port 5001 with pid 18243 (8 flows)
+Write buffer size:  512 Byte
+TOS set to 0x0 (Nagle on)
+TCP window size: 16.0 KByte (default)
+------------------------------------------------------------
+[  3] local 192.168.56.56%tap0 port 10060 connected with 192.168.56.10 port 5001 (sock=3) (icwnd/mss/irtt=4/460/153) (ct=0.19 ms) on 2023-08-08 11:53:01.114 (UTC)
+[  1] local 192.168.56.56%tap0 port 10068 connected with 192.168.56.10 port 5001 (sock=4) (icwnd/mss/irtt=4/460/170) (ct=0.20 ms) on 2023-08-08 11:53:01.114 (UTC)
+[  4] local 192.168.56.56%tap0 port 10078 connected with 192.168.56.10 port 5001 (sock=5) (icwnd/mss/irtt=4/460/148) (ct=0.57 ms) on 2023-08-08 11:53:01.114 (UTC)
+[  2] local 192.168.56.56%tap0 port 10116 connected with 192.168.56.10 port 5001 (sock=9) (icwnd/mss/irtt=4/460/140) (ct=0.58 ms) on 2023-08-08 11:53:01.114 (UTC)
+[  5] local 192.168.56.56%tap0 port 10092 connected with 192.168.56.10 port 5001 (sock=6) (icwnd/mss/irtt=4/460/142) (ct=0.82 ms) on 2023-08-08 11:53:01.114 (UTC)
+[  6] local 192.168.56.56%tap0 port 10100 connected with 192.168.56.10 port 5001 (sock=7) (icwnd/mss/irtt=4/460/136) (ct=0.87 ms) on 2023-08-08 11:53:01.114 (UTC)
+[  7] local 192.168.56.56%tap0 port 10114 connected with 192.168.56.10 port 5001 (sock=8) (icwnd/mss/irtt=4/460/135) (ct=1.06 ms) on 2023-08-08 11:53:01.114 (UTC)
+[  8] local 192.168.56.56%tap0 port 10132 connected with 192.168.56.10 port 5001 (sock=10) (icwnd/mss/irtt=4/460/158) (ct=1.07 ms) on 2023-08-08 11:53:01.114 (UTC)
+[  1] NUM_REPORT_STRUCTS override from 10000 to 20000
+[  7] NUM_REPORT_STRUCTS override from 10000 to 20000
+[  6] NUM_REPORT_STRUCTS override from 10000 to 20000
+[  4] NUM_REPORT_STRUCTS override from 10000 to 20000
+[  8] NUM_REPORT_STRUCTS override from 10000 to 20000
+[  5] NUM_REPORT_STRUCTS override from 10000 to 20000
+[  3] NUM_REPORT_STRUCTS override from 10000 to 20000
+[  2] NUM_REPORT_STRUCTS override from 10000 to 20000
+[ ID] Interval        Transfer    Bandwidth       Write/Err  Rtry     Cwnd/RTT(var)        NetPwr
+[  3] 0.00-70.29 sec  7.02 GBytes   858 Mbits/sec  14721444/0     87686       36K/170(61) us  630806
+[  7] 0.00-70.29 sec  6.81 GBytes   832 Mbits/sec  14272270/0     82561       35K/297(362) us  350043
+[  8] 0.00-70.29 sec  6.82 GBytes   833 Mbits/sec  14299922/0     85309       57K/246(117) us  423436
+[  1] 0.00-70.29 sec  7.00 GBytes   856 Mbits/sec  14689085/0     89481       95K/315(208) us  339679
+[  4] 0.00-70.32 sec  6.91 GBytes   844 Mbits/sec  14481913/0     82427       26K/82(23) us  1285883
+[  2] 0.00-70.29 sec  6.79 GBytes   830 Mbits/sec  14245582/0     88693      134K/57(12) us  1820335
+[  5] 0.00-70.32 sec  6.88 GBytes   840 Mbits/sec  14425361/0     85594       30K/242(180) us  434014
+[  6] 0.00-70.32 sec  6.83 GBytes   834 Mbits/sec  14322952/0     85345       60K/1081(1902) us  96471
+[SUM] 0.00-70.29 sec  55.1 GBytes  6.73 Gbits/sec  115458529/0    687096
+[ CT] final connect times (min/avg/max/stdev) = 0.191/0.670/1.068/347.351 ms (tot/err) = 8/0
+=====================================================================
+Ending simulation with cpusnort 2 psize 512 tcpflows 8 rules 0
+Starting simulation with cpusnort 2 psize 1024 tcpflows 8 rules 0
+=====================================================================
+------------------------------------------------------------
+Client connecting to 192.168.56.10, TCP port 5001 with pid 18353 (8 flows)
+Write buffer size: 1024 Byte
+TOS set to 0x0 (Nagle on)
+TCP window size: 16.0 KByte (default)
+------------------------------------------------------------
+[  5] local 192.168.56.56%tap0 port 12068 connected with 192.168.56.10 port 5001 (sock=4) (icwnd/mss/irtt=9/972/146) (ct=0.18 ms) on 2023-08-08 11:54:17.030 (UTC)
+[  6] local 192.168.56.56%tap0 port 12078 connected with 192.168.56.10 port 5001 (sock=6) (icwnd/mss/irtt=9/972/146) (ct=0.57 ms) on 2023-08-08 11:54:17.030 (UTC)
+[  7] local 192.168.56.56%tap0 port 12096 connected with 192.168.56.10 port 5001 (sock=7) (icwnd/mss/irtt=9/972/150) (ct=0.83 ms) on 2023-08-08 11:54:17.030 (UTC)
+[  1] local 192.168.56.56%tap0 port 12070 connected with 192.168.56.10 port 5001 (sock=3) (icwnd/mss/irtt=9/972/170) (ct=0.21 ms) on 2023-08-08 11:54:17.030 (UTC)
+[  2] local 192.168.56.56%tap0 port 12082 connected with 192.168.56.10 port 5001 (sock=5) (icwnd/mss/irtt=9/972/155) (ct=0.85 ms) on 2023-08-08 11:54:17.030 (UTC)
+[  4] local 192.168.56.56%tap0 port 12104 connected with 192.168.56.10 port 5001 (sock=8) (icwnd/mss/irtt=9/972/160) (ct=0.55 ms) on 2023-08-08 11:54:17.030 (UTC)
+[  3] local 192.168.56.56%tap0 port 12110 connected with 192.168.56.10 port 5001 (sock=9) (icwnd/mss/irtt=9/972/142) (ct=1.07 ms) on 2023-08-08 11:54:17.030 (UTC)
+[  8] local 192.168.56.56%tap0 port 12116 connected with 192.168.56.10 port 5001 (sock=10) (icwnd/mss/irtt=9/972/159) (ct=1.10 ms) on 2023-08-08 11:54:17.030 (UTC)
+[  1] NUM_REPORT_STRUCTS override from 10000 to 20000
+[  2] NUM_REPORT_STRUCTS override from 10000 to 20000
+[  4] NUM_REPORT_STRUCTS override from 10000 to 20000
+[  3] NUM_REPORT_STRUCTS override from 10000 to 20000
+[  7] NUM_REPORT_STRUCTS override from 10000 to 20000
+[  6] NUM_REPORT_STRUCTS override from 10000 to 20000
+[  5] NUM_REPORT_STRUCTS override from 10000 to 20000
+[  8] NUM_REPORT_STRUCTS override from 10000 to 20000
+[ ID] Interval        Transfer    Bandwidth       Write/Err  Rtry     Cwnd/RTT(var)        NetPwr
+[  6] 0.00-70.24 sec  12.5 GBytes  1.53 Gbits/sec  13106936/0    101965       37K/224(132) us  853092
+[  2] 0.00-70.24 sec  12.5 GBytes  1.53 Gbits/sec  13084967/0    104552      200K/162(30) us  1177593
+[  8] 0.00-70.21 sec  12.5 GBytes  1.53 Gbits/sec  13109335/0    104123       96K/225(125) us  849798
+[  4] 0.00-70.24 sec  12.6 GBytes  1.54 Gbits/sec  13166200/0    103801      588K/323(138) us  594288
+[  1] 0.00-70.27 sec  12.3 GBytes  1.51 Gbits/sec  12939654/0    103883       50K/1033(1730) us  182541
+[  3] 0.00-70.27 sec  12.2 GBytes  1.49 Gbits/sec  12821213/0    102302       54K/123(25) us  1519028
+[  5] 0.00-70.27 sec  12.4 GBytes  1.51 Gbits/sec  12961551/0     99937       20K/50(3) us  3777742
+[  7] 0.00-70.27 sec  12.6 GBytes  1.54 Gbits/sec  13236538/0     99882       49K/82(9) us  2352355
+[SUM] 0.00-70.26 sec  99.6 GBytes  12.2 Gbits/sec  104426394/0    820445
+[ CT] final connect times (min/avg/max/stdev) = 0.185/0.668/1.102/353.640 ms (tot/err) = 8/0
+=====================================================================
+Ending simulation with cpusnort 2 psize 1024 tcpflows 8 rules 0
+Starting simulation with cpusnort 2 psize 128 tcpflows 16 rules 0
+=====================================================================
+------------------------------------------------------------
+Client connecting to 192.168.56.10, TCP port 5001 with pid 18473 (16 flows)
+Write buffer size:  128 Byte
+TOS set to 0x0 (Nagle on)
+TCP window size: 16.0 KByte (default)
+------------------------------------------------------------
+[  3] local 192.168.56.56%tap0 port 34422 connected with 192.168.56.10 port 5001 (sock=4) (icwnd/mss/irtt=0/76/184) (ct=0.26 ms) on 2023-08-08 11:55:32.922 (UTC)
+[  7] local 192.168.56.56%tap0 port 34474 connected with 192.168.56.10 port 5001 (sock=10) (icwnd/mss/irtt=0/76/164) (ct=0.55 ms) on 2023-08-08 11:55:32.922 (UTC)
+[  5] local 192.168.56.56%tap0 port 34456 connected with 192.168.56.10 port 5001 (sock=8) (icwnd/mss/irtt=0/76/155) (ct=0.84 ms) on 2023-08-08 11:55:32.922 (UTC)
+[  8] local 192.168.56.56%tap0 port 34486 connected with 192.168.56.10 port 5001 (sock=11) (icwnd/mss/irtt=0/76/170) (ct=1.10 ms) on 2023-08-08 11:55:32.922 (UTC)
+[  2] local 192.168.56.56%tap0 port 34530 connected with 192.168.56.10 port 5001 (sock=13) (icwnd/mss/irtt=0/76/199) (ct=1.28 ms) on 2023-08-08 11:55:32.923 (UTC)
+[ 12] local 192.168.56.56%tap0 port 34420 connected with 192.168.56.10 port 5001 (sock=3) (icwnd/mss/irtt=0/76/162) (ct=0.21 ms) on 2023-08-08 11:55:32.922 (UTC)
+[  9] local 192.168.56.56%tap0 port 34462 connected with 192.168.56.10 port 5001 (sock=9) (icwnd/mss/irtt=0/76/165) (ct=0.84 ms) on 2023-08-08 11:55:32.922 (UTC)
+[  4] local 192.168.56.56%tap0 port 34436 connected with 192.168.56.10 port 5001 (sock=5) (icwnd/mss/irtt=0/76/157) (ct=1.41 ms) on 2023-08-08 11:55:32.922 (UTC)
+[ 13] local 192.168.56.56%tap0 port 34440 connected with 192.168.56.10 port 5001 (sock=6) (icwnd/mss/irtt=0/76/164) (ct=0.59 ms) on 2023-08-08 11:55:32.922 (UTC)
+[  1] local 192.168.56.56%tap0 port 34454 connected with 192.168.56.10 port 5001 (sock=7) (icwnd/mss/irtt=0/76/150) (ct=1.13 ms) on 2023-08-08 11:55:32.922 (UTC)
+[ 14] local 192.168.56.56%tap0 port 34502 connected with 192.168.56.10 port 5001 (sock=12) (icwnd/mss/irtt=0/76/207) (ct=1.55 ms) on 2023-08-08 11:55:32.922 (UTC)
+[ 10] local 192.168.56.56%tap0 port 34514 connected with 192.168.56.10 port 5001 (sock=14) (icwnd/mss/irtt=0/76/194) (ct=1.69 ms) on 2023-08-08 11:55:32.923 (UTC)
+[ 11] local 192.168.56.56%tap0 port 34534 connected with 192.168.56.10 port 5001 (sock=15) (icwnd/mss/irtt=0/76/194) (ct=1.71 ms) on 2023-08-08 11:55:32.923 (UTC)
+[ 16] local 192.168.56.56%tap0 port 34536 connected with 192.168.56.10 port 5001 (sock=17) (icwnd/mss/irtt=0/76/81) (ct=0.29 ms) on 2023-08-08 11:55:32.924 (UTC)
+[  6] local 192.168.56.56%tap0 port 34538 connected with 192.168.56.10 port 5001 (sock=18) (icwnd/mss/irtt=0/76/66) (ct=0.09 ms) on 2023-08-08 11:55:32.925 (UTC)
+[ 15] local 192.168.56.56%tap0 port 34548 connected with 192.168.56.10 port 5001 (sock=19) (icwnd/mss/irtt=0/76/53) (ct=0.27 ms) on 2023-08-08 11:55:32.925 (UTC)
+[  3] NUM_REPORT_STRUCTS override from 10000 to 20000
+[  7] NUM_REPORT_STRUCTS override from 10000 to 20000
+[ 12] NUM_REPORT_STRUCTS override from 10000 to 20000
+[ 14] NUM_REPORT_STRUCTS override from 10000 to 20000
+[  5] NUM_REPORT_STRUCTS override from 10000 to 20000
+[  4] NUM_REPORT_STRUCTS override from 10000 to 20000
+[  1] NUM_REPORT_STRUCTS override from 10000 to 20000
+[  8] NUM_REPORT_STRUCTS override from 10000 to 20000
+[ 15] NUM_REPORT_STRUCTS override from 10000 to 20000
+[ 16] NUM_REPORT_STRUCTS override from 10000 to 20000
+[ 13] NUM_REPORT_STRUCTS override from 10000 to 20000
+[  9] NUM_REPORT_STRUCTS override from 10000 to 20000
+[ 10] NUM_REPORT_STRUCTS override from 10000 to 20000
+[  2] NUM_REPORT_STRUCTS override from 10000 to 20000
+[ 11] NUM_REPORT_STRUCTS override from 10000 to 20000
+[  6] NUM_REPORT_STRUCTS override from 10000 to 20000
+[ ID] Interval        Transfer    Bandwidth       Write/Err  Rtry     Cwnd/RTT(var)        NetPwr
+[  7] 0.00-70.29 sec   750 MBytes  89.5 Mbits/sec  6142790/0    208807       34K/392(172) us  28537
+[ 12] 0.00-70.29 sec   749 MBytes  89.4 Mbits/sec  6136015/0    206384       17K/1327(1713) us  8421
+[  5] 0.00-70.29 sec   751 MBytes  89.6 Mbits/sec  6153214/0    202265      197K/1069(1679) us  10482
+[  1] 0.00-70.29 sec  1.20 GBytes   146 Mbits/sec  10048413/0    314118       26K/1180(1571) us  15508
+[ 15] 0.00-70.28 sec   749 MBytes  89.4 Mbits/sec  6136223/0    212425      185K/163(21) us  68560
+[ 10] 0.00-70.28 sec   753 MBytes  89.8 Mbits/sec  6165573/0    207197        7K/996(1607) us  11275
+[ 11] 0.00-70.28 sec   752 MBytes  89.8 Mbits/sec  6164427/0    205703       74K/1035(743) us  10848
+[  3] 0.00-70.29 sec  1.19 GBytes   146 Mbits/sec  9996528/0    319980      179K/1395(1091) us  13050
+[ 14] 0.00-70.29 sec  1.21 GBytes   148 Mbits/sec  10130241/0    328418       32K/916(133) us  20140
+[  8] 0.00-70.29 sec  1.21 GBytes   148 Mbits/sec  10126697/0    317519      134K/1635(1325) us  11280
+[  2] 0.00-70.28 sec  1.21 GBytes   148 Mbits/sec  10155290/0    313427       18K/1084(1641) us  17063
+[  4] 0.00-70.29 sec   747 MBytes  89.1 Mbits/sec  6117264/0    207846       16K/1309(1677) us  8511
+[  6] 0.00-70.28 sec   747 MBytes  89.2 Mbits/sec  6120043/0    207030        8K/1045(1671) us  10667
+[ 16] 0.00-70.28 sec   753 MBytes  89.8 Mbits/sec  6165697/0    203815       27K/457(172) us  24572
+[  9] 0.00-70.33 sec   749 MBytes  89.3 Mbits/sec  6134818/0    215039      212K/926(1468) us  12058
+[ 13] 0.00-70.33 sec  1.21 GBytes   148 Mbits/sec  10132100/0    329157       69K/1661(3102) us  11103
+[SUM] 0.00-70.28 sec  14.5 GBytes  1.78 Gbits/sec  122025333/0   3999130
+[ CT] final connect times (min/avg/max/stdev) = 0.085/0.863/1.712/560.821 ms (tot/err) = 16/0
+=====================================================================
+Ending simulation with cpusnort 2 psize 128 tcpflows 16 rules 0
+Starting simulation with cpusnort 2 psize 256 tcpflows 16 rules 0
+=====================================================================
+------------------------------------------------------------
+Client connecting to 192.168.56.10, TCP port 5001 with pid 18599 (16 flows)
+Write buffer size:  256 Byte
+TOS set to 0x0 (Nagle on)
+TCP window size: 16.0 KByte (default)
+------------------------------------------------------------
+[  8] local 192.168.56.56%tap0 port 60582 connected with 192.168.56.10 port 5001 (sock=4) (icwnd/mss/irtt=1/204/117) (ct=0.15 ms) on 2023-08-08 11:56:48.892 (UTC)
+[ 12] local 192.168.56.56%tap0 port 60676 connected with 192.168.56.10 port 5001 (sock=12) (icwnd/mss/irtt=1/204/168) (ct=0.46 ms) on 2023-08-08 11:56:48.892 (UTC)
+[  7] local 192.168.56.56%tap0 port 60716 connected with 192.168.56.10 port 5001 (sock=17) (icwnd/mss/irtt=1/204/167) (ct=0.69 ms) on 2023-08-08 11:56:48.892 (UTC)
+[  6] local 192.168.56.56%tap0 port 60680 connected with 192.168.56.10 port 5001 (sock=13) (icwnd/mss/irtt=1/204/170) (ct=0.97 ms) on 2023-08-08 11:56:48.892 (UTC)
+[  5] local 192.168.56.56%tap0 port 60608 connected with 192.168.56.10 port 5001 (sock=7) (icwnd/mss/irtt=1/204/120) (ct=1.28 ms) on 2023-08-08 11:56:48.892 (UTC)
+[  2] local 192.168.56.56%tap0 port 60664 connected with 192.168.56.10 port 5001 (sock=11) (icwnd/mss/irtt=1/204/159) (ct=1.48 ms) on 2023-08-08 11:56:48.892 (UTC)
+[  3] local 192.168.56.56%tap0 port 60638 connected with 192.168.56.10 port 5001 (sock=9) (icwnd/mss/irtt=1/204/123) (ct=0.14 ms) on 2023-08-08 11:56:48.892 (UTC)
+[ 13] local 192.168.56.56%tap0 port 60678 connected with 192.168.56.10 port 5001 (sock=14) (icwnd/mss/irtt=1/204/162) (ct=0.72 ms) on 2023-08-08 11:56:48.892 (UTC)
+[ 10] local 192.168.56.56%tap0 port 60622 connected with 192.168.56.10 port 5001 (sock=8) (icwnd/mss/irtt=1/204/113) (ct=1.27 ms) on 2023-08-08 11:56:48.892 (UTC)
+[  4] local 192.168.56.56%tap0 port 60704 connected with 192.168.56.10 port 5001 (sock=16) (icwnd/mss/irtt=1/204/174) (ct=0.43 ms) on 2023-08-08 11:56:48.892 (UTC)
+[  9] local 192.168.56.56%tap0 port 60598 connected with 192.168.56.10 port 5001 (sock=6) (icwnd/mss/irtt=1/204/113) (ct=1.53 ms) on 2023-08-08 11:56:48.892 (UTC)
+[ 11] local 192.168.56.56%tap0 port 60650 connected with 192.168.56.10 port 5001 (sock=10) (icwnd/mss/irtt=1/204/120) (ct=1.00 ms) on 2023-08-08 11:56:48.892 (UTC)
+[  1] local 192.168.56.56%tap0 port 60586 connected with 192.168.56.10 port 5001 (sock=5) (icwnd/mss/irtt=1/204/132) (ct=1.82 ms) on 2023-08-08 11:56:48.892 (UTC)
+[ 14] local 192.168.56.56%tap0 port 60698 connected with 192.168.56.10 port 5001 (sock=15) (icwnd/mss/irtt=1/204/164) (ct=1.90 ms) on 2023-08-08 11:56:48.892 (UTC)
+[ 16] local 192.168.56.56%tap0 port 60724 connected with 192.168.56.10 port 5001 (sock=18) (icwnd/mss/irtt=1/204/63) (ct=0.08 ms) on 2023-08-08 11:56:48.894 (UTC)
+[ 15] local 192.168.56.56%tap0 port 60732 connected with 192.168.56.10 port 5001 (sock=3) (icwnd/mss/irtt=1/204/75) (ct=0.22 ms) on 2023-08-08 11:56:48.894 (UTC)
+[  1] NUM_REPORT_STRUCTS override from 10000 to 20000
+[  3] NUM_REPORT_STRUCTS override from 10000 to 20000
+[  9] NUM_REPORT_STRUCTS override from 10000 to 20000
+[  8] NUM_REPORT_STRUCTS override from 10000 to 20000
+[ 13] NUM_REPORT_STRUCTS override from 10000 to 20000
+[  4] NUM_REPORT_STRUCTS override from 10000 to 20000
+[ 12] NUM_REPORT_STRUCTS override from 10000 to 20000
+[  5] NUM_REPORT_STRUCTS override from 10000 to 20000
+[  7] NUM_REPORT_STRUCTS override from 10000 to 20000
+[ 10] NUM_REPORT_STRUCTS override from 10000 to 20000
+[ 11] NUM_REPORT_STRUCTS override from 10000 to 20000
+[  6] NUM_REPORT_STRUCTS override from 10000 to 20000
+[ 15] NUM_REPORT_STRUCTS override from 10000 to 20000
+[  2] NUM_REPORT_STRUCTS override from 10000 to 20000
+[ 14] NUM_REPORT_STRUCTS override from 10000 to 20000
+[ 16] NUM_REPORT_STRUCTS override from 10000 to 20000
+[ ID] Interval        Transfer    Bandwidth       Write/Err  Rtry     Cwnd/RTT(var)        NetPwr
+[ 15] 0.00-70.32 sec  1.77 GBytes   216 Mbits/sec  7417671/0     60860       33K/2057(3789) us  13128
+[  1] 0.00-70.33 sec  1.78 GBytes   218 Mbits/sec  7477103/0     58060       12K/2105(3842) us  12930
+[  9] 0.00-70.33 sec  1.78 GBytes   217 Mbits/sec  7453223/0     57326       31K/2140(3905) us  12678
+[ 16] 0.00-70.23 sec  1.76 GBytes   216 Mbits/sec  7402596/0     55916       19K/241(158) us  111966
+[  8] 0.00-70.33 sec  1.77 GBytes   216 Mbits/sec  7429275/0     60013       22K/1982(3776) us  13645
+[ 12] 0.00-70.32 sec  1.78 GBytes   217 Mbits/sec  7465296/0     58499       55K/269(101) us  101025
+[  7] 0.00-70.32 sec  1.79 GBytes   218 Mbits/sec  7488759/0     61296       19K/90(22) us  302906
+[ 11] 0.00-70.32 sec  1.73 GBytes   211 Mbits/sec  7248942/0     61070       10K/2075(3802) us  12718
+[  2] 0.00-70.32 sec  1.78 GBytes   218 Mbits/sec  7472271/0     62941       11K/59(2) us  461055
+[ 14] 0.00-70.29 sec  1.78 GBytes   217 Mbits/sec  7447882/0     59648       32K/2041(3764) us  13290
+[  5] 0.00-70.32 sec  1.77 GBytes   216 Mbits/sec  7427412/0     59972       13K/2085(3879) us  12968
+[  6] 0.00-70.32 sec  1.79 GBytes   218 Mbits/sec  7499377/0     62604        5K/2161(3833) us  12633
+[ 13] 0.00-70.33 sec  1.80 GBytes   219 Mbits/sec  7536213/0     61027       16K/2139(3821) us  12825
+[ 10] 0.00-70.32 sec  1.78 GBytes   217 Mbits/sec  7453048/0     57723       22K/174(34) us  155929
+[  3] 0.00-70.33 sec  1.78 GBytes   217 Mbits/sec  7446097/0     57362       45K/2143(3799) us  12648
+[  4] 0.00-71.32 sec  1.80 GBytes   216 Mbits/sec  7534992/0     64445       26K/2726(4644) us  9921
+[SUM] 0.00-70.31 sec  28.4 GBytes  3.47 Gbits/sec  119200157/0    958762
+[ CT] final connect times (min/avg/max/stdev) = 0.083/0.885/1.898/612.110 ms (tot/err) = 16/0
+=====================================================================
+Ending simulation with cpusnort 2 psize 256 tcpflows 16 rules 0
+Starting simulation with cpusnort 2 psize 512 tcpflows 16 rules 0
+=====================================================================
+------------------------------------------------------------
+Client connecting to 192.168.56.10, TCP port 5001 with pid 18725 (16 flows)
+Write buffer size:  512 Byte
+TOS set to 0x0 (Nagle on)
+TCP window size: 16.0 KByte (default)
+------------------------------------------------------------
+[  1] local 192.168.56.56%tap0 port 11680 connected with 192.168.56.10 port 5001 (sock=4) (icwnd/mss/irtt=4/460/183) (ct=0.22 ms) on 2023-08-08 11:58:04.869 (UTC)
+[ 12] local 192.168.56.56%tap0 port 11706 connected with 192.168.56.10 port 5001 (sock=7) (icwnd/mss/irtt=4/460/161) (ct=0.55 ms) on 2023-08-08 11:58:04.869 (UTC)
+[ 13] local 192.168.56.56%tap0 port 11722 connected with 192.168.56.10 port 5001 (sock=9) (icwnd/mss/irtt=4/460/166) (ct=0.80 ms) on 2023-08-08 11:58:04.869 (UTC)
+[ 11] local 192.168.56.56%tap0 port 11682 connected with 192.168.56.10 port 5001 (sock=6) (icwnd/mss/irtt=4/460/155) (ct=1.13 ms) on 2023-08-08 11:58:04.869 (UTC)
+[  7] local 192.168.56.56%tap0 port 11768 connected with 192.168.56.10 port 5001 (sock=15) (icwnd/mss/irtt=4/460/248) (ct=1.29 ms) on 2023-08-08 11:58:04.869 (UTC)
+[ 14] local 192.168.56.56%tap0 port 11748 connected with 192.168.56.10 port 5001 (sock=11) (icwnd/mss/irtt=4/460/173) (ct=1.57 ms) on 2023-08-08 11:58:04.869 (UTC)
+[  3] local 192.168.56.56%tap0 port 11716 connected with 192.168.56.10 port 5001 (sock=8) (icwnd/mss/irtt=4/460/166) (ct=1.85 ms) on 2023-08-08 11:58:04.869 (UTC)
+[  2] local 192.168.56.56%tap0 port 11692 connected with 192.168.56.10 port 5001 (sock=5) (icwnd/mss/irtt=4/460/166) (ct=2.15 ms) on 2023-08-08 11:58:04.869 (UTC)
+[ 10] local 192.168.56.56%tap0 port 11664 connected with 192.168.56.10 port 5001 (sock=3) (icwnd/mss/irtt=4/460/155) (ct=0.20 ms) on 2023-08-08 11:58:04.869 (UTC)
+[  8] local 192.168.56.56%tap0 port 11774 connected with 192.168.56.10 port 5001 (sock=16) (icwnd/mss/irtt=4/460/258) (ct=0.75 ms) on 2023-08-08 11:58:04.869 (UTC)
+[  5] local 192.168.56.56%tap0 port 11750 connected with 192.168.56.10 port 5001 (sock=12) (icwnd/mss/irtt=4/460/181) (ct=1.32 ms) on 2023-08-08 11:58:04.869 (UTC)
+[ 15] local 192.168.56.56%tap0 port 11760 connected with 192.168.56.10 port 5001 (sock=13) (icwnd/mss/irtt=4/460/185) (ct=1.80 ms) on 2023-08-08 11:58:04.869 (UTC)
+[  9] local 192.168.56.56%tap0 port 11784 connected with 192.168.56.10 port 5001 (sock=17) (icwnd/mss/irtt=4/460/254) (ct=0.47 ms) on 2023-08-08 11:58:04.869 (UTC)
+[  4] local 192.168.56.56%tap0 port 11736 connected with 192.168.56.10 port 5001 (sock=10) (icwnd/mss/irtt=4/460/171) (ct=1.59 ms) on 2023-08-08 11:58:04.869 (UTC)
+[  6] local 192.168.56.56%tap0 port 11762 connected with 192.168.56.10 port 5001 (sock=14) (icwnd/mss/irtt=4/460/187) (ct=1.06 ms) on 2023-08-08 11:58:04.869 (UTC)
+[ 16] local 192.168.56.56%tap0 port 11786 connected with 192.168.56.10 port 5001 (sock=18) (icwnd/mss/irtt=4/460/107) (ct=0.14 ms) on 2023-08-08 11:58:04.871 (UTC)
+[ 16] NUM_REPORT_STRUCTS override from 10000 to 20000
+[ 10] NUM_REPORT_STRUCTS override from 10000 to 20000
+[ 12] NUM_REPORT_STRUCTS override from 10000 to 20000
+[ 14] NUM_REPORT_STRUCTS override from 10000 to 20000
+[ 11] NUM_REPORT_STRUCTS override from 10000 to 20000
+[  1] NUM_REPORT_STRUCTS override from 10000 to 20000
+[  2] NUM_REPORT_STRUCTS override from 10000 to 20000
+[  5] NUM_REPORT_STRUCTS override from 10000 to 20000
+[  6] NUM_REPORT_STRUCTS override from 10000 to 20000
+[  9] NUM_REPORT_STRUCTS override from 10000 to 20000
+[  3] NUM_REPORT_STRUCTS override from 10000 to 20000
+[  8] NUM_REPORT_STRUCTS override from 10000 to 20000
+[ 13] NUM_REPORT_STRUCTS override from 10000 to 20000
+[ 15] NUM_REPORT_STRUCTS override from 10000 to 20000
+[  7] NUM_REPORT_STRUCTS override from 10000 to 20000
+[  4] NUM_REPORT_STRUCTS override from 10000 to 20000
+[ ID] Interval        Transfer    Bandwidth       Write/Err  Rtry     Cwnd/RTT(var)        NetPwr
+[ 12] 0.00-70.35 sec  2.85 GBytes   348 Mbits/sec  5982753/0     38394       42K/308(180) us  141366
+[  1] 0.00-70.35 sec  2.80 GBytes   341 Mbits/sec  5864493/0     36129       49K/324(325) us  131731
+[  5] 0.00-70.35 sec  2.79 GBytes   340 Mbits/sec  5844322/0     37176       65K/371(363) us  114647
+[  9] 0.00-70.35 sec  2.77 GBytes   339 Mbits/sec  5818859/0     37158      183K/709(403) us  59731
+[  8] 0.00-70.35 sec  2.79 GBytes   340 Mbits/sec  5843151/0     38850       67K/363(357) us  117151
+[ 15] 0.00-70.35 sec  2.86 GBytes   349 Mbits/sec  5997278/0     34900       18K/376(399) us  116086
+[ 16] 0.00-70.35 sec  4.49 GBytes   548 Mbits/sec  9418706/0     56074       70K/387(342) us  177115
+[  6] 0.00-70.35 sec  2.78 GBytes   339 Mbits/sec  5825913/0     36257       47K/354(344) us  119774
+[ 13] 0.00-70.35 sec  4.45 GBytes   543 Mbits/sec  9331730/0     58572       40K/378(367) us  179671
+[ 11] 0.00-70.37 sec  4.50 GBytes   549 Mbits/sec  9429938/0     59656       30K/228(64) us  300936
+[  3] 0.00-70.35 sec  2.78 GBytes   339 Mbits/sec  5822275/0     38479       29K/166(34) us  255264
+[ 14] 0.00-70.38 sec  4.51 GBytes   551 Mbits/sec  9467157/0     59789       56K/935(1454) us  73656
+[  7] 0.00-70.35 sec  2.81 GBytes   343 Mbits/sec  5890134/0     37840      115K/215(15) us  199388
+[ 10] 0.00-70.39 sec  4.52 GBytes   552 Mbits/sec  9488056/0     55953       86K/2629(4697) us  26252
+[  2] 0.00-70.38 sec  4.53 GBytes   553 Mbits/sec  9500244/0     57005      197K/659(826) us  104870
+[  4] 0.00-70.38 sec  2.80 GBytes   341 Mbits/sec  5863136/0     40158       28K/940(1429) us  45375
+[SUM] 0.00-70.35 sec  55.0 GBytes  6.72 Gbits/sec  115388145/0    722390
+[ CT] final connect times (min/avg/max/stdev) = 0.137/1.056/2.152/637.649 ms (tot/err) = 16/0
+=====================================================================
+Ending simulation with cpusnort 2 psize 512 tcpflows 16 rules 0
+Starting simulation with cpusnort 2 psize 1024 tcpflows 16 rules 0
+=====================================================================
+------------------------------------------------------------
+Client connecting to 192.168.56.10, TCP port 5001 with pid 18856 (16 flows)
+Write buffer size: 1024 Byte
+TOS set to 0x0 (Nagle on)
+TCP window size: 16.0 KByte (default)
+------------------------------------------------------------
+[  3] local 192.168.56.56%tap0 port 53448 connected with 192.168.56.10 port 5001 (sock=7) (icwnd/mss/irtt=9/972/129) (ct=0.16 ms) on 2023-08-08 11:59:20.877 (UTC)
+[ 14] local 192.168.56.56%tap0 port 53488 connected with 192.168.56.10 port 5001 (sock=12) (icwnd/mss/irtt=9/972/123) (ct=0.52 ms) on 2023-08-08 11:59:20.877 (UTC)
+[  5] local 192.168.56.56%tap0 port 53506 connected with 192.168.56.10 port 5001 (sock=14) (icwnd/mss/irtt=9/972/160) (ct=0.77 ms) on 2023-08-08 11:59:20.877 (UTC)
+[  4] local 192.168.56.56%tap0 port 53486 connected with 192.168.56.10 port 5001 (sock=11) (icwnd/mss/irtt=9/972/119) (ct=1.05 ms) on 2023-08-08 11:59:20.877 (UTC)
+[  2] local 192.168.56.56%tap0 port 53458 connected with 192.168.56.10 port 5001 (sock=9) (icwnd/mss/irtt=9/972/117) (ct=1.32 ms) on 2023-08-08 11:59:20.877 (UTC)
+[  1] local 192.168.56.56%tap0 port 53428 connected with 192.168.56.10 port 5001 (sock=5) (icwnd/mss/irtt=9/972/142) (ct=1.67 ms) on 2023-08-08 11:59:20.877 (UTC)
+[  8] local 192.168.56.56%tap0 port 53416 connected with 192.168.56.10 port 5001 (sock=4) (icwnd/mss/irtt=9/972/129) (ct=0.18 ms) on 2023-08-08 11:59:20.877 (UTC)
+[ 15] local 192.168.56.56%tap0 port 53490 connected with 192.168.56.10 port 5001 (sock=13) (icwnd/mss/irtt=9/972/155) (ct=0.77 ms) on 2023-08-08 11:59:20.877 (UTC)
+[ 10] local 192.168.56.56%tap0 port 53450 connected with 192.168.56.10 port 5001 (sock=8) (icwnd/mss/irtt=9/972/120) (ct=1.33 ms) on 2023-08-08 11:59:20.877 (UTC)
+[  6] local 192.168.56.56%tap0 port 53524 connected with 192.168.56.10 port 5001 (sock=15) (icwnd/mss/irtt=9/972/160) (ct=0.49 ms) on 2023-08-08 11:59:20.877 (UTC)
+[  9] local 192.168.56.56%tap0 port 53434 connected with 192.168.56.10 port 5001 (sock=6) (icwnd/mss/irtt=9/972/121) (ct=1.63 ms) on 2023-08-08 11:59:20.877 (UTC)
+[ 13] local 192.168.56.56%tap0 port 53470 connected with 192.168.56.10 port 5001 (sock=10) (icwnd/mss/irtt=9/972/121) (ct=1.06 ms) on 2023-08-08 11:59:20.877 (UTC)
+[  7] local 192.168.56.56%tap0 port 53528 connected with 192.168.56.10 port 5001 (sock=16) (icwnd/mss/irtt=9/972/150) (ct=1.77 ms) on 2023-08-08 11:59:20.877 (UTC)
+[ 16] local 192.168.56.56%tap0 port 53520 connected with 192.168.56.10 port 5001 (sock=3) (icwnd/mss/irtt=9/972/159) (ct=2.01 ms) on 2023-08-08 11:59:20.877 (UTC)
+[ 12] local 192.168.56.56%tap0 port 53536 connected with 192.168.56.10 port 5001 (sock=17) (icwnd/mss/irtt=9/972/73) (ct=0.10 ms) on 2023-08-08 11:59:20.879 (UTC)
+[ 11] local 192.168.56.56%tap0 port 53540 connected with 192.168.56.10 port 5001 (sock=18) (icwnd/mss/irtt=9/972/57) (ct=0.31 ms) on 2023-08-08 11:59:20.879 (UTC)
+[  5] NUM_REPORT_STRUCTS override from 10000 to 20000
+[ 14] NUM_REPORT_STRUCTS override from 10000 to 20000
+[  3] NUM_REPORT_STRUCTS override from 10000 to 20000
+[ 10] NUM_REPORT_STRUCTS override from 10000 to 20000
+[ 15] NUM_REPORT_STRUCTS override from 10000 to 20000
+[ 11] NUM_REPORT_STRUCTS override from 10000 to 20000
+[ 13] NUM_REPORT_STRUCTS override from 10000 to 20000
+[ 12] NUM_REPORT_STRUCTS override from 10000 to 20000
+[  6] NUM_REPORT_STRUCTS override from 10000 to 20000
+[ 16] NUM_REPORT_STRUCTS override from 10000 to 20000
+[  9] NUM_REPORT_STRUCTS override from 10000 to 20000
+[  1] NUM_REPORT_STRUCTS override from 10000 to 20000
+[  7] NUM_REPORT_STRUCTS override from 10000 to 20000
+[  8] NUM_REPORT_STRUCTS override from 10000 to 20000
+[  2] NUM_REPORT_STRUCTS override from 10000 to 20000
+[  4] NUM_REPORT_STRUCTS override from 10000 to 20000
+[ ID] Interval        Transfer    Bandwidth       Write/Err  Rtry     Cwnd/RTT(var)        NetPwr
+[ 14] 0.00-70.39 sec  6.43 GBytes   785 Mbits/sec  6746812/0     55967      206K/1326(2027) us  74017
+[ 10] 0.00-70.39 sec  6.57 GBytes   802 Mbits/sec  6887829/0     59530      470K/1327(2083) us  75507
+[ 13] 0.00-70.39 sec  6.65 GBytes   812 Mbits/sec  6974226/0     57402      193K/1892(2924) us  53621
+[  6] 0.00-70.39 sec  5.99 GBytes   731 Mbits/sec  6278287/0     46718      247K/763(154) us  119702
+[  9] 0.00-70.39 sec  6.00 GBytes   732 Mbits/sec  6292211/0     50460       31K/268(41) us  341534
+[  7] 0.00-70.39 sec  6.00 GBytes   732 Mbits/sec  6287845/0     49399      243K/1815(2856) us  50396
+[  2] 0.00-70.39 sec  6.67 GBytes   814 Mbits/sec  6994853/0     56933      275K/1278(2043) us  79623
+[  5] 0.00-70.39 sec  6.28 GBytes   766 Mbits/sec  6585685/0     52148       22K/1333(2044) us  71870
+[ 15] 0.00-70.39 sec  5.92 GBytes   723 Mbits/sec  6212343/0     49800       67K/128(51) us  706031
+[ 12] 0.00-70.39 sec  5.98 GBytes   730 Mbits/sec  6271386/0     50821      252K/1269(1995) us  71893
+[  1] 0.00-70.39 sec  6.47 GBytes   789 Mbits/sec  6782583/0     56370      204K/137(27) us  720216
+[  4] 0.00-70.39 sec  5.95 GBytes   727 Mbits/sec  6243479/0     47991     1524K/257(29) us  353415
+[ 16] 0.00-70.39 sec  6.16 GBytes   752 Mbits/sec  6462394/0     51710       44K/1357(2038) us  69279
+[  8] 0.00-70.39 sec  6.45 GBytes   787 Mbits/sec  6763065/0     56522      133K/1459(2020) us  67434
+[  3] 0.00-70.44 sec  5.85 GBytes   714 Mbits/sec  6135560/0     52673       29K/4370(7979) us  20410
+[ 11] 0.00-70.46 sec  6.68 GBytes   815 Mbits/sec  7009105/0     56249       34K/162(144) us  628824
+[SUM] 0.00-70.38 sec   100 GBytes  12.2 Gbits/sec  104927663/0    850693
+[ CT] final connect times (min/avg/max/stdev) = 0.096/0.945/2.013/628.433 ms (tot/err) = 16/0
+=====================================================================
+Ending simulation with cpusnort 2 psize 1024 tcpflows 16 rules 0
