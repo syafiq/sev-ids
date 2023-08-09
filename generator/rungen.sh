@@ -36,7 +36,7 @@ do
 					echo $line >> $outfile
 					/usr/sbin/ifconfig tap0 mtu $psize
 					$sshguest "/usr/sbin/ifconfig enp0s3 mtu $psize"
-					$taskset --cpu-list 0-1 $iperf -c 192.168.56.10 --NUM_REPORT_STRUCTS 20000 -t 130 -l $psize -P $tcpflows -p 5001 -e >> $outfile &
+					$taskset --cpu-list 0-1 $iperf -c 192.168.56.10 --NUM_REPORT_STRUCTS 20000 -t 140 -l $psize -P $tcpflows -p 5001 -e >> $outfile &
 					/usr/bin/sleep 10
 					$sshguest "ulimit -n 100000"
 					echo $header
@@ -58,7 +58,7 @@ do
 							$sshguest "$taskset --cpu-list 6-7 $snortrun_rules" &
 						fi
 					fi
-					/usr/bin/sleep 60
+					/usr/bin/sleep 120
 					$pkill -SIGINT -f iperf
 		 			$sshguest "$pkill -SIGINT -f snort" 
 					/usr/bin/sleep 5
