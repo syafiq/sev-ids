@@ -29,14 +29,15 @@ do
 					header="Starting simulation with cpusnort $cpusnort psize $psize udppps $udppps rules $rules"
 					line="====================================================================="
 					end="Ending simulation with cpusnort $cpusnort psize $psize udppps $udppps rules $rules"
-					snortrun="$snortbin --daq afpacket -i enp0s3 -z $cpusnort"
+					#snortrun="$snortbin --daq afpacket -i enp0s3 -z $cpusnort"
+					snortrun="$snortbin --daq-dir=/usr/local/lib/daq --daq afpacket -i enp0s3 -z $cpusnort"
 					snortrun_rules="$snortrun -c $snortdir/lua/snort.lua -R $ruledir/community_$rules.rules"
 					ulimit -n 100000
 					echo $header >> $outfile
 					echo $line >> $outfile
 					/usr/sbin/ifconfig tap0 mtu $psize
 					$sshguest "/usr/sbin/ifconfig enp0s3 mtu $psize"
-					$taskset --cpu-list 0-1 $iperf -c 192.168.56.10 --NUM_REPORT_STRUCTS 20000 -t 140 -l $psize -b $udppps -p 5001 -e >> $outfile &
+					$taskset --cpu-list 0-1 $iperf -c 192.168.56.10 --NUM_REPORT_STRUCTS 20000 -t 140 -u -l $psize -b $((udppps))pps -p 5001 -e >> $outfile &
 					/usr/bin/sleep 10
 					$sshguest "ulimit -n 100000"
 					echo $header
