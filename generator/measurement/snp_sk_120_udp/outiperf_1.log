@@ -1,0 +1,600 @@
+Starting simulation with cpusnort 1 psize 128 udppps 100 rules 0
+=====================================================================
+[  1] NUM_REPORT_STRUCTS override from 10000 to 20000
+------------------------------------------------------------
+Client connecting to 192.168.56.10, UDP port 5001 with pid 15416 (1 flows)
+TOS set to 0x0 (Nagle on)
+Sending 128 byte datagrams, IPG target: 10000.00 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  1] local 192.168.56.56%tap0 port 50609 connected with 192.168.56.10 port 5001 (sock=3) on 2023-08-10 08:01:43.037 (UTC)
+[ ID] Interval        Transfer     Bandwidth      Write/Err  PPS
+[  1] 0.00-130.33 sec  1.59 MBytes   102 Kbits/sec  13034/0      100 pps
+[  1] Sent 13036 datagrams
+=====================================================================
+Ending simulation with cpusnort 1 psize 128 udppps 100 rules 0
+Starting simulation with cpusnort 1 psize 256 udppps 100 rules 0
+=====================================================================
+[  1] NUM_REPORT_STRUCTS override from 10000 to 20000
+------------------------------------------------------------
+Client connecting to 192.168.56.10, UDP port 5001 with pid 15611 (1 flows)
+TOS set to 0x0 (Nagle on)
+Sending 256 byte datagrams, IPG target: 10000.00 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  1] local 192.168.56.56%tap0 port 20914 connected with 192.168.56.10 port 5001 (sock=3) on 2023-08-10 08:03:59.046 (UTC)
+[ ID] Interval        Transfer     Bandwidth      Write/Err  PPS
+[  1] 0.00-130.30 sec  3.18 MBytes   205 Kbits/sec  13031/0      100 pps
+[  1] Sent 13033 datagrams
+=====================================================================
+Ending simulation with cpusnort 1 psize 256 udppps 100 rules 0
+Starting simulation with cpusnort 1 psize 512 udppps 100 rules 0
+=====================================================================
+[  1] NUM_REPORT_STRUCTS override from 10000 to 20000
+------------------------------------------------------------
+Client connecting to 192.168.56.10, UDP port 5001 with pid 15776 (1 flows)
+TOS set to 0x0 (Nagle on)
+Sending 512 byte datagrams, IPG target: 10000.00 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  1] local 192.168.56.56%tap0 port 52599 connected with 192.168.56.10 port 5001 (sock=3) on 2023-08-10 08:06:15.017 (UTC)
+[ ID] Interval        Transfer     Bandwidth      Write/Err  PPS
+[  1] 0.00-130.29 sec  6.36 MBytes   410 Kbits/sec  13030/0      100 pps
+[  1] Sent 13032 datagrams
+=====================================================================
+Ending simulation with cpusnort 1 psize 512 udppps 100 rules 0
+Starting simulation with cpusnort 1 psize 1024 udppps 100 rules 0
+=====================================================================
+[  1] NUM_REPORT_STRUCTS override from 10000 to 20000
+------------------------------------------------------------
+Client connecting to 192.168.56.10, UDP port 5001 with pid 15970 (1 flows)
+TOS set to 0x0 (Nagle on)
+Sending 1024 byte datagrams, IPG target: 10000.00 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  1] local 192.168.56.56%tap0 port 32929 connected with 192.168.56.10 port 5001 (sock=3) on 2023-08-10 08:08:30.990 (UTC)
+[ ID] Interval        Transfer     Bandwidth      Write/Err  PPS
+[  1] 0.00-130.32 sec  12.7 MBytes   819 Kbits/sec  13033/0      100 pps
+[  1] Sent 13035 datagrams
+=====================================================================
+Ending simulation with cpusnort 1 psize 1024 udppps 100 rules 0
+Starting simulation with cpusnort 1 psize 128 udppps 1000 rules 0
+=====================================================================
+[  1] NUM_REPORT_STRUCTS override from 10000 to 20000
+------------------------------------------------------------
+Client connecting to 192.168.56.10, UDP port 5001 with pid 16145 (1 flows)
+TOS set to 0x0 (Nagle on)
+Sending 128 byte datagrams, IPG target: 1000.00 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  1] local 192.168.56.56%tap0 port 34160 connected with 192.168.56.10 port 5001 (sock=3) on 2023-08-10 08:10:46.975 (UTC)
+[ ID] Interval        Transfer     Bandwidth      Write/Err  PPS
+[  1] 0.00-130.35 sec  15.9 MBytes  1.02 Mbits/sec  130353/0     1000 pps
+[  1] Sent 130355 datagrams
+=====================================================================
+Ending simulation with cpusnort 1 psize 128 udppps 1000 rules 0
+Starting simulation with cpusnort 1 psize 256 udppps 1000 rules 0
+=====================================================================
+[  1] NUM_REPORT_STRUCTS override from 10000 to 20000
+------------------------------------------------------------
+Client connecting to 192.168.56.10, UDP port 5001 with pid 16319 (1 flows)
+TOS set to 0x0 (Nagle on)
+Sending 256 byte datagrams, IPG target: 1000.00 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  1] local 192.168.56.56%tap0 port 11590 connected with 192.168.56.10 port 5001 (sock=3) on 2023-08-10 08:13:03.010 (UTC)
+[ ID] Interval        Transfer     Bandwidth      Write/Err  PPS
+[  1] 0.00-130.32 sec  31.8 MBytes  2.05 Mbits/sec  130316/0     1000 pps
+[  1] Sent 130318 datagrams
+=====================================================================
+Ending simulation with cpusnort 1 psize 256 udppps 1000 rules 0
+Starting simulation with cpusnort 1 psize 512 udppps 1000 rules 0
+=====================================================================
+[  1] NUM_REPORT_STRUCTS override from 10000 to 20000
+------------------------------------------------------------
+Client connecting to 192.168.56.10, UDP port 5001 with pid 16503 (1 flows)
+TOS set to 0x0 (Nagle on)
+Sending 512 byte datagrams, IPG target: 1000.00 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  1] local 192.168.56.56%tap0 port 44191 connected with 192.168.56.10 port 5001 (sock=3) on 2023-08-10 08:15:18.988 (UTC)
+[ ID] Interval        Transfer     Bandwidth      Write/Err  PPS
+[  1] 0.00-130.33 sec  63.6 MBytes  4.10 Mbits/sec  130333/0     1000 pps
+[  1] Sent 130335 datagrams
+=====================================================================
+Ending simulation with cpusnort 1 psize 512 udppps 1000 rules 0
+Starting simulation with cpusnort 1 psize 1024 udppps 1000 rules 0
+=====================================================================
+[  1] NUM_REPORT_STRUCTS override from 10000 to 20000
+------------------------------------------------------------
+Client connecting to 192.168.56.10, UDP port 5001 with pid 16688 (1 flows)
+TOS set to 0x0 (Nagle on)
+Sending 1024 byte datagrams, IPG target: 1000.00 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  1] local 192.168.56.56%tap0 port 29455 connected with 192.168.56.10 port 5001 (sock=3) on 2023-08-10 08:17:34.982 (UTC)
+[ ID] Interval        Transfer     Bandwidth      Write/Err  PPS
+[  1] 0.00-130.34 sec   127 MBytes  8.19 Mbits/sec  130339/0     1000 pps
+[  1] Sent 130341 datagrams
+=====================================================================
+Ending simulation with cpusnort 1 psize 1024 udppps 1000 rules 0
+Starting simulation with cpusnort 1 psize 128 udppps 10000 rules 0
+=====================================================================
+[  1] NUM_REPORT_STRUCTS override from 10000 to 20000
+------------------------------------------------------------
+Client connecting to 192.168.56.10, UDP port 5001 with pid 16849 (1 flows)
+TOS set to 0x0 (Nagle on)
+Sending 128 byte datagrams, IPG target: 100.00 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  1] local 192.168.56.56%tap0 port 40591 connected with 192.168.56.10 port 5001 (sock=3) on 2023-08-10 08:19:51.005 (UTC)
+[ ID] Interval        Transfer     Bandwidth      Write/Err  PPS
+[  1] 0.00-130.35 sec   159 MBytes  10.2 Mbits/sec  1303476/0    10000 pps
+[  1] Sent 1303478 datagrams
+=====================================================================
+Ending simulation with cpusnort 1 psize 128 udppps 10000 rules 0
+Starting simulation with cpusnort 1 psize 256 udppps 10000 rules 0
+=====================================================================
+[  1] NUM_REPORT_STRUCTS override from 10000 to 20000
+------------------------------------------------------------
+Client connecting to 192.168.56.10, UDP port 5001 with pid 17014 (1 flows)
+TOS set to 0x0 (Nagle on)
+Sending 256 byte datagrams, IPG target: 100.00 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  1] local 192.168.56.56%tap0 port 11873 connected with 192.168.56.10 port 5001 (sock=3) on 2023-08-10 08:22:07.044 (UTC)
+[ ID] Interval        Transfer     Bandwidth      Write/Err  PPS
+[  1] 0.00-130.26 sec   318 MBytes  20.5 Mbits/sec  1302637/0    10000 pps
+[  1] Sent 1302639 datagrams
+=====================================================================
+Ending simulation with cpusnort 1 psize 256 udppps 10000 rules 0
+Starting simulation with cpusnort 1 psize 512 udppps 10000 rules 0
+=====================================================================
+[  1] NUM_REPORT_STRUCTS override from 10000 to 20000
+------------------------------------------------------------
+Client connecting to 192.168.56.10, UDP port 5001 with pid 17210 (1 flows)
+TOS set to 0x0 (Nagle on)
+Sending 512 byte datagrams, IPG target: 100.00 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  1] local 192.168.56.56%tap0 port 19954 connected with 192.168.56.10 port 5001 (sock=3) on 2023-08-10 08:24:22.977 (UTC)
+[ ID] Interval        Transfer     Bandwidth      Write/Err  PPS
+[  1] 0.00-130.35 sec   636 MBytes  41.0 Mbits/sec  1303514/0    10000 pps
+[  1] Sent 1303516 datagrams
+=====================================================================
+Ending simulation with cpusnort 1 psize 512 udppps 10000 rules 0
+Starting simulation with cpusnort 1 psize 1024 udppps 10000 rules 0
+=====================================================================
+[  1] NUM_REPORT_STRUCTS override from 10000 to 20000
+------------------------------------------------------------
+Client connecting to 192.168.56.10, UDP port 5001 with pid 17368 (1 flows)
+TOS set to 0x0 (Nagle on)
+Sending 1024 byte datagrams, IPG target: 100.00 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  1] local 192.168.56.56%tap0 port 58481 connected with 192.168.56.10 port 5001 (sock=3) on 2023-08-10 08:26:38.983 (UTC)
+[ ID] Interval        Transfer     Bandwidth      Write/Err  PPS
+[  1] 0.00-130.32 sec  1.24 GBytes  81.9 Mbits/sec  1303154/0    10000 pps
+[  1] Sent 1303156 datagrams
+=====================================================================
+Ending simulation with cpusnort 1 psize 1024 udppps 10000 rules 0
+Starting simulation with cpusnort 1 psize 128 udppps 100000 rules 0
+=====================================================================
+[  1] NUM_REPORT_STRUCTS override from 10000 to 20000
+------------------------------------------------------------
+Client connecting to 192.168.56.10, UDP port 5001 with pid 17535 (1 flows)
+TOS set to 0x0 (Nagle on)
+Sending 128 byte datagrams, IPG target: 10.00 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  1] local 192.168.56.56%tap0 port 31339 connected with 192.168.56.10 port 5001 (sock=3) on 2023-08-10 08:28:54.988 (UTC)
+[ ID] Interval        Transfer     Bandwidth      Write/Err  PPS
+[  1] 0.00-130.33 sec  1.55 GBytes   102 Mbits/sec  13033265/0   100000 pps
+[  1] Sent 13033267 datagrams
+=====================================================================
+Ending simulation with cpusnort 1 psize 128 udppps 100000 rules 0
+Starting simulation with cpusnort 1 psize 256 udppps 100000 rules 0
+=====================================================================
+[  1] NUM_REPORT_STRUCTS override from 10000 to 20000
+------------------------------------------------------------
+Client connecting to 192.168.56.10, UDP port 5001 with pid 17690 (1 flows)
+TOS set to 0x0 (Nagle on)
+Sending 256 byte datagrams, IPG target: 10.00 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  1] local 192.168.56.56%tap0 port 13323 connected with 192.168.56.10 port 5001 (sock=3) on 2023-08-10 08:31:11.011 (UTC)
+[ ID] Interval        Transfer     Bandwidth      Write/Err  PPS
+[  1] 0.00-130.31 sec  3.11 GBytes   205 Mbits/sec  13031015/0   100000 pps
+[  1] Sent 13031017 datagrams
+=====================================================================
+Ending simulation with cpusnort 1 psize 256 udppps 100000 rules 0
+Starting simulation with cpusnort 1 psize 512 udppps 100000 rules 0
+=====================================================================
+[  1] NUM_REPORT_STRUCTS override from 10000 to 20000
+------------------------------------------------------------
+Client connecting to 192.168.56.10, UDP port 5001 with pid 17882 (1 flows)
+TOS set to 0x0 (Nagle on)
+Sending 512 byte datagrams, IPG target: 10.00 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  1] local 192.168.56.56%tap0 port 55213 connected with 192.168.56.10 port 5001 (sock=3) on 2023-08-10 08:33:27.026 (UTC)
+[ ID] Interval        Transfer     Bandwidth      Write/Err  PPS
+[  1] 0.00-130.30 sec  6.21 GBytes   410 Mbits/sec  13030418/0   100000 pps
+[  1] Sent 13030420 datagrams
+=====================================================================
+Ending simulation with cpusnort 1 psize 512 udppps 100000 rules 0
+Starting simulation with cpusnort 1 psize 1024 udppps 100000 rules 0
+=====================================================================
+[  1] NUM_REPORT_STRUCTS override from 10000 to 20000
+------------------------------------------------------------
+Client connecting to 192.168.56.10, UDP port 5001 with pid 18069 (1 flows)
+TOS set to 0x0 (Nagle on)
+Sending 1024 byte datagrams, IPG target: 10.00 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  1] local 192.168.56.56%tap0 port 22719 connected with 192.168.56.10 port 5001 (sock=3) on 2023-08-10 08:35:43.002 (UTC)
+[ ID] Interval        Transfer     Bandwidth      Write/Err  PPS
+[  1] 0.00-130.30 sec  12.4 GBytes   819 Mbits/sec  13030401/0   100000 pps
+[  1] Sent 13030403 datagrams
+=====================================================================
+Ending simulation with cpusnort 1 psize 1024 udppps 100000 rules 0
+Starting simulation with cpusnort 1 psize 128 udppps 500000 rules 0
+=====================================================================
+[  1] NUM_REPORT_STRUCTS override from 10000 to 20000
+------------------------------------------------------------
+Client connecting to 192.168.56.10, UDP port 5001 with pid 18261 (1 flows)
+TOS set to 0x0 (Nagle on)
+Sending 128 byte datagrams, IPG target: 2.00 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  1] local 192.168.56.56%tap0 port 34823 connected with 192.168.56.10 port 5001 (sock=3) on 2023-08-10 08:37:58.997 (UTC)
+[ ID] Interval        Transfer     Bandwidth      Write/Err  PPS
+[  1] 0.00-130.30 sec  7.42 GBytes   489 Mbits/sec  62213438/0   477446 pps
+[  1] Sent 62213440 datagrams
+=====================================================================
+Ending simulation with cpusnort 1 psize 128 udppps 500000 rules 0
+Starting simulation with cpusnort 1 psize 256 udppps 500000 rules 0
+=====================================================================
+[  1] NUM_REPORT_STRUCTS override from 10000 to 20000
+------------------------------------------------------------
+Client connecting to 192.168.56.10, UDP port 5001 with pid 18416 (1 flows)
+TOS set to 0x0 (Nagle on)
+Sending 256 byte datagrams, IPG target: 2.00 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  1] local 192.168.56.56%tap0 port 54460 connected with 192.168.56.10 port 5001 (sock=3) on 2023-08-10 08:40:15.008 (UTC)
+[ ID] Interval        Transfer     Bandwidth      Write/Err  PPS
+[  1] 0.00-130.30 sec  14.8 GBytes   978 Mbits/sec  62197506/0   477325 pps
+[  1] Sent 62197508 datagrams
+=====================================================================
+Ending simulation with cpusnort 1 psize 256 udppps 500000 rules 0
+Starting simulation with cpusnort 1 psize 512 udppps 500000 rules 0
+=====================================================================
+[  1] NUM_REPORT_STRUCTS override from 10000 to 20000
+------------------------------------------------------------
+Client connecting to 192.168.56.10, UDP port 5001 with pid 18641 (1 flows)
+TOS set to 0x0 (Nagle on)
+Sending 512 byte datagrams, IPG target: 2.00 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  1] local 192.168.56.56%tap0 port 10649 connected with 192.168.56.10 port 5001 (sock=3) on 2023-08-10 08:42:31.042 (UTC)
+[ ID] Interval        Transfer     Bandwidth      Write/Err  PPS
+[  1] 0.00-130.28 sec  29.6 GBytes  1.95 Gbits/sec  62153260/0   477066 pps
+[  1] Sent 62153262 datagrams
+=====================================================================
+Ending simulation with cpusnort 1 psize 512 udppps 500000 rules 0
+Starting simulation with cpusnort 1 psize 1024 udppps 500000 rules 0
+=====================================================================
+[  1] NUM_REPORT_STRUCTS override from 10000 to 20000
+------------------------------------------------------------
+Client connecting to 192.168.56.10, UDP port 5001 with pid 18855 (1 flows)
+TOS set to 0x0 (Nagle on)
+Sending 1024 byte datagrams, IPG target: 2.00 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  1] local 192.168.56.56%tap0 port 31083 connected with 192.168.56.10 port 5001 (sock=3) on 2023-08-10 08:44:47.011 (UTC)
+[ ID] Interval        Transfer     Bandwidth      Write/Err  PPS
+[  1] 0.00-130.27 sec  56.9 GBytes  3.75 Gbits/sec  59638784/0   457797 pps
+[  1] Sent 59638786 datagrams
+=====================================================================
+Ending simulation with cpusnort 1 psize 1024 udppps 500000 rules 0
+Starting simulation with cpusnort 2 psize 128 udppps 100 rules 0
+=====================================================================
+[  1] NUM_REPORT_STRUCTS override from 10000 to 20000
+------------------------------------------------------------
+Client connecting to 192.168.56.10, UDP port 5001 with pid 19047 (1 flows)
+TOS set to 0x0 (Nagle on)
+Sending 128 byte datagrams, IPG target: 10000.00 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  1] local 192.168.56.56%tap0 port 34797 connected with 192.168.56.10 port 5001 (sock=3) on 2023-08-10 08:47:02.958 (UTC)
+[ ID] Interval        Transfer     Bandwidth      Write/Err  PPS
+[  1] 0.00-130.36 sec  1.59 MBytes   102 Kbits/sec  13037/0      100 pps
+[  1] Sent 13039 datagrams
+=====================================================================
+Ending simulation with cpusnort 2 psize 128 udppps 100 rules 0
+Starting simulation with cpusnort 2 psize 256 udppps 100 rules 0
+=====================================================================
+[  1] NUM_REPORT_STRUCTS override from 10000 to 20000
+------------------------------------------------------------
+Client connecting to 192.168.56.10, UDP port 5001 with pid 19223 (1 flows)
+TOS set to 0x0 (Nagle on)
+Sending 256 byte datagrams, IPG target: 10000.00 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  1] local 192.168.56.56%tap0 port 34298 connected with 192.168.56.10 port 5001 (sock=3) on 2023-08-10 08:49:19.010 (UTC)
+[ ID] Interval        Transfer     Bandwidth      Write/Err  PPS
+[  1] 0.00-130.34 sec  3.18 MBytes   205 Kbits/sec  13035/0      100 pps
+[  1] Sent 13037 datagrams
+=====================================================================
+Ending simulation with cpusnort 2 psize 256 udppps 100 rules 0
+Starting simulation with cpusnort 2 psize 512 udppps 100 rules 0
+=====================================================================
+[  1] NUM_REPORT_STRUCTS override from 10000 to 20000
+------------------------------------------------------------
+Client connecting to 192.168.56.10, UDP port 5001 with pid 19399 (1 flows)
+TOS set to 0x0 (Nagle on)
+Sending 512 byte datagrams, IPG target: 10000.00 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  1] local 192.168.56.56%tap0 port 17508 connected with 192.168.56.10 port 5001 (sock=3) on 2023-08-10 08:51:35.037 (UTC)
+[ ID] Interval        Transfer     Bandwidth      Write/Err  PPS
+[  1] 0.00-130.30 sec  6.36 MBytes   410 Kbits/sec  13031/0      100 pps
+[  1] Sent 13033 datagrams
+=====================================================================
+Ending simulation with cpusnort 2 psize 512 udppps 100 rules 0
+Starting simulation with cpusnort 2 psize 1024 udppps 100 rules 0
+=====================================================================
+[  1] NUM_REPORT_STRUCTS override from 10000 to 20000
+------------------------------------------------------------
+Client connecting to 192.168.56.10, UDP port 5001 with pid 19583 (1 flows)
+TOS set to 0x0 (Nagle on)
+Sending 1024 byte datagrams, IPG target: 10000.00 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  1] local 192.168.56.56%tap0 port 15986 connected with 192.168.56.10 port 5001 (sock=3) on 2023-08-10 08:53:50.994 (UTC)
+[ ID] Interval        Transfer     Bandwidth      Write/Err  PPS
+[  1] 0.00-130.34 sec  12.7 MBytes   819 Kbits/sec  13035/0      100 pps
+[  1] Sent 13037 datagrams
+=====================================================================
+Ending simulation with cpusnort 2 psize 1024 udppps 100 rules 0
+Starting simulation with cpusnort 2 psize 128 udppps 1000 rules 0
+=====================================================================
+[  1] NUM_REPORT_STRUCTS override from 10000 to 20000
+------------------------------------------------------------
+Client connecting to 192.168.56.10, UDP port 5001 with pid 19785 (1 flows)
+TOS set to 0x0 (Nagle on)
+Sending 128 byte datagrams, IPG target: 1000.00 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  1] local 192.168.56.56%tap0 port 22751 connected with 192.168.56.10 port 5001 (sock=3) on 2023-08-10 08:56:07.008 (UTC)
+[ ID] Interval        Transfer     Bandwidth      Write/Err  PPS
+[  1] 0.00-130.29 sec  15.9 MBytes  1.02 Mbits/sec  130288/0     1000 pps
+[  1] Sent 130290 datagrams
+=====================================================================
+Ending simulation with cpusnort 2 psize 128 udppps 1000 rules 0
+Starting simulation with cpusnort 2 psize 256 udppps 1000 rules 0
+=====================================================================
+[  1] NUM_REPORT_STRUCTS override from 10000 to 20000
+------------------------------------------------------------
+Client connecting to 192.168.56.10, UDP port 5001 with pid 19963 (1 flows)
+TOS set to 0x0 (Nagle on)
+Sending 256 byte datagrams, IPG target: 1000.00 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  1] local 192.168.56.56%tap0 port 34956 connected with 192.168.56.10 port 5001 (sock=3) on 2023-08-10 08:58:22.975 (UTC)
+[ ID] Interval        Transfer     Bandwidth      Write/Err  PPS
+[  1] 0.00-130.33 sec  31.8 MBytes  2.05 Mbits/sec  130332/0     1000 pps
+[  1] Sent 130334 datagrams
+=====================================================================
+Ending simulation with cpusnort 2 psize 256 udppps 1000 rules 0
+Starting simulation with cpusnort 2 psize 512 udppps 1000 rules 0
+=====================================================================
+[  1] NUM_REPORT_STRUCTS override from 10000 to 20000
+------------------------------------------------------------
+Client connecting to 192.168.56.10, UDP port 5001 with pid 20160 (1 flows)
+TOS set to 0x0 (Nagle on)
+Sending 512 byte datagrams, IPG target: 1000.00 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  1] local 192.168.56.56%tap0 port 25466 connected with 192.168.56.10 port 5001 (sock=3) on 2023-08-10 09:00:39.015 (UTC)
+[ ID] Interval        Transfer     Bandwidth      Write/Err  PPS
+[  1] 0.00-130.30 sec  63.6 MBytes  4.10 Mbits/sec  130299/0     1000 pps
+[  1] Sent 130301 datagrams
+=====================================================================
+Ending simulation with cpusnort 2 psize 512 udppps 1000 rules 0
+Starting simulation with cpusnort 2 psize 1024 udppps 1000 rules 0
+=====================================================================
+[  1] NUM_REPORT_STRUCTS override from 10000 to 20000
+------------------------------------------------------------
+Client connecting to 192.168.56.10, UDP port 5001 with pid 20341 (1 flows)
+TOS set to 0x0 (Nagle on)
+Sending 1024 byte datagrams, IPG target: 1000.00 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  1] local 192.168.56.56%tap0 port 32595 connected with 192.168.56.10 port 5001 (sock=3) on 2023-08-10 09:02:54.998 (UTC)
+[ ID] Interval        Transfer     Bandwidth      Write/Err  PPS
+[  1] 0.00-130.32 sec   127 MBytes  8.19 Mbits/sec  130319/0     1000 pps
+[  1] Sent 130321 datagrams
+=====================================================================
+Ending simulation with cpusnort 2 psize 1024 udppps 1000 rules 0
+Starting simulation with cpusnort 2 psize 128 udppps 10000 rules 0
+=====================================================================
+[  1] NUM_REPORT_STRUCTS override from 10000 to 20000
+------------------------------------------------------------
+Client connecting to 192.168.56.10, UDP port 5001 with pid 20517 (1 flows)
+TOS set to 0x0 (Nagle on)
+Sending 128 byte datagrams, IPG target: 100.00 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  1] local 192.168.56.56%tap0 port 34060 connected with 192.168.56.10 port 5001 (sock=3) on 2023-08-10 09:05:10.991 (UTC)
+[ ID] Interval        Transfer     Bandwidth      Write/Err  PPS
+[  1] 0.00-130.34 sec   159 MBytes  10.2 Mbits/sec  1303399/0    10000 pps
+[  1] Sent 1303401 datagrams
+=====================================================================
+Ending simulation with cpusnort 2 psize 128 udppps 10000 rules 0
+Starting simulation with cpusnort 2 psize 256 udppps 10000 rules 0
+=====================================================================
+[  1] NUM_REPORT_STRUCTS override from 10000 to 20000
+------------------------------------------------------------
+Client connecting to 192.168.56.10, UDP port 5001 with pid 20705 (1 flows)
+TOS set to 0x0 (Nagle on)
+Sending 256 byte datagrams, IPG target: 100.00 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  1] local 192.168.56.56%tap0 port 35508 connected with 192.168.56.10 port 5001 (sock=3) on 2023-08-10 09:07:27.001 (UTC)
+[ ID] Interval        Transfer     Bandwidth      Write/Err  PPS
+[  1] 0.00-130.29 sec   318 MBytes  20.5 Mbits/sec  1302884/0    10000 pps
+[  1] Sent 1302886 datagrams
+=====================================================================
+Ending simulation with cpusnort 2 psize 256 udppps 10000 rules 0
+Starting simulation with cpusnort 2 psize 512 udppps 10000 rules 0
+=====================================================================
+[  1] NUM_REPORT_STRUCTS override from 10000 to 20000
+------------------------------------------------------------
+Client connecting to 192.168.56.10, UDP port 5001 with pid 20904 (1 flows)
+TOS set to 0x0 (Nagle on)
+Sending 512 byte datagrams, IPG target: 100.00 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  1] local 192.168.56.56%tap0 port 16015 connected with 192.168.56.10 port 5001 (sock=3) on 2023-08-10 09:09:42.974 (UTC)
+[ ID] Interval        Transfer     Bandwidth      Write/Err  PPS
+[  1] 0.00-130.33 sec   636 MBytes  41.0 Mbits/sec  1303267/0    10000 pps
+[  1] Sent 1303269 datagrams
+=====================================================================
+Ending simulation with cpusnort 2 psize 512 udppps 10000 rules 0
+Starting simulation with cpusnort 2 psize 1024 udppps 10000 rules 0
+=====================================================================
+[  1] NUM_REPORT_STRUCTS override from 10000 to 20000
+------------------------------------------------------------
+Client connecting to 192.168.56.10, UDP port 5001 with pid 21083 (1 flows)
+TOS set to 0x0 (Nagle on)
+Sending 1024 byte datagrams, IPG target: 100.00 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  1] local 192.168.56.56%tap0 port 60515 connected with 192.168.56.10 port 5001 (sock=3) on 2023-08-10 09:11:58.972 (UTC)
+[ ID] Interval        Transfer     Bandwidth      Write/Err  PPS
+[  1] 0.00-130.32 sec  1.24 GBytes  81.9 Mbits/sec  1303220/0    10000 pps
+[  1] Sent 1303222 datagrams
+=====================================================================
+Ending simulation with cpusnort 2 psize 1024 udppps 10000 rules 0
+Starting simulation with cpusnort 2 psize 128 udppps 100000 rules 0
+=====================================================================
+[  1] NUM_REPORT_STRUCTS override from 10000 to 20000
+------------------------------------------------------------
+Client connecting to 192.168.56.10, UDP port 5001 with pid 21275 (1 flows)
+TOS set to 0x0 (Nagle on)
+Sending 128 byte datagrams, IPG target: 10.00 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  1] local 192.168.56.56%tap0 port 17805 connected with 192.168.56.10 port 5001 (sock=3) on 2023-08-10 09:14:14.958 (UTC)
+[ ID] Interval        Transfer     Bandwidth      Write/Err  PPS
+[  1] 0.00-130.21 sec  1.55 GBytes   102 Mbits/sec  13020767/0   100000 pps
+[  1] Sent 13020769 datagrams
+=====================================================================
+Ending simulation with cpusnort 2 psize 128 udppps 100000 rules 0
+Starting simulation with cpusnort 2 psize 256 udppps 100000 rules 0
+=====================================================================
+[  1] NUM_REPORT_STRUCTS override from 10000 to 20000
+------------------------------------------------------------
+Client connecting to 192.168.56.10, UDP port 5001 with pid 21423 (1 flows)
+TOS set to 0x0 (Nagle on)
+Sending 256 byte datagrams, IPG target: 10.00 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  1] local 192.168.56.56%tap0 port 29982 connected with 192.168.56.10 port 5001 (sock=3) on 2023-08-10 09:16:30.835 (UTC)
+[ ID] Interval        Transfer     Bandwidth      Write/Err  PPS
+[  1] 0.00-130.20 sec  3.10 GBytes   205 Mbits/sec  13020376/0   100000 pps
+[  1] Sent 13020378 datagrams
+=====================================================================
+Ending simulation with cpusnort 2 psize 256 udppps 100000 rules 0
+Starting simulation with cpusnort 2 psize 512 udppps 100000 rules 0
+=====================================================================
+[  1] NUM_REPORT_STRUCTS override from 10000 to 20000
+------------------------------------------------------------
+Client connecting to 192.168.56.10, UDP port 5001 with pid 21612 (1 flows)
+TOS set to 0x0 (Nagle on)
+Sending 512 byte datagrams, IPG target: 10.00 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  1] local 192.168.56.56%tap0 port 47490 connected with 192.168.56.10 port 5001 (sock=3) on 2023-08-10 09:18:46.694 (UTC)
+[ ID] Interval        Transfer     Bandwidth      Write/Err  PPS
+[  1] 0.00-130.19 sec  6.21 GBytes   410 Mbits/sec  13019361/0   100000 pps
+[  1] Sent 13019363 datagrams
+=====================================================================
+Ending simulation with cpusnort 2 psize 512 udppps 100000 rules 0
+Starting simulation with cpusnort 2 psize 1024 udppps 100000 rules 0
+=====================================================================
+[  1] NUM_REPORT_STRUCTS override from 10000 to 20000
+------------------------------------------------------------
+Client connecting to 192.168.56.10, UDP port 5001 with pid 21790 (1 flows)
+TOS set to 0x0 (Nagle on)
+Sending 1024 byte datagrams, IPG target: 10.00 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  1] local 192.168.56.56%tap0 port 20994 connected with 192.168.56.10 port 5001 (sock=3) on 2023-08-10 09:21:02.555 (UTC)
+[ ID] Interval        Transfer     Bandwidth      Write/Err  PPS
+[  1] 0.00-130.31 sec  12.4 GBytes   819 Mbits/sec  13030768/0   100000 pps
+[  1] Sent 13030770 datagrams
+=====================================================================
+Ending simulation with cpusnort 2 psize 1024 udppps 100000 rules 0
+Starting simulation with cpusnort 2 psize 128 udppps 500000 rules 0
+=====================================================================
+[  1] NUM_REPORT_STRUCTS override from 10000 to 20000
+------------------------------------------------------------
+Client connecting to 192.168.56.10, UDP port 5001 with pid 21975 (1 flows)
+TOS set to 0x0 (Nagle on)
+Sending 128 byte datagrams, IPG target: 2.00 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  1] local 192.168.56.56%tap0 port 39009 connected with 192.168.56.10 port 5001 (sock=3) on 2023-08-10 09:23:18.558 (UTC)
+[ ID] Interval        Transfer     Bandwidth      Write/Err  PPS
+[  1] 0.00-130.32 sec  7.50 GBytes   494 Mbits/sec  62916850/0   482772 pps
+[  1] Sent 62916852 datagrams
+=====================================================================
+Ending simulation with cpusnort 2 psize 128 udppps 500000 rules 0
+Starting simulation with cpusnort 2 psize 256 udppps 500000 rules 0
+=====================================================================
+[  1] NUM_REPORT_STRUCTS override from 10000 to 20000
+------------------------------------------------------------
+Client connecting to 192.168.56.10, UDP port 5001 with pid 22148 (1 flows)
+TOS set to 0x0 (Nagle on)
+Sending 256 byte datagrams, IPG target: 2.00 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  1] local 192.168.56.56%tap0 port 14116 connected with 192.168.56.10 port 5001 (sock=3) on 2023-08-10 09:25:34.570 (UTC)
+[ ID] Interval        Transfer     Bandwidth      Write/Err  PPS
+[  1] 0.00-130.19 sec  14.8 GBytes   976 Mbits/sec  62055914/0   476665 pps
+[  1] Sent 62055916 datagrams
+=====================================================================
+Ending simulation with cpusnort 2 psize 256 udppps 500000 rules 0
+Starting simulation with cpusnort 2 psize 512 udppps 500000 rules 0
+=====================================================================
+[  1] NUM_REPORT_STRUCTS override from 10000 to 20000
+------------------------------------------------------------
+Client connecting to 192.168.56.10, UDP port 5001 with pid 22336 (1 flows)
+TOS set to 0x0 (Nagle on)
+Sending 512 byte datagrams, IPG target: 2.00 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  1] local 192.168.56.56%tap0 port 58404 connected with 192.168.56.10 port 5001 (sock=3) on 2023-08-10 09:27:50.410 (UTC)
+[ ID] Interval        Transfer     Bandwidth      Write/Err  PPS
+[  1] 0.00-130.21 sec  29.9 GBytes  1.97 Gbits/sec  62726980/0   481744 pps
+[  1] Sent 62726982 datagrams
+=====================================================================
+Ending simulation with cpusnort 2 psize 512 udppps 500000 rules 0
+Starting simulation with cpusnort 2 psize 1024 udppps 500000 rules 0
+=====================================================================
+[  1] NUM_REPORT_STRUCTS override from 10000 to 20000
+------------------------------------------------------------
+Client connecting to 192.168.56.10, UDP port 5001 with pid 22547 (1 flows)
+TOS set to 0x0 (Nagle on)
+Sending 1024 byte datagrams, IPG target: 2.00 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  1] local 192.168.56.56%tap0 port 19184 connected with 192.168.56.10 port 5001 (sock=3) on 2023-08-10 09:30:06.285 (UTC)
+[ ID] Interval        Transfer     Bandwidth      Write/Err  PPS
+[  1] 0.00-130.30 sec  56.8 GBytes  3.74 Gbits/sec  59546767/0   456986 pps
+[  1] Sent 59546769 datagrams
+=====================================================================
+Ending simulation with cpusnort 2 psize 1024 udppps 500000 rules 0
